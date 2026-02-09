@@ -28,7 +28,7 @@ header-includes:
 - \fancyfoot{} # cues the use of fancy footer
 - \fancyfoot[R]{`r format(Sys.time(), '%B %Y')`} # month & year on footer right
 - \fancyhead[R]{Emilio M. Bruna, p. \thepage} # name and page on header right
-- \fancyhead[L]{\hl{Highlighting indicates items in the 2021-2025 PTR period}} # name and page on header left
+# - \fancyhead[L]{\hl{Highlighting indicates items in the 2021-2025 PTR period}} # name and page on header left
 - \usepackage{setspace} # manipulate line spacing 
 - \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
 - \usepackage{xcolor} # changes colors of text
@@ -80,13 +80,6 @@ library(RefManageR)
 <!-- this next line suppresses the header (line, name,  page number) on 1st page -->
 <!-- \begin{document}. -->
 \thispagestyle{empty}
-
-\begin{center}
-
-\textcolor{black}{\textbf{\hl{\large Highlighting indicates items in the 2021-2025 PTR period}}}
-
-
-\end{center}
 
 \vspace{-0.3cm}  <!--space between name and address -->
 # EMILIO MIGUEL BRUNA
