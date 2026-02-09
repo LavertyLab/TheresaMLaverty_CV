@@ -15,19 +15,23 @@ csl: brunacv.csl
 updated: yes
 
 header-includes:
-- \usepackage{etaremune} # for reverse-numbered list of publications etc
+# - \usepackage{etaremune} # for reverse-numbered list of publications etc
 # see https://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/etaremune/etaremune.pdf
 - \usepackage[default]{sourcesanspro}
+# - \usepackage{enumerate} #for reverse numbering
+# - \usepackage{enumitem} #for reverse numbering
+- \usepackage{soul} # highlights text
+- \usepackage[dvipsnames]{xcolor} #allows access to other colors
+- \sethlcolor{Goldenrod} # use goldenrod to match highklighting on preview
 - \usepackage{fancyhdr} # modify header into left, center, right
 - \pagestyle{fancy} # cues the use of fancy headers
 - \fancyfoot{} # cues the use of fancy footer
 - \fancyfoot[R]{`r format(Sys.time(), '%B %Y')`} # month & year on footer right
 - \fancyhead[R]{Emilio M. Bruna, p. \thepage} # name and page on header right
-# - \fancyhead[L]{\hl{Highlighting indicates items for PTR Period (2021-2025)}} # name and page on header left
+- \fancyhead[L]{\hl{Highlighting indicates items in the 2021-2025 PTR period}} # name and page on header left
 - \usepackage{setspace} # manipulate line spacing 
 - \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
 - \usepackage{xcolor} # changes colors of text
-- \usepackage{soul} # highlights text
 - \AtBeginDocument{\let\maketitle\relax} # this removes default title section
   # to center to top level (#) headings (my name) and change color of font
   # more info # https://www.ctan.org/pkg/sectsty
@@ -40,6 +44,7 @@ header-includes:
 - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
 - \usepackage{xhfill} # modification of line color and width
+- \pdfmapfile{=SourceSansPro.map} # this is to deal with error https://tex.stackexchange.com/questions/173204/texlive-font-installation-what-am-i-doing-wrong
 
 geometry: margin=1in
 linkcolor: darkmidnightblue
@@ -75,7 +80,14 @@ library(RefManageR)
 <!-- this next line suppresses the header (line, name,  page number) on 1st page -->
 <!-- \begin{document}. -->
 \thispagestyle{empty}
-<!-- ### \textcolor{black}{\textbf{\hl{Highlighting indicates items for PTR Period (2021-2025)}}}   -->
+
+\begin{center}
+
+\textcolor{black}{\textbf{\hl{\large Highlighting indicates items in the 2021-2025 PTR period}}}
+
+
+\end{center}
+
 \vspace{-0.3cm}  <!--space between name and address -->
 # EMILIO MIGUEL BRUNA
 \vspace{-0.3cm}  <!--space between name and address -->
@@ -174,14 +186,14 @@ Tropical ecology and conservation, plant population ecology, demographic modelin
 \begingroup 
 \setlength{\leftskip}{.2cm} 
 \setlength{\rightskip}{1cm} 
-**Professor & Distinguished Teaching Scholar**, University of Florida  
-Department of Wildlife Ecology & Conservation & Center for Latin American Studies \hfill 2013-Present  
+\textbf{Professor \& Distinguished Teaching Scholar}, University of Florida  
+Department of Wildlife Ecology and Conservation \& Center for Latin American Studies \hfill 2013-Present  
 
-**Secretary**, Ecological Society of America  \hfill 2022-2025  
+\textbf{Secretary}, Ecological Society of America  \hfill 2022-2025  
 
-**President**, Association for Tropical Biology & Conservation   \hfill 2020-2021  
+\textbf{President}, Association for Tropical Biology \& Conservation   \hfill 2020-2021  
 
-**Director**, Florida-Brazil Linkage Institute, University of Florida  \hfill 2012-2021  
+\textbf{Director}, Florida-Brazil Linkage Institute, University of Florida  \hfill 2012-2021  
 
 **Editor-in-Chief**, _Biotropica_   \hfill 2013-2019
 
@@ -291,27 +303,27 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 \begingroup 
 \setlength{\leftskip}{.2cm}  
 
-1. National Science Foundation. _"OPUS: Is habitat fragmentation detrimental or beneficial? Promoting our understanding of a contentious ecological question via synthesis."_ ($245,385, PI: E. M. Bruna)  
+1. National Science Foundation. _"OPUS: Is habitat fragmentation detrimental or beneficial? Promoting our understanding of a contentious ecological question via synthesis."_ ($245,385, PI: EM Bruna)  
 
 1. UF Faculty Enhancement Opportunity Program _"Application of artificial intelligence for the study of tropical plant demography"_ ($31,159.03, Spring 2025).
 
-1. Maxwell-Hanrahan Foundation. _"Support for the ATBC Field Grant Program"_ (PIs E. M. Bruna, P. Sampaio, L. Lohmann: $10,000 for 2022-2023, renewed 2023-2026 for $45,000)
+1. Maxwell-Hanrahan Foundation. _"Support for the ATBC Field Grant Program"_ (PIs EM Bruna, P Sampaio, L Lohmann: $10,000 for 2022-2023, renewed 2023-2026 for $45,000)
 
-1. Maxwell-Hanrahan Foundation. _"Support for the UF TCD Seed Grant Program"_ ($10,000; PIs E. M. Bruna, B. Loiselle: $10,000 for 2022-2023, renewed 2023-2026 for $45,000)
+1. Maxwell-Hanrahan Foundation. _"Support for the UF TCD Seed Grant Program"_ ($10,000; PIs EM Bruna, B Loiselle: $10,000 for 2022-2023, renewed 2023-2026 for $45,000)
 
-1. Sloan Foundation. _"Reinventing Field Courses"_ ($74,060; PI: E. M. Bruna, Co-PIs: R. McCleery, P. Antonenko, N. Attias, D. Barton, 2020-2021)
+1. Sloan Foundation. _"Reinventing Field Courses"_ ($74,060; PI: EM Bruna, Co-PIs: R McCleery, P Antonenko, N Attias, D Barton, 2020-2021)
 
-2. National Science Foundation. _"SG: Synergistic effects of forest fragmentation and droughts on tropical plant population dynamics"_ ($199,904; PI: E. M. Bruna, Co-PIs: M. Uriarte, 2020-2022).
+2. National Science Foundation. _"SG: Synergistic effects of forest fragmentation and droughts on tropical plant population dynamics"_ ($199,904; PI: EM Bruna, Co-PIs: M. Uriarte, 2020-2022).
 
-3. National Science Foundation. _"REU Supplement for SG: Synergistic effects of forest fragmentation and droughts on tropical plant population dynamics"_ ($14,400; PI: E. M. Bruna, Co-PIs: M. Uriarte, 2021).
+3. National Science Foundation. _"REU Supplement for SG: Synergistic effects of forest fragmentation and droughts on tropical plant population dynamics"_ ($14,400; PI: EM Bruna, Co-PIs: M Uriarte, 2021).
 
-3. National Science Foundation. _"The role of the matrix in fragmented landscapes: experimental tests and novel theory"_ ($548,058; PI: R. Fletcher, Co-PIs: E. M. Bruna, R. D. Holt, and B. Reichert, 2018-2023)  
+3. National Science Foundation. _"The role of the matrix in fragmented landscapes: experimental tests and novel theory"_ ($548,058; PI: R Fletcher, Co-PIs: EM Bruna, RD Holt, and B Reichert, 2018-2023)  
 
-4. UF Informatics Institute SEED Funds: _"Cross-National Patterns of Productivity & Collaboration by Latin American Scientists"_ ($20,000, PI: E. M. Bruna, Co-PIs: Stephen Perz, Chris McCarty).
+4. UF Informatics Institute SEED Funds: _"Cross-National Patterns of Productivity & Collaboration by Latin American Scientists"_ ($20,000, PI: EM Bruna, Co-PIs: S Perz, C McCarty).
 
 5. Mindlin Foundation. _"Who are the Gatekeepers of Discovery? A crowdsourced project to ID & map the editors of academic journals"_ ($3633, 2017-2018).
 
-5. National Geographic Global Exploration Fund. _"Experimental climate change in the Amazon: How will rising CO2 influence plants, insects, and their interactions?"_ ($19,970, PI: E. M. Bruna, Co-PIs H. Vasconcelos, F. Mundim, D. Lapola).
+5. National Geographic Global Exploration Fund. _"Experimental climate change in the Amazon: How will rising CO2 influence plants, insects, and their interactions?"_ ($19,970, PI: EM Bruna, Co-PIs H Vasconcelos, F Mundim, D Lapola).
 
 5. John Wiley and Sons. _"Funds to support the Biotropica Editorial Office"_ ($199,945; 2014-2019).
 
@@ -325,21 +337,21 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 5. National Science Foundation: _"Doctoral Dissertation Enhancement Proposal: International: Carbon sequestration and tree biodiversity in Amazonian floodplain forests."_  ($11,000; OISE-0929183 to E. Bruna prepared by and for doctoral student Christine Lucas, 2010-2012).
 
-5. David and Lucile Packard Foundation. _"Nitrogen dynamics in Brazil's Cerrado"_ ($142,198, Grant 2008-32691 to E. Bruna and co-PIs M. Mack and H. Vasconcelos, 2009-2011).
+5. David and Lucile Packard Foundation. _"Nitrogen dynamics in Brazil's Cerrado"_ ($142,198, Grant 2008-32691 to E. Bruna and co-PIs M Mack and H Vasconcelos, 2009-2011).
 
-5. National Science Foundation. _"IGERT in Spatial Ecology & Evolution: Quantitative Training in Biology, Statistics, & Mathematics."_ ($2,958,113; PI: B. Bolker; Co-PIs: E. Bruna, C. Osenberg, M. Martcheva, & M. Christman, 2008-2013).
+5. National Science Foundation. _"IGERT in Spatial Ecology & Evolution: Quantitative Training in Biology, Statistics, & Mathematics."_ ($2,958,113; PI: B Bolker; Co-PIs: E Bruna, C Osenberg, M Martcheva, & M Christman, 2008-2013).
 
 5. UF International Center. _"International Speakers Program: Dr. Claudio Padua, 2008 UF Distinguished Alumnus"_ ($1500, with $3500 in matching funds from Wildlife Ecology and Conservation, Latin American Studies, the Tropical Conservation & Development Program, and Institute for Agricultural & Life Sciences).
 
 5. US Department of Education Fund for the Improvement of Postsecondary Education (FIPSE). _"Energy, environment, and sustainable development: the central role of the United States and Brazil"_ ($202,329; PI: J. Kahn, Washington & Lee University; E. Bruna is UF Project Director; 2006-2010)
 
-5. National Science Foundation Collaborative Grant. _"Mechanisms influencing seedling recruitment and establishment in a fragmented Amazonian landscape"_ DEB-0614149 to E. Bruna ($230,888) and DEB-0614339 to M. Uriarte, Columbia Univ. ($251,831; 2006-10).
+5. National Science Foundation Collaborative Grant. _"Mechanisms influencing seedling recruitment and establishment in a fragmented Amazonian landscape"_ DEB-0614149 to E. Bruna ($230,888) and DEB-0614339 to M Uriarte, Columbia Univ. ($251,831; 2006-10).
 
 5. National Science Foundation Minority Career Advancement Award. _"Linking population and ecosystem ecology: how does nitrogen deposition influence plant demography in tropical savannas?"_ DEB-0542287 ($174,499; 2006-08).
 
 5. Joseph Jones Ecological Research Center. _"Productivity and Biodiversity Patterns: Control in a SE Coastal Plain Landscape (Support for the graduate studies of Gwen Iacona)."_ ($19,860; 2005-2007).
 
-5. National Science Foundation Collaborative Grant. _"Elucidating mechanisms of coexistence in a community of ant-plant mutualists"_.  DEB-0453631 to E. Bruna ($245,096) & DEB-0452720 to B. Inouye, FSU ($260,000; 2005-09).
+5. National Science Foundation Collaborative Grant. _"Elucidating mechanisms of coexistence in a community of ant-plant mutualists"_.  DEB-0453631 to E Bruna ($245,096) & DEB-0452720 to B Inouye, FSU ($260,000; 2005-09).
 
 5. National Science Foundation Grant OISE-0437369.  _"U.S.-Brazil Collaborative Research: Seed predation and herbivory in Neotropical savannas: are there demographic consequences for plants?"_ ($25,012; 2005-2008).
 
@@ -371,9 +383,9 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 <!-- ### GRANT PROPOSALS UNDER REVIEW or IN PREPARATION -->
 
-<!-- 1. UF 10x10x10 Initiative: The "interconnected future of Florida & Latin America: Entrepreneurship, the Environment, & Transnational Migration" (E. M. Bruna and R. Stepp, UF Center for Latin American Studies). -->
+<!-- 1. UF 10x10x10 Initiative: The "interconnected future of Florida & Latin America: Entrepreneurship, the Environment, & Transnational Migration" (EM Bruna and R. Stepp, UF Center for Latin American Studies). -->
 
-<!-- 1. National Science Foundation. "The genomic basis and demographic consequences of male-biased local adaptation in a moss" ($2,267,331; PI: S. McDaniel, Co-PIs: K. Krippen, E. M. Bruna, G. John, B. P. Durham).  -->
+<!-- 1. National Science Foundation. "The genomic basis and demographic consequences of male-biased local adaptation in a moss" ($2,267,331; PI: S. McDaniel, Co-PIs: K. Krippen, EM Bruna, G. John, B. P. Durham).  -->
 
 
 <!-- --- -->
@@ -385,28 +397,30 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 \vspace{0.2cm}
 \textbf{\textcolor{darkmidnightblue}{\large{PUBLICATIONS \& SCHOLARLY COMMUNICATION  }}}\xrfill[0.5ex]{1pt}
 <!-- ## PUBLICATIONS & SCHOLARLY COMMUNICATION -->
+\vspace{-0.4cm}
 
-### MANUSCRIPTS & OTHER PRODUCTS IN REVIEW or REVISION 
-<!-- \begin{etaremune} -->
+### PREPRINTS AND MANUSCRIPTS IN REVIEW or IN REVISION 
+
+<!-- \begin{enumerate}[{start=7,label=[\arabic*]\addtocounter{enumi}{-2}}] -->
 
 <!-- \item  -->
-1. Ykeuti Meiga, A. Y.,  A. L. J. Desbiez, R. A. P. Dornas, A. Giroux, E. M. Bruna, A. Bertassoni, N. Attias, V. Hull, G. Soresini, M. H. Alves, D. Valle. Beyond deforestation: the impact of agricultural intensification on wildlife.  \textit{In review}.
+1. Ykeuti Meiga, AY,  ALJ Desbiez, RAP Dornas, A Giroux, EM Bruna, A Bertassoni, N Attias, V Hull, G Soresini, MH Alves, D Valle. Beyond deforestation: the impact of agricultural intensification on wildlife.  \textit{In review}, \textit{\textbf{Global Change Biology}}.
 
-
-1. Bruna, E. M. Declining contribution of the United States federal government to global research corpus. \textit{In preparation}, \textit{\textbf{PNAS}}. \textit{Preprint:} https://doi.org/10.31222/osf.io/4hfe9_v1
+1. Bruna, EM Declining contribution of the United States federal government to global research corpus. \textit{Preprint:} https://doi.org/10.31222/osf.io/4hfe9_v1
 
 1. Galmán, A.  \textit{et. al.} Beyond the mean: how plant growth-defense strategies influence intrapopulation variation in herbivory. \textit{In review}, \textit{\textbf{Ecology Letters}}.
 
-1. Mundim, F. M., E. Vieira-Neto, G. F. Schneider, H. Alborn, E. M. Bruna. Simultaneous and sequential herbivory dynamics: exploring plant defenses strategies amidst drought challenges. \textit{In review}, \textit{\textbf{Frontiers in Plant Science}}.
+1. Mundim, FM., EVieira-Neto, GF Schneider, H Alborn, EM Bruna. Simultaneous and sequential herbivory dynamics: exploring plant defenses strategies amidst drought challenges. \textit{In review}, \textit{\textbf{Frontiers in Plant Science}}.
 
-1. Radhamoni, H., M. Spicer; M. Duguid, L. Comita. E. M. Bruna, A. Andrade, J. Beck, J. Burton, H. Chuquillanqui, D. Cicuzza, M. Dovciak, F. Gilliam, K. Greig, C. Hale, C. Hulshof, N. Izlar, S. Johnson, J. LaManna, D. Matlaga, D. Melly, A. Menzmer, K. Miller, G. Moulatlet, J. Myers, J. Sah, M. Vaz, A. Wassel, S. Wessel, J. Yin, A. Zuluaga, S. Queenborough. Herbaceous plants in forest ecosystems: One hundred fundamental and applied questions. \textit{In review}, \textit{\textbf{Journal of Vegetation Science}}.  
+1. Radhamoni, H, M Spicer; M Duguid, L Comita EM Bruna, A Andrade, J Beck, J Burton, H Chuquillanqui, D Cicuzza, M Dovciak, F Gilliam, K Greig, C Hale, C Hulshof, N Izlar, S Johnson, J LaManna, D Matlaga, D Melly, A Menzmer, K Miller, G Moulatlet, J Myers, J Sah, M Vaz, A Wassel, S Wessel, J Yin, A Zuluaga, S Queenborough. Herbaceous plants in forest ecosystems: One hundred fundamental and applied questions. \textit{In review}, \textit{\textbf{Journal of Vegetation Science}}.  
 
-1. R. J. Fletcher, Jr., T. A. H. Smith, M. Jones, F. Schellenberg, R. Payne, N. Kortessis, E. M. Bruna, and R. D. Holt. Landscape quality drives ecological change in habitat fragmentation experiments. \textit{In revision}, \textit{\textbf{Nature Ecology \& Evolution}}.  
+1. R J Fletcher, Jr, TAH Smith, M Jones, F Schellenberg, R Payne, N Kortessis, EM Bruna, and RD Holt. Landscape quality drives ecological change in habitat fragmentation experiments. \textit{In revision}, \textit{\textbf{Nature Ecology \& Evolution}}.  
 
-1. Resende Rodrigues, D., Y. R. Bovolenta, E. M. Bruna, J. A. Pimenta, E. Bianchini. Coexistence of understory tree species via architecture differentiation in the Atlantic Forest of southern Brazil. \textit{In review}, \textit{\textbf{Tropical Ecology}}.
+1. Resende Rodrigues, D, YR Bovolenta, EM Bruna, JA Pimenta, E Bianchini. Coexistence of understory tree species via architecture differentiation in the Atlantic Forest of southern Brazil. \textit{In review}, \textit{\textbf{Tropical Ecology}}.
 
 
-<!-- \end{etaremune} -->
+<!-- \end{enumerate}   -->
+
 <!-- very helpful for bibliography: https://inbo.github.io/tutorials/tutorials/r_citations_markdown/ -->
 <!-- maybe to print out by reference groups? -->
 <!-- https://forums.zotero.org/discussion/23604/a-mini-guide-to-sort-bibliography-by-reference-type -->
@@ -428,47 +442,52 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 <!-- --- -->
 
  
-### PEER-REVIEWED PUBLICATIONS & BOOK CHAPTERS
+### PEER-REVIEWED PUBLICATIONS \& BOOK CHAPTERS}
 
 **_Note regarding coauthorship on publications by lab members:_** _I am not a coauthor on papers by lab members, including publications that result from side projects or thesis chapters, as I consider mentorship regarding study development and design, analyses, and manuscript preparation fundamental to my role as their advisor. A list of the publications by lab members on which I am not a coauthor can be found below._ 
 
-1. D. S. Mason, K. M. Robertson, P. G. Hahn, E. M. Bruna, J. L. Willis, and M. A. Lashley. 2026. Fire promotes passive directed seed dispersal by birds. \textit{\textbf{Current Biology}} 36(1):28–37. https://doi.org/10.1016/j.cub.2025.11.014
+1. DS Mason, KM Robertson, PG Hahn, EM Bruna, JL  Willis, and MA Lashley. 2026. Fire promotes passive directed seed dispersal by birds. \textit{\textbf{Current Biology}} 36(1):28–37. https://doi.org/10.1016/j.cub.2025.11.014 **_Data:_** [Dryad](https://doi.org/10.5061/dryad.tqjq2bw77)
 
-1. Smith, T. A. H., Holt, R. D., Bruna, E. M., & Fletcher, R. J. Jr. (2025). Isolating the role of the matrix at patch and landscape scales. \textit{\textbf{Journal of Animal Ecology}} 94:1800–1810. https://doi.org/10.1111/1365-2656.70089
+1. Smith, TAH, RD Holt, EM Bruna, \& RJ Fletcher Jr. 2025. Isolating the role of the matrix at patch and landscape scales. \textit{\textbf{Journal of Animal Ecology}} 94:1800–1810. https://doi.org/10.1111/1365-2656.70089 **_Data:_** [Dryad](https://doi.org/10.5061/dryad.kprr4xhh6)
 
-1. J. L. Hyde, C. Swanson, S. A. Bohlman, S. Athayde, E. M. Bruna, and D. R. Valle 2025. A lack of open data standards for large infrastructure project hampers social-ecological research in the Brazilian Amazon. \textit{\textbf{PeerJ}} 13:e19926 https://doi.org/10.7717/peerj.19926
+1. JL Hyde, C Swanson, SA Bohlman, S Athayde, EM Bruna, and DR Valle 2025. A lack of open data standards for large infrastructure project hampers social-ecological research in the Brazilian Amazon. \textit{\textbf{PeerJ}} 13:e19926 https://doi.org/10.7717/peerj.19926
 
-1. Bruna, E. M. 2025. Is there really such a thing as _Tropical_ Biology? \textit{\textbf{Biotropica}} 57: e13387. [doi.org/10.1111/btp.13387](https://doi.org/10.1111/btp.13387)  
+1. Bruna, EM 2025. Is there really such a thing as _Tropical_ Biology? \textit{\textbf{Biotropica}} 57:e13387. [doi.org/10.1111/btp.13387](https://doi.org/10.1111/btp.13387)  
 
-1. R. J. Fletcher Jr., T A. H. Smith, S. Troy, N. Kortessis, E. C. Turner, E. M. Bruna, and R. D. Holt. 2024. Matrix effects in ecology, evolution, and conservation. **_Annual Review of Ecology, Evolution, and Systematics_** 55:423-447 [doi.org/10.1146/annurev-ecolsys-102722-025653](https://doi.org/10.1146/annurev-ecolsys-102722-025653)
+1. Powers, JS, EM Bruna, and LG Lohmann. 2025. Looking Back and Moving Forward: Reflections on 60 Years of the Association for Tropical Biology and Conservation. \textit{\textbf{Biotropica}} 57(5): e70074. https://doi.org/10.1111/btp.70074.
 
-1. Ferreira, A. M., A. P. Faria, H. L. Vasconcelos, E. M. Bruna, V. E. Costa, A. S. Franco Pinheiro Moreira. 2024. Does anthropogenic nitrogen deposition have effects on grass physiology of natural areas? **_South African Journal of Botany_** 165: 339-348. [doi.org/10.1016/j.sajb.2023.12.044](https://doi.org/10.1016/j.sajb.2023.12.044)
+1. Carrasco‐Rueda, F, CL Cardelús, Y Chirango, CJ Garnica‐Díaz, Y Godwill, V Gowda, B Maas, F Montaño‐Centellas, R Ostertag, A Roopsind, Sheherazade, G Vargas G, Y Arn Teh, EM Bruna, NJ Cordeiro, GGO Dossa, E Effiom, LG Lohmann, M Mujawamariya, I Oliveras Menor, P Parolin, JM Posada, RA Zahawi, LS Santiago. 2025. ATBC Code of Conduct. \textit{\textbf{Biotropica}} 57(5): e70090. https://doi.org/10.1111/btp.70090.
 
-1. The Herbivory Variability Network (Robinsion, M. L., et al.). 2023. Plant size, latitude, and phylogeny explain within-population variability in herbivory. **_Science_** 382:679-683. [DOI: 10.1126/science.adh8830](https://www.science.org/doi/full/10.1126/science.adh8830)
+1. Brodie, JF, F Carrasco, S Chatterjee, Y Chirango, CJ Garnica‐Díaz, V Gowda, B Maas, F Montaño‐Centellas, R Ostertag, P Hariharan, G Vargas, EM Bruna, CL Cardelus, NJ Cordeiro, GGO Dossa, E Effiom, LG Lohmann, IO Menor, M Mujawamariya, P Parolin, JM Posada, M Soto Rueda, Y Arn Teh, B Yadok, RA Zahawi, LS Santiago 2025. ATBC Code of Ethics. \textit{\textbf{Biotropica}} 57(5): e70091. https://doi.org/10.1111/btp.70091.  
 
-1. Bruna, E. M., M. Uriarte, M. Rosa Darrigo, P. Rubim, C. F. Jurinitz, E. R. Scott, O. Ferreira da Silva, & W. John Kress. 2023. Demography of the understory herb _Heliconia acuminata_ (Heliconiaceae) in an experimentally fragmented tropical landscape. **_Ecology_** 104(12): https://e4174 doi.org/10.1002/ecy.4174 
+1. RJ Fletcher Jr, TAH. Smith, S Troy, N Kortessis, EC Turner, EM Bruna, and RD Holt. 2024. Matrix effects in ecology, evolution, and conservation. \textit{\textbf{Annual Review of Ecology, Evolution, and Systematics}} 55:423-447 [doi.org/10.1146/annurev-ecolsys-102722-025653](https://doi.org/10.1146/annurev-ecolsys-102722-025653)
 
-1. Bruna, E. M. 2023. Fundamental errors of data collection & validation undermine claims of 'Ideological Intensification' in STEM. **_Bioscience_** 73(11): 775-777. [doi.org/10.1093/biosci/biad047](https://doi.org/10.1093/biosci/biad047)
+1. Ferreira, AM, AP Faria, HL Vasconcelos, EM Bruna, VE Costa, AS Franco Pinheiro Moreira. 2024. Does anthropogenic nitrogen deposition have effects on grass physiology of natural areas? \textit{\textbf{South African Journal of Botany}} 165: 339-348. [doi.org/10.1016/j.sajb.2023.12.044](https://doi.org/10.1016/j.sajb.2023.12.044)
 
-1. Fletcher, R. J., T. A. H. Smith, N. Kortessis, E. M. Bruna, and R. D. Holt. 2023. Landscape experiments unlock the multi-scale relationships among habitat loss, fragmentation, and patch-size effects. **_Ecology_** 104(5): e4037. [doi.org/10.1002/ecy.4037](https://doi.org/10.1002/ecy.4037)
+1. The Herbivory Variability Network (Robinsion, ML _et al._). 2023. Plant size, latitude, and phylogeny explain within-population variability in herbivory. _**Science**_ 382:679-683. [DOI: 10.1126/science.adh8830](https://www.science.org/doi/full/10.1126/science.adh8830)
 
-1. Halpern, B. S., C. Boettiger, M. C. Dietze, *et al.* 2023. Priorities for synthesis research in ecology and environmental Science. **_Ecosphere_** 14(1): e4342. [doi.org/10.1002/ecs2.4342](https://doi.org/10.1002/ecs2.4342)
+1. Bruna, EM, M Uriarte, M Rosa Darrigo, P Rubim, CF Jurinitz, ER Scott, O Ferreira da Silva, \& W John Kress. 2023. Demography of the understory herb \textit{Heliconia acuminata} (Heliconiaceae) in an experimentally fragmented tropical landscape. \textit{\textbf{Ecology}} 104(12): https://e4174 doi.org/10.1002/ecy.4174 
 
-1. 	Scott, E. R., M. Uriarte, and E. M. Bruna. 2022. Delayed effects of climate on vital rates lead to demographic divergence in Amazonian forest fragments. **_Global Change Biology_** 28(2):463-479. [doi.org/10.1111/gcb.15900](https://doi.org/10.1111/gcb.15900) **_Recipient of the Postdoctoral Excellence Award from the Ecological Society of America's Plant Population Ecology Section_**
+1. Bruna, EM 2023. Fundamental errors of data collection \& validation undermine claims of 'Ideological Intensification' in STEM. \textit{\textbf{Bioscience}} 73(11): 775-777. [doi.org/10.1093/biosci/biad047](https://doi.org/10.1093/biosci/biad047)  **_Code:_** [Zenodo](https://zenodo.org/records/7896249)
 
-1. Audrey C. Smith, Leandra Merz, Jesse B. Borden, Chris K. Gulick, Akhil R. Kshirsagar, Emilio M. Bruna. 2022. Assessing the effect of article processing charges on the geographic diversity of authors using Elsevier's 'Mirror Journal' system. **_Quantitative Science Studies_** 2(4):1123-1143. [doi.org/10.1162/qss_a_00157](https://doi.org/10.1162/qss_a_00157) **_Featured in [Nature](https://www.nature.com/articles/d41586-022-00342-w), [NRC News](https://www.nrc.nl/nieuws/2022/02/22/systeem-van-open-access-helpt-wetenschappers-uit-arme-landen-niet-a4092976)_**. 
+1. Fletcher, RJ, TAH Smith, N Kortessis, EM Bruna, and RD. Holt. 2023. Landscape experiments unlock the multi-scale relationships among habitat loss, fragmentation, and patch-size effects. \textit{\textbf{Ecology}} 104(5): e4037. [doi.org/10.1002/ecy.4037](https://doi.org/10.1002/ecy.4037)
 
-1. Russell, A.E., T.M. Aide, E. Braker, E. M. Bruna, C. N. Ganong, R. D. Hardin, K. D. Holl, S. C. Hotchkiss, J. Klemens, E. K. Kuprewicz, S. K. Macey, D. McClearn, G. Middendorf, R. Ostertag, J. S. Powers, S. E. Russo, J. L. Stynoski, U. Valdez, C. G. Wills. 2022. Integrating tropical research into biology education is urgently needed. **_PLoS Biology_** 20(6): e3001674.  [doi.org/10.1371/journal.pbio.3001674](https://doi.org/10.1371/journal.pbio.3001674) 
+1. Halpern, BS, C Boettiger, MC Dietze, *et al.* 2023. Priorities for synthesis research in ecology and environmental Science. \textit{\textbf{Ecosphere}} 14(1): e4342. [doi.org/10.1002/ecs2.4342](https://doi.org/10.1002/ecs2.4342)
 
-1. Mundim, F. M. E. H. M. Vieira-Neto, H. Alborn, & E. M. Bruna. 2021. Disentangling the influence of resource variability and simultaneous attacks on whole-plant tolerance to herbivory. **_Journal of Ecology_** 109:2729- 2739. [PhD Thesis Chapter]. [doi.org/10.1111/1365-2745.13684](https://doi.org/10.1111/1365-2745.13684) _**Selected as a 2021 UF-IFAS High Impact Publication**_.  
+1. 	Scott, ER, M Uriarte, \& EM Bruna. 2022. Delayed effects of climate on vital rates lead to demographic divergence in Amazonian forest fragments. \textit{\textbf{Global Change Biology}} 28(2):463-479. [doi.org/10.1111/gcb.15900](https://doi.org/10.1111/gcb.15900) \textit{\textbf{Recipient of the Postdoctoral Excellence Award from the Ecological Society of America's Plant Population Ecology Section}}
 
-1. Bruna, E.M., R Chazdon, TM Errington and BA Nosek. 2021. A proposal to advance theory and promote collaboration in tropical biology by supporting replications. **_Biotropica_** 53:6-10. [doi.org/10.1111/btp.12912](https://doi.org/10.1111/btp.12912)
+1. Audrey C. Smith, Leandra Merz, Jesse B. Borden, Chris K. Gulick, Akhil R. Kshirsagar, Emilio M. Bruna. 2022. Assessing the effect of article processing charges on the geographic diversity of authors using Elsevier's 'Mirror Journal' system. \textit{\textbf{Quantitative Science Studies}} 2(4):1123-1143. [doi.org/10.1162/qss_a_00157](https://doi.org/10.1162/qss_a_00157) **_Data & Code:_** [Zenodo](https://doi.org/10.5281/zenodo.5500293) **_Featured in [Nature](https://www.nature.com/articles/d41586-022-00342-w), [NRC News](https://www.nrc.nl/nieuws/2022/02/22/systeem-van-open-access-helpt-wetenschappers-uit-arme-landen-niet-a4092976)_**. 
+
+1. Russell, AE, TM Aide, E Braker, EM Bruna, CN Ganong, RD Hardin, KD Holl, SC Hotchkiss, J Klemens, EK Kuprewicz, SK Macey, D McClearn, G Middendorf, R Ostertag, JS Powers, SE Russo, JL Stynoski, U Valdez, CG Wills. 2022. Integrating tropical research into biology education is urgently needed. \textit{\textbf{PLoS Biology}} 20(6): e3001674. [doi.org/10.1371/journal.pbio.3001674](https://doi.org/10.1371/journal.pbio.3001674) 
+
+1. Mundim, FM. EHM. Vieira-Neto, H Alborn, \& EM Bruna. 2021. Disentangling the influence of resource variability and simultaneous attacks on whole-plant tolerance to herbivory. \textit{\textbf{Journal of Ecology}} 109:2729- 2739. [PhD Thesis Chapter]. [doi.org/10.1111/1365-2745.13684](https://doi.org/10.1111/1365-2745.13684) _**Selected as a 2021 UF-IFAS High Impact Publication**_.  
+
+1. Bruna, EM, R Chazdon, TM Errington and BA Nosek. 2021. A proposal to advance theory and promote collaboration in tropical biology by supporting replications. \textit{\textbf{Biotropica}} 53:6-10. [doi.org/10.1111/btp.12912](https://doi.org/10.1111/btp.12912)
 
 1. Barbosa Silva, LV, HL Vasconcelos, MC Mack, AdS Ferreira, and EM Bruna. 2020. Effects of experimental nitrogen enrichment on soil properties and litter decomposition in a Neotropical savanna. **_Austral Ecology_** 45:1093-1102. [doi.org/10.1111/aec.12936](https://doi.org/10.1111/aec.12936) [Ph. D. Thesis Chapter].  
+1. Fournier, A, ME Boone, FR Stevens, and EM Bruna. 2020. refsplitr: Author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. **_Journal of Open Source Software_** 5(45):2028. [doi.org/10.21105/joss.02028](https://doi.org/10.21105/joss.02028)
 
-2. Fournier, A., M. E. Boone, F. R. Stevens, and E. M. Bruna. 2020. refsplitr: Author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. **_Journal of Open Source Software_** 5(45):2028. [doi.org/10.21105/joss.02028](https://doi.org/10.21105/joss.02028)
-
-2. Beckman, NG, CE Aslan, HS Rogers, O Kogan, JL Bronstein, JM Bullock, F Hartig, J HilleRisLambers, Y Zhou, D Zurell, JF Brodie, EM Bruna, RS Cantrell, RR Decker, E Efiom, EC Fricke, K Gurski, A Hastings, JS Johnson, BA Loiselle, MN Miriti, MG Neubert, L Pejchar, JR Poulsen, G Pufal, OH Razafindratsima, ME Sandor, K Shea, S Schreiber, EW Schupp, RS Snell, C Strickland, and J Zambrano. 2020. Advancing an interdisciplinary framework to study seed dispersal ecology. **_AoB Plants_** 12:plz048.  
+1. Beckman, NG, CE Aslan, HS Rogers, O Kogan, JL Bronstein, JM Bullock, F Hartig, J HilleRisLambers, Y Zhou, D Zurell, JF Brodie, EM Bruna, RS Cantrell, RR Decker, E Efiom, EC Fricke, K Gurski, A Hastings, JS Johnson, BA Loiselle, MN Miriti, MG Neubert, L Pejchar, JR Poulsen, G Pufal, OH Razafindratsima, ME Sandor, K Shea, S Schreiber, EW Schupp, RS Snell, C Strickland, and J Zambrano. 2020. Advancing an interdisciplinary framework to study seed dispersal ecology. **_AoB Plants_** 12:plz048.  
 
 3. Costa, AN, A Bartimachi, HL Vasconcelos, EM Bruna, and EHM Vieira-Neto. 2020. Annual litter production in a Brazilian Cerrado woodland savanna. **_Southern Forests_** 82:65-69.  
 
@@ -480,19 +499,21 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 8. Costa, AN, HL Vasconcelos, EHM Vieira-Neto, and EM Bruna. 2019. Adaptive foraging of leaf-cutter ants to spatiotemporal changes in resource availability in Neotropical savannas. **_Ecological Entomology_** 44:227-238.  
 
-9. Fletcher, RJ, Jr., JA Sefair, C Wang, CL Poli, TAH Smith, EM Bruna, RD Holt, M Barfield, AJ Marx, and MA Acevedo. 2019. Towards a unified framework for connectivity that disentangles movement and mortality in space and time. **_Ecology Letters_** 22:1680-1689. 
+9. Fletcher, RJ, Jr, JA Sefair, C Wang, CL Poli, TAH Smith, EM Bruna, RD Holt, M Barfield, AJ Marx, and MA Acevedo. 2019. Towards a unified framework for connectivity that disentangles movement and mortality in space and time. **_Ecology Letters_** 22:1680-1689. 
+
+1.	Bruna, EM. 2019. _Biotropica_: the next 50 years. \textit{\textbf{Biotropica}} 51(4): 461–62.
 
 10. Bruna, EM. 2018. Editorial board members are a non-random sample of ecological experts. **_Nature Ecology and Evolution_** 2(2):202.  
 
-10. Costa, AN, EM Bruna, and HL Vasconcelos. 2018. Do an ecosystem engineer and environmental gradient act independently or in concert to shape juvenile plant communities? Tests with the leaf-cutter ant _Atta laevigata_ in a Neotropical savanna. **_PeerJ_** 6:e5612. [Ph. D. Thesis Chapter].  
+10. Costa, AN, EM Bruna, and HL Vasconcelos. 2018. Do an ecosystem engineer and environmental gradient act independently or in concert to shape juvenile plant communities? Tests with the leaf-cutter ant _Atta laevigata_ in a Neotropical savanna. **_PeerJ_** 6:e5612. **_Data:_** [Dryad](https://doi:10.5061/dryad.vf1gq0q)  **_Code:_** [Zenodo](http://doi.org/10.5281/zenodo.1418482)  [Ph. D. Thesis Chapter].  
 
 11. Brito Darosci, AA, EM Bruna, JC Motta-Junior, CdS Ferreira, JG Blake, and CB Rodrigues Munhoz. 2017. Seasonality, diaspore traits and the structure of plant-frugivore networks in Neotropical savanna forest. **_Acta Oecologica_** 84:15-22. [Ph. D. Thesis Chapter].  
 
 12. Brudvig, LA, SJ Leroux, CH Albert, EM Bruna, KF Davies, RM Ewers, DJ Levey, R Pardini, and J Resasco. 2017. Evaluating conceptual models of landscape change. **_Ecography_** 40:74-84.  
 
-13. Costa, AN, HL Vasconcelos, and EM Bruna. 2017. Biotic drivers of seedling establishment in Neotropical savannas: Selective granivory and seedling herbivory by leaf-cutter ants as an ecological filter. **_Journal of Ecology_** 105:132-141. [Ph. D. Thesis Chapter].    
+13. Costa, AN, HL Vasconcelos, and EM Bruna. 2017. Biotic drivers of seedling establishment in Neotropical savannas: Selective granivory and seedling herbivory by leaf-cutter ants as an ecological filter. **_Journal of Ecology_** 105:132-141. **_Data:_** [Dryad](https://doi.org/10.5061/dryad.1hj56) [Ph. D. Thesis Chapter]. 
 
-14. Espin, J, S Palmas, F Carrasco-Rueda, K Riemer, PE Allen, N Berkebile, KA Hecht, K Kastner-Wilcox, MM Nunez-Regueiro, C Prince, C Rios, E Ross, B Sangha, T Tyler, J Ungvari-Martin, M Villegas, TT Cataldo, and EM Bruna. 2017. A persistent lack of international representation on editorial boards in environmental biology. **_PLoS Biology_** 15:e2002760.  
+14. Espin, J, S Palmas, F Carrasco-Rueda, K Riemer, PE Allen, N Berkebile, KA Hecht, K Kastner-Wilcox, MM Nunez-Regueiro, C Prince, C Rios, E Ross, B Sangha, T Tyler, J Ungvari-Martin, M Villegas, TT Cataldo, and EM Bruna. 2017. A persistent lack of international representation on editorial boards in environmental biology. **_PLoS Biology_** 15:e2002760. **_Code:_** [Zenodo](http://doi.org/10.5281/zenodo.1067800) **_Data:_** [Dryad](https://doi.org/10.5061/dryad.mh189)  
 
 15. Mundim, FM, HT Alborn, EHM Vieira-Neto, and EM Bruna. 2017. A whole-plant perspective reveals unexpected impacts of above- and belowground herbivores on plant growth and defense. **_Ecology_** 98:70-78.  
 
@@ -500,63 +521,64 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 17. Rocha-Ortega, M, A Bartimachi, J Neves, EM Bruna, and HL Vasconcelos. 2017. Seed removal patterns of pioneer trees in an agricultural landscape. **_Plant Ecology_** 218:737-748.   
 
-16.	Pitman, N. C. A., J. Widmer, E. M. Bruna, C. N. Jenkins, G. Stocks, L. Seales, F. Paniagua, and E. Maehr. 2017. El sorprendente liderazgo del Ecuador en la producción científica de la región andino-amazónica, pp. 27-30 in D. Romo et al. (eds.), Los Secretos del Yasuní: Avances en investigación en la Estación de Biodiversidad Tiputini, Universidad San Francisco de Quito, Quito.  
+16.	Pitman, N. C. A., J. Widmer, EM Bruna, C. N. Jenkins, G. Stocks, L. Seales, F. Paniagua, and E. Maehr. 2017. El sorprendente liderazgo del Ecuador en la producción científica de la región andino-amazónica, pp. 27-30 in D. Romo et al. (eds.), Los Secretos del Yasuní: Avances en investigación en la Estación de Biodiversidad Tiputini, Universidad San Francisco de Quito, Quito.  
 
 18. Carvalho, KS, MAF Carneiro, IC Nascimento, AK Saha, and EM Bruna. 2016. Lower ant diversity on earth mounds in a semi-arid brazilian ecosystem: Natural or a sign of degradation? **_Sociobiology_** 63(4):1022-1030.    
 
-19. Mundim, FM, and EM Bruna. 2016. Is there a temperate bias in our understanding of how climate change will alter plant- herbivore interactions? A meta- analysis of experimental studies. **_American Naturalist_** 188:S74-S89. [Ph. D. Thesis Chapter] _**Selected as WEC Department's 2016 High Impact Publication**_.    
+19. Mundim, FM, and EM Bruna. 2016. Is there a temperate bias in our understanding of how climate change will alter plant- herbivore interactions? A meta- analysis of experimental studies. **_American Naturalist_** 188:S74-S89. [Ph. D. Thesis Chapter] **_Data:_** [Dryad](https://doi.org/10.5061/dryad.dn048) _**Selected as WEC Department's 2016 High Impact Publication**_. 
 
 20. Sobrinho, MS, M Tabarelli, IC Machado, JC Sfair, EM Bruna, and AV Lopes. 2016. Land use, fallow period and the recovery of a caatinga forest. **_Biotropica_** 48:586-597.    
 
-21. Vieira-Neto, EHM, HL Vasconcelos, and EM Bruna. 2016. Roads increase population growth rates of a native leaf-cutter ant in Neotropical savannahs. **_Journal of Applied Ecology_** 53:983-992. [Ph. D. Thesis Chapter].  
+21. Vieira-Neto, EHM, HL Vasconcelos, and EM Bruna. 2016. Roads increase population growth rates of a native leaf-cutter ant in Neotropical savannahs. **_Journal of Applied Ecology_** 53:983-992. **_Data:_** [Dryad](https://doi.org/10.5061/dryad.1s4f2) [Ph. D. Thesis Chapter].  
 
 7.	Parker, TH, Nakagawa, S, Gurevitch, J and IIEE (Improving Inference in Evolutionary Biology and Ecology) workshop participants. 2016. Promoting transparency in evolutionary biology and ecology. **_Ecology Letters_**, 19: 726-728.   
 
 9.	Whitlock, MC, JL Bronstein, EM Bruna, AM Ellison, CW Fox, MA McPeek, AJ Moore, MAF Noor, MD Rausher, LH Rieseberg, M G Ritchie, and RG Shaw. 2016. A balanced data archiving policy for long-term studies. **_Trends in Ecology and Evolution_** 31(2) 84-85 [Response to article].  
 
-10. Fine, P.V.A. and Bruna, E.M. 2016. Neotropical White-sand Forests: Origins, Ecology and Conservation of a Unique Rain Forest Environment. **_Biotropica_**, 48: 5-6. https://doi.org/10.1111/btp.12305
+10. Fine, PVA and Bruna, EM. 2016. Neotropical White-sand Forests: Origins, Ecology and Conservation of a Unique Rain Forest Environment. **_Biotropica_**, 48: 5-6. https://doi.org/10.1111/btp.12305
 
 21.	Hoeksema, JD and EM Bruna. 2015. Context-dependent outcomes of mutualistic interactions. Pages 181-202 in Mutualism, JL Bronstein (ed.). Oxford University Press. 
 
-22. Bruna, EM, TJ Izzo, BD Inouye, and HL Vasconcelos. 2014. Effect of mutualist partner identity on plant demography. **_Ecology_** 95:3237-3243. **_Cover Article_**.  
+22. Bruna, EM, TJ Izzo, BD Inouye, and HL Vasconcelos. 2014. Effect of mutualist partner identity on plant demography. **_Ecology_** 95:3237-3243. **_Cover Article_**.  _Code_ https://doi.org/10.5281/zenodo.11650 **_Data:_** [Dryad](https://doi.org/10.5061/dryad.5kc45)  
 
-23. Cho, AH, SA Johnson, CE Schuman, JM Adler, O Gonzalez, SJ Graves, JR Huebner, DB Marchant, SW Rifai, I Skinner, and EM Bruna. 2014. Women are underrepresented on the editorial boards of journals in environmental biology and natural resource management. **_PeerJ_** 2:e542. **_Named to the 2015 _PeerJ_ Picks Collection (Highlighting 20 articles of the 471 published in 2014)_**.   
+23. Cho, AH, SA Johnson, CE Schuman, JM Adler, O Gonzalez, SJ Graves, JR Huebner, DB Marchant, SW Rifai, I Skinner, and EM Bruna. 2014. Women are underrepresented on the editorial boards of journals in environmental biology and natural resource management. **_PeerJ_** 2:e542. **_Named to the 2015 _PeerJ_ Picks Collection (Highlighting 20 articles of the 471 published in 2014)_**.  **_Data:_** [Dryad](https://doi.org/10.5061/dryad.6jn86) _Code_: [Github](https://github.com/embruna/Editorial-Board-Gender)
 
 24. Smith, MJ, C Weinberger, EM Bruna, and S Allesina. 2014. The scientific impact of nations: Journal placement and citation performance. **_PLoS ONE_** 9:e109195.  
 
 25. Braunger Vasconcelos, P, GM Araújo, and EM Bruna. 2014. The role of roadsides in conserving cerrado plant diversity. **_Biodiversity and Conservation_** 23:3035-3050.  
 
-15.	Bruna, E. M. 2014 On identifying rising stars in biology. **_Bioscience_** 64(3):169.  
+15.	Bruna, EM 2014 On identifying rising stars in biology. **_Bioscience_** 64(3):169.  
 
 26. Girão, LC, AV Lopes, M Tabarelli, and EM Bruna. 2014. Mudanças em atributos reprodutivos de árvores reduzem a diversidade funcional em uma paisagem fragmentada de floresta Atlântica pp. 145-174 in Serra Grande: Uma Floresta de ideas.  M. Tabarelli, A. V. Neto, I. R. Leal, and A. V. Lopes (Eds.).  Editora Universitároa da UFPE. Recife. [translation of Girão I 2007, _PLoS ONE_].  
 
 26. Araújo, GM, AF Amaral, EM Bruna, and HL Vasconcelos. 2013. Fire drives the reproductive responses of herbaceous plants in a Neotropical swamp. **_Plant Ecology_** 214:1479-1484.  
 
-27. Côrtes, MC, M Uriarte, MR Lemes, R Gribel, W John Kress, PE Smouse, and EM Bruna. 2013. Low plant density enhances gene dispersal in the Amazonian understory herb _Heliconia acuminata_. **_Molecular Ecology_** 22:5716-5729. [Ph. D. Thesis Chapter].  
+27. Côrtes, MC, M Uriarte, MR Lemes, R Gribel, W John Kress, PE Smouse, and EM Bruna. 2013. Low plant density enhances gene dispersal in the Amazonian understory herb _Heliconia acuminata_. **_Molecular Ecology_** 22:5716-5729. [Ph. D. Thesis Chapter].  **_Data:_** [Dryad](https://doi.org/10.5061/dryad.b003f)
 
 28. Jurinitz, CF, AA de Oliveira, and EM Bruna. 2013. Abiotic and biotic influences on early-stage survival in two shade-tolerant tree species in Brazil's Atlantic forest. **_Biotropica_** 45:728-736.  [Ph. D. Thesis Chapter].  
 
 29. Lucas, CM, EM Bruna, and CMN Nascimento. 2013. Seedling co-tolerance of multiple stressors in a disturbed tropical floodplain forest. **_Ecosphere_** 4(1):3.  [Ph. D. Thesis Chapter].  
 
-30. Copeland, SM, EM Bruna, LV Barbosa Silva, MC Mack, and HL Vasconcelos. 2012. Short-term effects of elevated precipitation and nitrogen on soil fertility and plant growth in a Neotropical savanna. **_Ecosphere_** 3.  [Ph. D. Thesis Chapter].   
+30. Copeland, SM, EM Bruna, LV Barbosa Silva, MC Mack, and HL Vasconcelos. 2012. Short-term effects of elevated precipitation and nitrogen on soil fertility and plant growth in a Neotropical savanna. **_Ecosphere_** 3.  [Ph. D. Thesis Chapter].  **_Data:_** [Dryad](https://doi.org/10.5061/dryad.dg380p9q)
+
 
 31. Iacona, GD, LK Kirkman, and EM Bruna. 2012. Experimental test for facilitation of seedling recruitment by the dominant bunchgrass in a fire-maintained savanna. **_PLoS ONE_** 7.  [Ph. D. Thesis Chapter].  
 
 32. Mundim, FM, EM Bruna, EHM Vieira-Neto, and HL Vasconcelos. 2012. Attack frequency and the tolerance to herbivory of Neotropical savanna trees. **_Oecologia_** 168:405-414.  [Ph. D. Thesis Chapter].  
 
-33. Passmore, HA, EM Bruna, SM Heredia, and HL Vasconcelos. 2012. Resilient networks of ant-plant mutualists in Amazonian forest fragments. **_PLoS ONE_** 7(8):e40803.  
+33. Passmore, HA, EM Bruna, SM Heredia, and HL Vasconcelos. 2012. Resilient networks of ant-plant mutualists in Amazonian forest fragments. **_PLoS ONE_** 7(8):e40803. **_Data:_** [Dryad](https://doi.org/10.5061/dryad.pf2r0)  
 
 34. Vasconcelos, HL, and EM Bruna. 2012. Arthropod responses to the experimental isolation of Amazonian forest fragments. **_Zoologia_** 29:515-530. **_Invited review_**.  
 
 36.	Palumbo, MJ, SA Johnson, FM Mundim, AC Wolf, S Arunachalam, O Gonzalez, A Lau, JL Ulrich, A Washuta, EM Bruna. 2012. Harnessing smartphones for ecological education, research, and outreach.  **_Bulletin of the Ecological Society of America_** 93(4): 390-393.  
 
-35. Bruna, EM, and AS de Andrade. 2011. Edge effects on growth and biomass partitioning of an Amazonian understory herb (_Heliconia acuminata_; Heliconiaceae). **_American Journal of Botany_** 98:1727-1734.   
+35. Bruna, EM, and AS de Andrade. 2011. Edge effects on growth and biomass partitioning of an Amazonian understory herb (_Heliconia acuminata_; Heliconiaceae). **_American Journal of Botany_** 98:1727-1734. **_Data:_** [Dryad](https://doi.org/10.5061/dryad.553hc134)  
 
-36. Bruna, EM, TJ Izzo, BD Inouye, M Uriarte, and HL Vasconcelos. 2011. Asymmetric dispersal and colonization success of Amazonian plant-ants queens. **_PLoS ONE_** 6:e22937.  
+36. Bruna, EM, TJ Izzo, BD Inouye, M Uriarte, and HL Vasconcelos. 2011. Asymmetric dispersal and colonization success of Amazonian plant-ants queens. **_PLoS ONE_** 6:e22937. **_Data:_** [Dryad](https://doi.org/10.5061/dryad.h6t7g)  
 
 37. Ferreira, AV, EM Bruna, and HL Vasconcelos. 2011. Seed predators limit plant recruitment in Neotropical savannas. **_Oikos_** 120:1013-1022.  
 
-39.	Uriarte, M. Anciães, M. T.B. da Silva, P. Rubim, E. Johnson, and E. M. Bruna.  2011. Disentangling the drivers of reduced long-distance seed dispersal by birds in an experimentally fragmented  landscape.  **_Ecology_** 92(4): 924-93. **_2012 Outstanding Paper in Landscape Ecology, Int. Assoc. for Landscape Ecology - US Chapter_**.  
+39.	Uriarte, M. Anciães, M. T.B. da Silva, P. Rubim, E. Johnson, and EM Bruna.  2011. Disentangling the drivers of reduced long-distance seed dispersal by birds in an experimentally fragmented  landscape.  **_Ecology_** 92(4): 924-93. **_2012 Outstanding Paper in Landscape Ecology, Int. Assoc. for Landscape Ecology - US Chapter_**.  
 
 38. Gagnon, PR, EM Bruna, P Rubim, MR Darrigo, RC Littell, M Uriarte, and WJ Kress. 2011. Growth of an understory herb is chronically reduced in Amazonian forest fragments. **_Biological Conservation_** 144:830-835.  
 
@@ -580,15 +602,15 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 48. Uriarte, M, EM Bruna, P Rubim, M Anciaes, and I Jonckheere. 2010. Effects of forest fragmentation on the seedling recruitment of a tropical herb: assessing seed vs. safe-site limitation. **_Ecology_** 91:1317-1328.
 
-16.	Bruna, E. M. 2010. Journals can advance tropical biology and conservation by requiring data archiving.  **_Biotropica_** 42(4): 399-401.
+16.	Bruna, EM 2010. Journals can advance tropical biology and conservation by requiring data archiving.  **_Biotropica_** 42(4): 399-401.
 
 49. Bruna, EM, IJ Fiske, and MD Trager. 2009. Habitat fragmentation and plant populations: Is what we know demographically irrelevant? **_Journal of Vegetation Science_** 20:569-576.   
 
-50. Callis, KL, LR Christ, J Resasco, DW Armitage, JD Ash, TT Caughlin, SF Clemmensen, SM Copeland, TJ Fullman, RL Lynch, C Olson, RA Pruner, EHM Vieira-Neto, R West-Singh, and EM Bruna. 2009. Improving Wikipedia: educational opportunity and professional responsibility. **_Trends in Ecology & Evolution_** 24:177-179.    
+50. Callis, KL, LR Christ, J Resasco, DW Armitage, JD Ash, TT Caughlin, SF Clemmensen, SM Copeland, TJ Fullman, RL Lynch, C Olson, RA Pruner, EHM Vieira-Neto, R West-Singh, and EM Bruna. 2009. Improving Wikipedia: educational opportunity and professional responsibility. **_Trends in Ecology \& Evolution_** 24:177-179.    
 
 51. Cardoso, E, MIB Cruzeiro Moreno, E. M., and HL Vasconcelos. 2009. Mudanças fitofisionômicas no Cerrado: 18 anos de sucesão ecológica na Estação Ecológica do Panga, Uberlândia, MG. **_Caminhos de Geografia_** 10:254-268.    
 
-52. Côrtes, M, V Gowda, WJ Kress, EM Bruna, and M Uriarte. 2009. Characterization of 10 microsatellite markers for the understory Amazonian herb _Heliconia acuminata_. **_Molecular Ecology Resources_** 9 1261-1264.  [Ph. D. Thesis Chapter].  
+52. Côrtes, M, V Gowda, WJ Kress, EM Bruna, and M Uriarte. 2009. Characterization of 10 microsatellite markers for the understory Amazonian herb _Heliconia acuminata_. **_Molecular Ecology Resources_** 9 1261-1264. **_Data:_** GenBank [Ph. D. Thesis Chapter].  
 
 53. Dattilo, W, TJ Izzo, BD Inouye, HL Vasconcelos, and EM Bruna. 2009. Recognition of host plant volatiles by _Pheidole minutula_ Mayr (Myrmicinae), an Amazonian ant-plant specialist. **_Biotropica_** 41:642-646.   
 
@@ -606,17 +628,17 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 60. Morris, WF, CA Pfister, S Tuljapurkar, CV Haridas, CL Boggs, MS Boyce, EM Bruna, DR Church, T Coulson, DF Doak, S Forsyth, J-M Gaillard, CC Horvitz, S Kalisz, BE Kendall, TM Knight, CT Lee, and ES Menges. 2008. Longevity can buffer plant and animal populations against changing climatic variability. **_Ecology_** 89:19-25.    
 
-61. Stocks, G, L Seales, F Paniagua, E Maehr, and EM Bruna. 2008. The geographical and institutional distribution of ecological research in the tropics. **_Biotropica_** 40:397-404.  
+61. Stocks, G, L Seales, F Paniagua, E Maehr, and EM Bruna. 2008. The geographical and institutional distribution of ecological research in the tropics. **_Biotropica_** 40:397-404. **_Data:_** [Dryad](https://doi.org/10.5061/dryad.9097)
 
-65.	Vasconcelos, H. L., A. N. Costa, E. H. M. Vieira-Neto, and E. M. Bruna.  2008.  Efeitos da herbivoria por formigas  do gênero Atta Fabricius, 1804 (Hymenoptera: Formicidae) sobre a vegetação do Cerrado. Pp. 301-311 In: Insetos Sociais: da biologia a aplicação. Vilela, E.F.; Santos, I.A.; Schoereder, J.H.; Lino Neto, J.; Campos, L.A.O. & Serrão, J.E. (Eds.).  Editora da Univ. Federal de Viçosa. Viçosa, MG.  
+65.	Vasconcelos, HL, AN Costa, EHM Vieira-Neto, and EM Bruna.  2008.  Efeitos da herbivoria por formigas  do gênero Atta Fabricius, 1804 (Hymenoptera: Formicidae) sobre a vegetação do Cerrado. Pp. 301-311 In: Insetos Sociais: da biologia a aplicação. Vilela, E.F.; Santos, I.A.; Schoereder, J.H.; Lino Neto, J.; Campos, L.A.O. \& Serrão, J.E. (Eds.).  Editora da Univ. Federal de Viçosa. Viçosa, MG.  
 
 62. Girao, LC, AV Lopes, M Tabarelli, and EM Bruna. 2007. Changes in tree reproductive traits reduce functional diversity in a fragmented Atlantic forest landscape. **_PLoS ONE_** 2:e908.   
 
 63. De Athayde, SF, GM Da Silva, J Kaiabi, M Kaiabi, HR De Souza, K Ono, and EM Bruna. 2006. Participatory research and management of Arumã (_Ischnosiphon gracilis_ Rudge Koern., Marantaceae) by the Kaiabi people in the Brazilian Amazon. **_Journal of Ethnobiology_** 26:36-59. **_Cover article_**.  
 
-64. Boyce MS, Haridas CV, Lee CT, & The Nceas Stochastic Demography Working Group. 2006. Demography in an increasingly variable world. **_Trends in Ecology & Evolution_** 21(3):141-8. doi: 10.1016/j.tree.2005.11.018.
+64. Boyce MS, Haridas CV, Lee CT, \& The Nceas Stochastic Demography Working Group. 2006. Demography in an increasingly variable world. **_Trends in Ecology \& Evolution_** 21(3):141-8. doi: 10.1016/j.tree.2005.11.018.
 
-64. Kainer, KA, M Schmink, H Covert, JR Stepp, EM Bruna, JL Dain, S Espinosa, and S Humphries. 2006. A graduate education framework for Tropical Conservation & Development. **_Conservation Biology_** 20:3-13.   
+64. Kainer, KA, M Schmink, H Covert, JR Stepp, EM Bruna, JL Dain, S Espinosa, and S Humphries. 2006. A graduate education framework for Tropical Conservation \& Development. **_Conservation Biology_** 20:3-13.   
 
 65. Trager, MD, and EM Bruna. 2006. Effects of plant age, experimental nutrient addition and ant occupancy on herbivory in a Neotropical myrmecophyte. **_Journal of Ecology_** 94:1156-1163.  
 
@@ -634,9 +656,9 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 73. Lapola, DM, EM Bruna, CG de Willink, and HL Vasconcelos. 2005. Ant-tended hemiptera in Amazonian myrmecophytes:  Patterns of abundance and implications for mutualism function. **_Sociobiology_** 46:433-442.   
 
-78.	Bruna E. M. & W. J. Kress.  2005.  Forest fragments and plant reproduction in Amazonian Brazil.  Pp. 141-146 in G. A. Krupnick & W. J. Kress, eds. Plant conservation: a natural history approach.  U. of Chicago Press.  
+78.	Bruna EM \& W. J. Kress.  2005.  Forest fragments and plant reproduction in Amazonian Brazil.  Pp. 141-146 in G. A. Krupnick \& W. J. Kress, eds. Plant conservation: a natural history approach.  U. of Chicago Press.  
 
-18.	Bruna, E. M. and K. A. Kainer.  2005.  A delicate balance in Amazonia.  **_Science_** 307:1044-1045. [Response to published article].  
+18.	Bruna, EM and K. A. Kainer.  2005.  A delicate balance in Amazonia.  **_Science_** 307:1044-1045. [Response to published article].  
 
 74. Bruna, EM, WJ Kress, F Marques, and OF da Silva. 2004. _Heliconia acuminata_ reproductive success is independent of local floral density. **_Acta Amazonica_** 34:467-471. **_Cover Article_**.  
 
@@ -646,7 +668,7 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 80.	Lapola, D. M., E. M Bruna, and H. L. Vasconcelos.  2004.  Amizade tênue: relações mutualísticas entre plantas e formigas na Amazônia.  **_Ciência Hoje_** 34(204): 28-33.  
 
-83.	Bruna, E. M.  2004.  Biological impacts of deforestation and fragmentation.  Pages 85-90 in The Encyclopaedia of Forest Sciences.  J. Burley, J Evans, and J Youngquist, (eds.).  Elsevier Press, London.  
+83.	Bruna, EM  2004.  Biological impacts of deforestation and fragmentation.  Pages 85-90 in The Encyclopaedia of Forest Sciences.  J. Burley, J Evans, and J Youngquist, (eds.).  Elsevier Press, London.  
 
 77. Bruna, EM. 2003. Are plant populations in fragmented habitats recruitment limited? Tests with an Amazonian herb. **_Ecology_** 84:932-947.  
 
@@ -658,7 +680,7 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 81. Bruna, EM, O Nardy, SY Strauss, and SP Harrison. 2002. Experimental assessment of _Heliconia acuminata_ growth in a fragmented Amazonian landscape. **_Journal of Ecology_** 90:639-649.  **_Recipient of the _John L. Harper Prize_ from the British Ecological Society_**.  
 
-82. Laurance, WF, TE Lovejoy, HL Vasconcelos, EM Bruna, RK Didham, PC Stouffer, C Gascon, RO Bierregaard Jr., SG Laurance, and E Sampaio. 2002. Ecosystem decay of Amazonian forest fragments, a 22 year investigation. **_Conservation Biology_** 16:605-618.    
+82. Laurance, WF, TE Lovejoy, HL Vasconcelos, EM Bruna, RK Didham, PC Stouffer, C Gascon, RO Bierregaard Jr, SG Laurance, and E Sampaio. 2002. Ecosystem decay of Amazonian forest fragments, a 22 year investigation. **_Conservation Biology_** 16:605-618.    
 
 83. Hoeksema, JD, and EM Bruna. 2000. Pursuing the big questions about interspecific mutualism: A review of theoretical approaches. **_Oecologia_** 125:321-330.  
 
@@ -668,170 +690,174 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 86. Bruna, EM, RN Fisher, and TJ Case. 1996. New evidence of habitat segregation between two cryptic species of Pacific skinks (_Emoia cyanura_ and _E. impar_). **_Copeia_** 1996:998-1004.  
 
-87. Bruna, EM, RN Fisher, and TJ Case. 1996. Morphological and genetic evolution appear decoupled in Pacific skinks (Squamata: Scincidae: _Emoia_). **_Proceedings of the Royal Society of London Series B Biological Sciences_** 263:681-688. **_Cover article_**.  
+87. Bruna, EM, RN Fisher, and TJ Case. 1996. Morphological and genetic evolution appear decoupled in Pacific skinks (Squamata: Scincidae: _Emoia_). **_Proceedings of the Royal Society of London Series B Biological Sciences_** 263:681-688. **_Cover article_**.  **_Data:_** GenBank
 
-88. Bruna, EM, RN Fisher, and TJ Case. 1995. Cryptic species of Pacific skinks (_Emoia_): Further support from mitochondrial DNA sequences. **_Copeia_** 1995:981-983.  
-
-
-### ESSAYS, EDITORIALS, BOOK REVIEWS, & CORRESPONDENCE
-
-1. Carrasco‐Rueda, F., C. L. Cardelús, Y. Chirango, C. J. Garnica‐Díaz, Y. Godwill, V. Gowda, B. Maas, F. Montaño‐Centellas, R. Ostertag, A. Roopsind, Sheherazade, G. Vargas G., Y. Arn Teh, E. M. Bruna, N. J. Cordeiro, G. G.O. Dossa, E. Effiom, L. G. Lohmann, M. Mujawamariya, I. Oliveras Menor, P. Parolin, J. M. Posada, R. A. Zahawi, L. S. Santiago. 2025. ATBC Code of Conduct. \textit{\textbf{Biotropica}} 57(5): e70090. https://doi.org/10.1111/btp.70090.
-
-1. Brodie, J. F., F. Carrasco, S. Chatterjee, Y. Chirango, C. J. Garnica‐Díaz, V. Gowda, B. Maas, F. Montaño‐Centellas, R. Ostertag, P. Hariharan, G. Vargas, E. M. Bruna, C. L Cardelus, N. J. Cordeiro, G. G. O. Dossa, E. Effiom, L. G. Lohmann, I. O Menor, M. Mujawamariya, P. Parolin, J. M. Posada, M. Soto Rueda, Y. Arn Teh, B. Yadok, R. A. Zahawi, L. Santiago. 2025. ATBC Code of Ethics. \textit{\textbf{Biotropica}} 57(5): e70091. https://doi.org/10.1111/btp.70091.
-
-1. Powers, J. S., E. M. Bruna, and L. G. Lohmann. 2025. Looking Back and Moving Forward: Reflections on 60 Years of the Association for Tropical Biology and Conservation. \textit{\textbf{Biotropica}} 57(5): e70074. https://doi.org/10.1111/btp.70074.
-
-1. Bruna, E., Powers, J.S. and Lohmann, L.G. 2022. 2022 ATBC Honorary Fellows. _Biotropica_ 54:1521-1522. https://doi.org/10.1111/btp.13170
-
-1.	Bruna, E. M. 2019. _Biotropica_: the next 50 years. \textit{\textbf{Biotropica}} 51(4): 461–62.  
-
-1.	Johnson-Ulrich, L. and E. Bruna. 2019. Emilio Bruna: Seed germination is lower in fragmented rainforest. **_Project Biodiversify_** [projectbiodiversify.org/emilio-bruna/](projectbiodiversify.org/emilio-bruna/) 
-1.	K. R. Zamudio, A. Kellner, C. Serejo, M. R. de Britto, C. B. Castro, P. A. Buckup, D. O. Pires, M. Couri, A. Brilhante Kury, I. Azevedo Cardoso, M. L. Monné, J. Pombal Jr., C. Mello Patiu, V. Padula, A. Dias Pimenta, R. Ventura, E.  Hajdu, J. Zanol, E. M. Bruna, J. Fitzpatrick, L. A. Rocha. 2018. Lack of support for Science and Education Fails Brazilian Society - Again. **_Science_** 361(6409): 1322-1323.  
-
-1.	Bruna, Emilio M. 2017. Invasive new US visa rules hurt Americans too. **_Americas Quarterly_**. http://www.americasquarterly.org/content/academic-collaboration [Invited Editorial].
-
-1.	Harms, Kyle, J. Benitez-Malvido, & E. M. Bruna. 2017. 2016 Alwyn Gentry Awards and Luis F. Bacardi Award Recipients. \textit{\textbf{Biotropica}} [Editorial].
-
-1.	Bruna, E. M. 2016. Biotropica renames its "Outstanding Paper" awards for two pioneering scientists. \textit{\textbf{Biotropica}} 48(6): 929 [Editorial].
-
-1.	E. M. Bruna, M. Peña-Claros, Bryan Finega, and B. A. Kaplin. 2016. A New Data Archiving Policy for _Biotropica._ \textit{\textbf{Biotropica}} 48(2): 139-140. [Editorial].  
-
-1.	V. Christianini, P. S. Oliveira, E. M. Bruna, H. L. Vasconcelos. 2014. Fauna in decline: Meek shall inherit. \textit{\textbf{Science}} 354(6201):1129.  
-
-1.	E. M. Bruna. 2014. Biotropica to become an 'online-only' journal in 2015. \textit{\textbf{Biotropica}} 46(6): 782. [Editorial].
-
-1.	E. M. Bruna. 2014. 2014 Alwyn Gentry Awards, Luis F. Bacardi Award, and ATBC Honorary Fellows. \textit{\textbf{Biotropica}} 46(6): 779-781. [Editorial].
-
-1.	E. M. Bruna. 2014. A word from the Editor-in-Chief. \textit{\textbf{Biotropica}} 46(4): 377 [Editorial].
-
-1.	Bruna, E. M. 2010.  Announcement: _Biotropica_ Award for Excellence in Tropical Biology and Conservation. \textit{\textbf{Biotropica}} 42(4): 518-519 [Editorial].
-
-1.	Bruna, E. M.  2003.  "For the Love of Nature".  **_Science: Next Wave Online Magazine_**. [Invited essay].
-
-1.	Bruna, E. M. 2002. A biologist's guide to fragmenting the Amazon (including why it's a bad idea).  **_Conservation Biology_**, 16(5): 1446-1448. [Book review].  
+88. Bruna, EM, RN Fisher, and TJ Case. 1995. Cryptic species of Pacific skinks (_Emoia_): Further support from mitochondrial DNA sequences. **_Copeia_** 1995:981-983. **_Data:_** GenBank
 
 
-### SOFTWARE & TECHNICAL MANUALS
+### ANNOUNCEMENTS, BOOK REVIEWS, \& CORRESPONDENCE
 
-1. Fournier, A., F. Stevens, M. Boone, and E. M. Bruna. 2025. refsplitr. author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. R package version 1.0.0. https://github.com/ropensci/refsplitr _(Package maintained by E. M. Bruna)_
+1. Bruna, EM, Powers, JS and Lohmann, LG 2022. 2022 ATBC Honorary Fellows. _Biotropica_ 54:1521-1522. https://doi.org/10.1111/btp.13170 [Essay]  
+
+1.	KR Zamudio, A Kellner, C Serejo, MR de Britto, CB Castro, PA Buckup, DO Pires, M Couri, A Brilhante Kury, I Azevedo Cardoso, ML Monné, J Pombal Jr, C Mello Patiu, V Padula, A Dias Pimenta, R Ventura, E  Hajdu, J Zanol, EM Bruna, J Fitzpatrick, LA Rocha. 2018. Lack of support for Science and Education Fails Brazilian Society - Again. **_Science_** 361(6409): 1322-1323. [Correspondence] 
+
+1.	Bruna, EM. 2017. Invasive new US visa rules hurt Americans too. **_Americas Quarterly_**. http://www.americasquarterly.org/content/academic-collaboration [Invited essay]  
+
+1.	Harms, K, J Benitez-Malvido, \& EM Bruna. 2017. 2016 Alwyn Gentry Awards and Luis F. Bacardi Award Recipients. \textit{\textbf{Biotropica}} [Essay].  
+
+1.	Bruna, EM 2016. Biotropica renames its "Outstanding Paper" awards for two pioneering scientists. \textit{\textbf{Biotropica}} 48(6): 929 [Essay].  
+
+1.	EM Bruna, M. Peña-Claros, Bryan Finega, and B. A. Kaplin. 2016. A New Data Archiving Policy for _Biotropica._ \textit{\textbf{Biotropica}} 48(2): 139-140. [Editorial].  
+
+1.	V. Christianini, P. S. Oliveira, EM Bruna, H. L. Vasconcelos. 2014. Fauna in decline: Meek shall inherit. \textit{\textbf{Science}} 354(6201):1129. [Correspondence]  
+
+1.	Bruna, EM. 2014. Biotropica to become an 'online-only' journal in 2015. \textit{\textbf{Biotropica}} 46(6): 782. [Editorial].  
+
+1.	Bruna, EM. 2014. 2014 Alwyn Gentry Awards, Luis F. Bacardi Award, and ATBC Honorary Fellows. \textit{\textbf{Biotropica}} 46(6): 779-781. [Essay].  
+
+1.	Bruna, EM. 2014. A word from the Editor-in-Chief. \textit{\textbf{Biotropica}} 46(4): 377 [Editorial].
+
+1.	Bruna, EM 2010.  Announcement: _Biotropica_ Award for Excellence in Tropical Biology and Conservation. \textit{\textbf{Biotropica}} 42(4): 518-519 [Essay].  
+
+1.	Bruna, EM  2003.  "For the Love of Nature".  **_Science: Next Wave Online Magazine_**. [Invited essay].
+
+1.	Bruna, EM 2002. A biologist's guide to fragmenting the Amazon (including why it's a bad idea).  **_Conservation Biology_**, 16(5): 1446-1448. [Book review].  
+
+
+### SOFTWARE \& TECHNICAL MANUALS
+
+1. Fournier, A., F. Stevens, M. Boone, and EM Bruna. 2025. refsplitr. author name disambiguation, author georeferencing, and mapping of coauthorship networks with Web of Science data. R package version 1.2.0. https://docs.ropensci.org/refsplitr _(Package maintained by EM Bruna)_
 
 1. HerbVar Steering Committee 2024. HerbVar: Project Manual and Field protocols (v0.9.0). Zenodo. https://doi.org/10.5281/zenodo.14232308
 
 
+### SCHOLARLY PRODUCTIVITY in ONLINE OUTLETS
 
-### ONLINE SCHOLARLY PRODUCTIVITY
+1.	Johnson-Ulrich, L and EM Bruna. 2019. Emilio Bruna: Seed germination is lower in fragmented rainforest. **_Project Biodiversify_** [projectbiodiversify.org/emilio-bruna/](projectbiodiversify.org/emilio-bruna/) [Teaching materials]
 
 1. _Jean Theodore Descourtilz (1796-1855) and the Ornithologie Bresilienne_: Website created with graduate students in response to request from the UF Harn Museum of Art to analyze an aqcuisition of chromolithographs https://descourtilz.wordpress.com/
 
 1. Over 30 Wikipedia pages edited with students as part of graduate and undergraduate courses in Plant Animal Interactions and Tropical Ecology. _Complete list at http://en.wikipedia.org/wiki/User:Embruna _   
 
 
-### ARTICLES & CHAPTERS BY LAB MEMBERS (_see co-authorship philosophy above; * indicates the lab member_).
+### PUBLICATIONS \& BOOK CHAPTERS WRITTEN BY MENTEES DURING THEIR LAB TENURE 
 
-1.	\*Costa, AN and \*Vieira-Neto, EHM. 2016. Species turnover regulates leaf-cutter ant densities in environmental gradients across the Brazilian Cerrado. **_Journal of Applied Entomology_** 140(2016):474-478. 
+**_See co-authorship philosophy above; ^GS^Graduate Student,^PD^Postdoctoral Researcher, ^VS^Visiting Student_** 
 
-2.	M. Tabarelli, \*AV Neto, IR Leal, and AV Lopes (Eds.).  2014. Serra Grande: Uma Floresta de ideas.  Editora Universitária da UFPE. Recife. 672 pp.
+1. Ramesh, V, ^GS^P Hariharan, PR Gupte, AV Mohan, VA Akshay, A Rajan, C Das, I Lockwood, VV Robin, MW Tingley, \& R DeFries. 2025. Grassland bird species decline with colonial-era landscape change in a tropical montane system. **_Global Change Biology_**. 31(7), e70358. https://doi.org/10.1111/gcb.70358
 
-3.	Cruz Neto O, \*Aguiar AV, Twyford AD, Neaves LE, Pennington RT, and Lopes AV. 2014. Genetic and ecological outcomes of _Inga vera_ subsp _affinis_ (Leguminosae) Tree plantations in a fragmented tropical landscape. **_PLoS ONE_** 96: e99903.
+1. Ramesh, V, ^GS^P Hariharan, VA Akshay, P Choksi, S Khanwilkar, R DeFries and VV Robin. 2023. Using passive acoustic monitoring to examine
+the impacts of ecological restoration on faunal biodiversity in the Western Ghats. **_Biological Conservation_**. 282, 110071. https://doi.org/10.1016/j.biocon.2023.110071
 
-4.	\*Lucas CM, Schoengart J, Sheikh P, Wittmann F, Piedade MTF, and McGrath DG. 2014. Effects of land-use and hydroperiod on aboveground biomass and productivity of secondary Amazonian floodplain forests. **_Forest Ecology and Management_** 319:116-127. [Ph.D. thesis chapter].
+1.	^VS^Costa, AN and ^GS^Vieira-Neto, EHM. 2016. Species turnover regulates leaf-cutter ant densities in environmental gradients across the Brazilian Cerrado. **_Journal of Applied Entomology_** 140(2016):474-478. 
 
-5.	Soares SM, Machado IC, \*Aguiar AV, and Lopes AV. 2014. Dioecy in the Caatinga, a Brazilian tropical  dry forest: typical reproductive traits of a low frequent sexual system. **_Plant Systematics and Evolution_** 300:1299-1311.
+2.	M. Tabarelli, ^GS^AV Neto, IR Leal, and AV Lopes (Eds.).  2014. Serra Grande: Uma Floresta de ideas.  Editora Universitária da UFPE. Recife. 672 pp.
 
-6.	Tabarelli M, \*Aguiar AV, Robeiro MC, and Metzger JP. 2012. A conversão da Floresta Atlântica em paisagens antrópicas: lições para a conservação da diversidade biológica das florestas tropicais. **_Interciencia_** 37:88-92.
+3.	Cruz Neto O, ^GS^Aguiar AV, Twyford AD, Neaves LE, Pennington RT, and Lopes AV. 2014. Genetic and ecological outcomes of _Inga vera_ subsp _affinis_ (Leguminosae) Tree plantations in a fragmented tropical landscape. **_PLoS ONE_** 96: e99903.
 
-7.	\*Lucas CM, Mekdece F, Nascimento CMN, Holanda A-SS, Braga J, Dias S, Sousa S, Rosa PS, and Suemitsu C. 2012. Effects of short-term and prolonged saturation on seed germination of Amazonian floodplain forest species. **_Aquatic Botany_** 99:49-55. [Ph.D. thesis chapter].
+4.	^GS^Lucas CM, Schoengart J, Sheikh P, Wittmann F, Piedade MTF, and McGrath DG. 2014. Effects of land-use and hydroperiod on aboveground biomass and productivity of secondary Amazonian floodplain forests. **_Forest Ecology and Management_** 319:116-127. [Ph.D. thesis chapter].
 
-8.	Horn, M, SB Correa, P Parolin, BJA Pollux, JT Anderson, \*C Lucas, P Widmann, A Tiju, M Galetti, and M. Goulding. 2011. Seed dispersal by fishes in tropical and temperate waters: the growing evidence.  **_Acta Oecologia_** 37:561-577.
+5.	Soares SM, Machado IC, ^GS^Aguiar AV, and Lopes AV. 2014. Dioecy in the Caatinga, a Brazilian tropical  dry forest: typical reproductive traits of a low frequent sexual system. **_Plant Systematics and Evolution_** 300:1299-1311.
 
-9.	Tabarelli M, \*AV Aguiar, MC Ribeiro, JPMetzger JP, and Peres CA. 2010. Prospects for biodiversity conservation in the Atlantic Forest: lessons from aging human-modified landscapes. **_Biological Conservation_** 143:2328-2340.
+6.	Tabarelli M, ^GS^Aguiar AV, Robeiro MC, and Metzger JP. 2012. A conversão da Floresta Atlântica em paisagens antrópicas: lições para a conservação da diversidade biológica das florestas tropicais. **_Interciencia_** 37:88-92.
 
-10.	\*Gagnon, P.R., Passmore, H.A., Platt, W.J., Paine, C.E.T., Myers, J.A. and Harms, K.E. 2010. Does pyrogenicity protect burning plants? **_Ecology_** 91: 3481-3486 **_Cover Article_**. 
+7.	^GS^Lucas CM, Mekdece F, Nascimento CMN, Holanda A-SS, Braga J, Dias S, Sousa S, Rosa PS, and Suemitsu C. 2012. Effects of short-term and prolonged saturation on seed germination of Amazonian floodplain forest species. **_Aquatic Botany_** 99:49-55. [Ph.D. thesis chapter].
 
-11.	\*Trager, M. D., S. Bhotika, J. A. Hostetler, G. V. Andrade, M. A. Rodriguez-Cabal, C. S. McKeon, C. W. Osenberg, and B. M. Bolker. 2010. Benefits for plants in ant-plant protective mutualisms: A meta-analysis. **_PLoS ONE_** 5:e14308.
+8.	Horn, M, SB Correa, P Parolin, BJA Pollux, JT Anderson, ^GS^C Lucas, P Widmann, A Tiju, M Galetti, and M. Goulding. 2011. Seed dispersal by fishes in tropical and temperate waters: the growing evidence.  **_Acta Oecologia_** 37:561-577.
 
-12.	Parolin P, \*C. Lucas, M.T.F. Piedade, & F. Wittmann. 2010. Drought responses of flood-tolerant trees in Amazonian Floodplains. **_Annals of Botany_** 105(1):129-39. [Invited article]
+9.	Tabarelli M, ^GS^AV Aguiar, MC Ribeiro, JPMetzger JP, and Peres CA. 2010. Prospects for biodiversity conservation in the Atlantic Forest: lessons from aging human-modified landscapes. **_Biological Conservation_** 143:2328-2340.
 
-13.	\*Aguiar AV, and Tabarelli M. 2010. Edge effects and seedling bank depletion: the role played by the early successional palm _Attalea oleifera_ (Arecaceae) in the Atlantic Forest. **_Biotropica_** 42:158-166.
+10.	^PD^Gagnon, P.R., Passmore, H.A., Platt, W.J., Paine, C.E.T., Myers, J.A. and Harms, K.E. 2010. Does pyrogenicity protect burning plants? **_Ecology_** 91: 3481-3486 **_Cover Article_**. 
 
-14.	Duchelle, A.E., K. Biedenweg, \*C. Lucas, J. Radachowsky, D. Wojcik, M. Londres, D. Alvira, W. Bartels, A. Virapongse, and K.A. Kainer. 2009. Graduate students and knowledge exchange with local stakeholders: Possibilities and preparation.  **_Biotropica_** 41(5): 578-585.
+11.	^GS^Trager, M. D., S. Bhotika, J. A. Hostetler, G. V. Andrade, M. A. Rodriguez-Cabal, C. S. McKeon, C. W. Osenberg, and B. M. Bolker. 2010. Benefits for plants in ant-plant protective mutualisms: A meta-analysis. **_PLoS ONE_** 5:e14308.
 
-15.	\*Lucas, C.M. 2008. Within flood season variation in fruit consumption and seed dispersal by two characin fishes of the Amazon. **_Biotropica_** 40(5): 581-589.
+12.	Parolin P, ^GS^C. Lucas, M.T.F. Piedade, \& F. Wittmann. 2010. Drought responses of flood-tolerant trees in Amazonian Floodplains. **_Annals of Botany_** 105(1):129-39. [Invited article]
 
-16.	Hartter, J., \*C. Lucas, A. Gaughan, and L.L. Aranda. 2008. Detecting tropical dry forest succession in a shifting cultivation mosaic of the Yucatán Peninsula, Mexico.  **_Applied Geography_** 28: 134-149.
+13.	^GS^Aguiar AV, and Tabarelli M. 2010. Edge effects and seedling bank depletion: the role played by the early successional palm _Attalea oleifera_ (Arecaceae) in the Atlantic Forest. **_Biotropica_** 42:158-166.
+
+14.	Duchelle, AE, K. Biedenweg, ^GS^C Lucas, J Radachowsky, D Wojcik, M Londres, D Alvira, W Bartels, A Virapongse, and KA Kainer. 2009. Graduate students and knowledge exchange with local stakeholders: Possibilities and preparation.  **_Biotropica_** 41(5): 578-585.
+
+15.	^GS^Lucas, CM. 2008. Within flood season variation in fruit consumption and seed dispersal by two characin fishes of the Amazon. **_Biotropica_** 40(5): 581-589.
+
+16.	Hartter, J, ^GS^C Lucas, A Gaughan, and LL Aranda. 2008. Detecting tropical dry forest succession in a shifting cultivation mosaic of the Yucatán Peninsula, Mexico.  **_Applied Geography_** 28: 134-149.
 
 
-### PUBLICLY ARCHIVED DATASETS & CODE (N=21)
+<!-- ### OTHER PUBLICLY ARCHIVED DATASETS \& CODE  -->
+<!-- 1. Heliconia acuminata Demographic Data:   -->
 
-1. Emilio M. Bruna, Audrey C. Smith, Leandra Merz, Jesse Borden, Chris K. Gulick, & Akhil R. Kshirsagar. (2021). Data and Code from: Assessing the effect of article processing charges on the geographic diversity of authors using Elsevier's 'Mirror Journal' system. (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.5500293
+<!-- > Seed set: http://dx.doi.org/10.6084/m9.figshare.1273926   -->
+<!-- > Leaf Length vs. Area: http://dx.doi.org/10.6084/m9.figshare.92691   -->
+<!-- > Leaf number, leaf area, shoot number, and height of reproductive _H. acuminata_: https://zenodo.org/records/5041931   -->
 
-2. Costa et al. (2018) Data from: The relative influence of an environmental gradient and an ecosystem engineer on seedling communities in a Neotropical savanna. Dryad Digital Repository https://doi:10.5061/dryad.vf1gq0q 
+<!-- 1. Emilio M. Bruna, Audrey C. Smith, Leandra Merz, Jesse Borden, Chris K. Gulick, \& Akhil R. Kshirsagar. (2021). Data and Code from: Assessing the effect of article processing charges on the geographic diversity of authors using Elsevier's 'Mirror Journal' system. (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.5500293 -->
 
-2.	Emilio M. Bruna. (2018, September 13). embruna/Costa-etal-PeerJ-2018: First release of code used in Costa et al 2018 PeerJ (Version v1.0.0). Peerj. Zenodo. http://doi.org/10.5281/zenodo.1418482 
+<!-- 2. Costa et al. (2018) Data from: The relative influence of an environmental gradient and an ecosystem engineer on seedling communities in a Neotropical savanna. Dryad Digital Repository https://doi:10.5061/dryad.vf1gq0q  -->
 
-3.	Espin, J., et al. (2017) Data from: A persistent lack of international representation on editorial boards in environmental biology. Dryad Digital Repository. https://doi.org/10.5061/dryad.mh189
+<!-- 2.	Emilio M. Bruna. (2018, September 13). embruna/Costa-etal-PeerJ-2018: First release of code used in Costa et al 2018 PeerJ (Version v1.0.0). Peerj. Zenodo. http://doi.org/10.5281/zenodo.1418482  -->
 
-4.	Bruna, E. M. 2017. Code (v1.0) used in 'A persistent lack of international representation on editorial boards in environmental biology, Espin et al.' Zenodo http://doi.org/10.5281/zenodo.1067800
+<!-- 3.	Espin, J., et al. (2017) Data from: A persistent lack of international representation on editorial boards in environmental biology. Dryad Digital Repository. https://doi.org/10.5061/dryad.mh189 -->
 
-5.	Vieira-Neto EHM, Vasconcelos HL, Bruna EM (2016) Data from: Roads increase population growth rates of a native leaf-cutter ant in Neotropical savannahs. Journal of Applied Ecology https://doi.org/10.5061/dryad.1s4f2
+<!-- 4.	Bruna, EM 2017. Code (v1.0) used in 'A persistent lack of international representation on editorial boards in environmental biology, Espin et al.' Zenodo http://doi.org/10.5281/zenodo.1067800 -->
 
-6.	Costa AN, Vasconcelos HL, Bruna EM (2016) Data from: Biotic-drivers of seedling establishment in Neotropical savannas: selective granivory and seedling herbivory by leaf-cutter ants as an ecological filter. Journal of Ecology https://doi.org/10.5061/dryad.1hj56
+<!-- 5.	Vieira-Neto EHM, Vasconcelos HL, Bruna EM (2016) Data from: Roads increase population growth rates of a native leaf-cutter ant in Neotropical savannahs. Journal of Applied Ecology https://doi.org/10.5061/dryad.1s4f2 -->
 
-7.	Mundim FM, Bruna EM (2016) Data from: Is there a temperate bias in our understanding of how climate change will alter plant-herbivore interactions? A meta-analysis of experimental studies. The American Naturalist https://doi.org/10.5061/dryad.dn048
+<!-- 6.	Costa AN, Vasconcelos HL, Bruna EM (2016) Data from: Biotic-drivers of seedling establishment in Neotropical savannas: selective granivory and seedling herbivory by leaf-cutter ants as an ecological filter. Journal of Ecology https://doi.org/10.5061/dryad.1hj56 -->
 
-8.	Bruna EM, Izzo TJ, Inouye BD, Vasconcelos HL (2014) Data from: Effect of mutualist partner identity on plant demography. Ecology https://doi.org/10.5061/dryad.5kc45
+<!-- 7.	Mundim FM, Bruna EM (2016) Data from: Is there a temperate bias in our understanding of how climate change will alter plant-herbivore interactions? A meta-analysis of experimental studies. The American Naturalist https://doi.org/10.5061/dryad.dn048 -->
 
-9.	Bruna E.M. 2014. Code (v1.0) used in "Effect of mutualist partner identity on plant demography. Ecology". Zenodo: doi:10.5281/zenodo.11650. Available for improvement at https://github.com/embruna/ant-plant-demography. 
+<!-- 8.	Bruna EM, Izzo TJ, Inouye BD, Vasconcelos HL (2014) Data from: Effect of mutualist partner identity on plant demography. Ecology https://doi.org/10.5061/dryad.5kc45 -->
 
-10.	Cho AH, Johnson SA, Schuman CE, Adler JM, Gonzalez O, Graves SJ, Huebner JR, Marchant DB, Rifai SW, Skinner I, Bruna EM (2014) Data from: Women are underrepresented on the editorial boards of journals in environmental biology and natural resource management. PeerJ https://doi.org/10.5061/dryad.6jn86.2
+<!-- 9.	Bruna E.M. 2014. Code (v1.0) used in "Effect of mutualist partner identity on plant demography. Ecology". Zenodo: doi:10.5281/zenodo.11650. Available for improvement at https://github.com/embruna/ant-plant-demography.  -->
 
-11.	Cho et al. 2014. Code used in "Women are underrepresented on the editorial boards of journals in environmental biology and natural resource management. PeerJ":: https://github.com/embruna/Editorial-Board-Gender 
+<!-- 10.	Cho AH, Johnson SA, Schuman CE, Adler JM, Gonzalez O, Graves SJ, Huebner JR, Marchant DB, Rifai SW, Skinner I, Bruna EM (2014) Data from: Women are underrepresented on the editorial boards of journals in environmental biology and natural resource management. PeerJ _Data:_ https://doi.org/10.5061/dryad.6jn86  -->
 
-12.	Corrêa Côrtes M. et al. 2013. Low plant density enhances gene dispersal in the Amazonian understory herb Heliconia acuminata. Molecular Ecology Dryad Digital Repository: doi:10.5061/dryad.b003f
+<!-- 11.	Cho et al. 2014. Code used in "Women are underrepresented on the editorial boards of journals in environmental biology and natural resource management. PeerJ":: https://github.com/embruna/Editorial-Board-Gender  -->
 
-13.	Passmore, H. A et al. 2012. Data from: Resilient networks of ant-plant mutualists in Amazonian forest fragments. PLoS ONE. doi:10.5061/dryad.pf2r 
+<!-- 12.	Corrêa Côrtes M. et al. 2013. Low plant density enhances gene dispersal in the Amazonian understory herb Heliconia acuminata. Molecular Ecology Dryad Digital Repository:  https://doi.org/10.5061/dryad.b003f -->
 
-14.	Copeland, S. M. et al. 2012. Data from: Effects of experimentally elevated precipitation and nitrogen on soil fertility and plant growth in a Neotropical savanna. Ecosphere. Dryad Digital Repository: doi: 10.5061/dryad.dg380p9q
+<!-- 13.	Passmore, H. A et al. 2012. Data from: Resilient networks of ant-plant mutualists in Amazonian forest fragments. PLoS ONE.  https://doi.org/10.5061/dryad.pf2r0  -->
 
-15.	Bruna EM, et al. 2011. Data from: Asymmetric dispersal and colonization success of Amazonian plant-ants queens. PLoS ONE. Dryad Digital Repository. doi:10.5061/dryad.h6t7g
+<!-- 14.	Copeland, S. M. et al. 2012. Data from: Effects of experimentally elevated precipitation and nitrogen on soil fertility and plant growth in a Neotropical savanna. Ecosphere. Dryad Digital Repository: https://doi.org/10.5061/dryad.dg380p9q -->
 
-16.	Bruna, E. M. and A. Segalin de Andrade. 2011. Data from: Phenotypic plasticity in plant responses to edge effects: experimental test with an Amazonian understory herb. American Journal of Botany. Dryad Digital Repository: doi:10.5061/dryad.553hc134
+<!-- 15.	Bruna EM, et al. 2011. Data from: Asymmetric dispersal and colonization success of Amazonian plant-ants queens. PLoS ONE. Dryad Digital Repository. https://doi.org/10.5061/dryad.h6t7g  -->
 
-17.	Microsatellite sequences from Cortes, MC et al. 2009. Characterization of 10 microsatellite markers for the understorey Amazonian herb Heliconia acuminata. Molecular Ecology Resources. Genbank.
+<!-- 16.	Bruna, EM and A. Segalin de Andrade. 2011. Data from: Phenotypic plasticity in plant responses to edge effects: experimental test with an Amazonian understory herb. American Journal of Botany. Dryad Digital Repository: https://doi.org/10.5061/dryad.553hc134 -->
 
-18.	Stocks G. et al. 2008. Data from: The geographical and institutional distribution of ecological research in the tropics. Biotropica. Dryad Digital Repository: doi:10.5061/dryad.9097 
+<!-- 17.	Microsatellite sequences from Cortes, MC et al. 2009. Characterization of 10 microsatellite markers for the understorey Amazonian herb Heliconia acuminata. Molecular Ecology Resources. Genbank. -->
 
-19.	Sequences used in Mitochondrial DNA sequences from Bruna, E. M. et al. 1996. Morphological and genetic evolution appear decoupled in Pacific skinks (Emoia). Proc. Roy. Soc. Lond. B: Genbank.
+<!-- 18.	Stocks G. et al. 2008. Data from: The geographical and institutional distribution of ecological research in the tropics. Biotropica. Dryad Digital Repository: htttps://doi.org/10.5061/dryad.9097  -->
 
-20.	Heliconia acuminata Demographic Data. Seed set: http://dx.doi.org/10.6084/m9.figshare.1273926 Leaf Length vs. Area: http://dx.doi.org/10.6084/m9.figshare.92691
+<!-- 19.	Sequences used in Mitochondrial DNA sequences from Bruna, EM et al. 1996. Morphological and genetic evolution appear decoupled in Pacific skinks (Emoia). Proc. Roy. Soc. Lond. B: Genbank. -->
+
+
 
 <!-- ### MANUSCRIPTS IN PREPARATION (N=11, drafts available upon request).  -->
 
-<!-- 1. Mundim,F. M. E. Vieira-Neto, G. F. Schneider, H. Alborn, E. M. Bruna. _In preparation._ Simultaneous and Sequential herbivory dynamics: exploring plant defenses strategies amidst drought challenges. **_Ecology_** -->
+<!-- 1. Mundim,F. M. E. Vieira-Neto, G. F. Schneider, H. Alborn, EM Bruna. _In preparation._ Simultaneous and Sequential herbivory dynamics: exploring plant defenses strategies amidst drought challenges. **_Ecology_** -->
 
-<!-- 1.	E. S. Parsons and E. M. Bruna. Assessing the magnitude of abiotic edge effects in fragmented landscapes: revisiting the paradigm with data. In preparation for **_Biological Conservation_**[MA Thesis chapter]. -->
+<!-- 1.	E. S. Parsons and EM Bruna. Assessing the magnitude of abiotic edge effects in fragmented landscapes: revisiting the paradigm with data. In preparation for **_Biological Conservation_**[MA Thesis chapter]. -->
 
-<!-- 1. Kortessis, N., R. J. Fletcher, E. M. Bruna, T. A. H. Smith, and R. D. Holt. Habitat degradation, dispersal, and matrix effects: Interactions between processes at different spatial scales determine species persistence. In preparation for **_The American Naturalist_**. -->
+<!-- 1. Kortessis, N., R. J. Fletcher, EM Bruna, T. A. H. Smith, and R. D. Holt. Habitat degradation, dispersal, and matrix effects: Interactions between processes at different spatial scales determine species persistence. In preparation for **_The American Naturalist_**. -->
 
-<!-- 1. Smith, T. A. H., E. M. Bruna, and R. J. Fletcher. Autotomy in a changing world: How landscape structure alters the prevalence and consequences of limb loss. In preparation for **_Functional Ecology_** -->
+<!-- 1. Smith, T. A. H., EM Bruna, and R. J. Fletcher. Autotomy in a changing world: How landscape structure alters the prevalence and consequences of limb loss. In preparation for **_Functional Ecology_** -->
 
-<!-- 1.	E. H. M. Vieira-Neto, F. M. Mundim, and E. M. Bruna. Closed and open demographic models give contrasting patterns of inter-population dynamics in a long-lived superorganism. In preparation for **_Ecology_**. -->
+<!-- 1.	E. H. M. Vieira-Neto, F. M. Mundim, and EM Bruna. Closed and open demographic models give contrasting patterns of inter-population dynamics in a long-lived superorganism. In preparation for **_Ecology_**. -->
 
-<!-- 1.	Goring, S., K.S. Whitney, E. M. Bruna, A. L. Jacob, and T. Poisot. Ten Simple Rules to Make Scientific Content More Accessible. Preprint at: DOI: [10.22541/au.150844289.92609826](https://doi.org/10.22541/au.150844289.92609826) -->
+<!-- 1.	Goring, S., K.S. Whitney, EM Bruna, A. L. Jacob, and T. Poisot. Ten Simple Rules to Make Scientific Content More Accessible. Preprint at: DOI: [10.22541/au.150844289.92609826](https://doi.org/10.22541/au.150844289.92609826) -->
 
-<!-- 1.	Tolentino,M., M. Anciães, E. M. Bruna, and M. Uriarte. **_In revision*. Local and landscape factors mediate reproductive success of _Heliconia acuminata_ in a fragmented landscape. **_Landscape Ecology_**.  -->
+<!-- 1.	Tolentino,M., M. Anciães, EM Bruna, and M. Uriarte. **_In revision*. Local and landscape factors mediate reproductive success of _Heliconia acuminata_ in a fragmented landscape. **_Landscape Ecology_**.  -->
 
-<!-- 1.	Corrêa Côrtes, M., M. Uriarte, W. J. Kress, J. B. Illian, and E. M. Bruna. *In revision*. Why are the spatial distribution of individual plants and genotypes decoupled? A framework to assess the contribution of ecological interactions and environmental filtering. **_Ecology Letters_** [Ph.D. Thesis Chapter]. -->
+<!-- 1.	Corrêa Côrtes, M., M. Uriarte, W. J. Kress, J. B. Illian, and EM Bruna. *In revision*. Why are the spatial distribution of individual plants and genotypes decoupled? A framework to assess the contribution of ecological interactions and environmental filtering. **_Ecology Letters_** [Ph.D. Thesis Chapter]. -->
 
-<!-- 1.	Bruna, E. M. and W. Hahn. In preparation. Is Latin American ecology really on the rise? Cross-national patterns of productivity and collaboration by Latin American scientists. In preparation for **_PLoS Biology_**. -->
+<!-- 1.	Bruna, EM and W. Hahn. In preparation. Is Latin American ecology really on the rise? Cross-national patterns of productivity and collaboration by Latin American scientists. In preparation for **_PLoS Biology_**. -->
 
-<!-- 1.	Rubim, P., D. M. S. Matos, M. Uriarte, and E. M. Bruna. Local density influences the growth of seedlings of an Amazonian understory herb. In preparation for **_Biotropica_** [Ph.D. Thesis Chapter]. -->
+<!-- 1.	Rubim, P., D. M. S. Matos, M. Uriarte, and EM Bruna. Local density influences the growth of seedlings of an Amazonian understory herb. In preparation for **_Biotropica_** [Ph.D. Thesis Chapter]. -->
 
-<!-- 1.	Loiselle, B. A., E. M. Bruna, R. Buschbacher, and S. Athayde. In prep. How can Brazilian Studies and partnerships with Brazilian institutions shape the perception of Tropical Conservation & Development issues at US universities? Lessons from the University of Florida. Brazilian Studies in the United States: The road ahead. Yale University, FGV, and The Ministry of Education in Brazil. -->
+<!-- 1.	Loiselle, B. A., EM Bruna, R. Buschbacher, and S. Athayde. In prep. How can Brazilian Studies and partnerships with Brazilian institutions shape the perception of Tropical Conservation & Development issues at US universities? Lessons from the University of Florida. Brazilian Studies in the United States: The road ahead. Yale University, FGV, and The Ministry of Education in Brazil. -->
 
-<!-- 1.	Rubim, P. R., M. Uriarte, O. Ferreira, and E. M. Bruna. Neighborhood effects and the reproductive effort of a tropical perennial herb. In preparation for **_Ecology_** [Ph.D. Thesis Chapter]. -->
+<!-- 1.	Rubim, P. R., M. Uriarte, O. Ferreira, and EM Bruna. Neighborhood effects and the reproductive effort of a tropical perennial herb. In preparation for **_Ecology_** [Ph.D. Thesis Chapter]. -->
 
-<!-- Altomare de Paula, M., E. M. Bruna, and H. L. Vasconcelos. The phylogenetic diversity of plant communities in response to anthropogenic disturbances and non-native species in a Neotropical savanna. -->
+<!-- Altomare de Paula, M., EM Bruna, and H. L. Vasconcelos. The phylogenetic diversity of plant communities in response to anthropogenic disturbances and non-native species in a Neotropical savanna. -->
 <!-- ### WEB PAGES AND OTHER FORMS OF DIGITAL COMMUNICATION -->
 
 <!-- 1. Over 30 Wikipedia pages edited with students as part of graduate and undergraduate courses in Plant Animal Interactions and Tropical Ecology. Complete at: http://en.wikipedia.org/wiki/User:Embruna -->
@@ -849,7 +875,8 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 \textbf{\textcolor{darkmidnightblue}{\large{COURSE DEVELOPMENT \& TEACHING EXPERIENCE }}}\xrfill[0.5ex]{1pt}
 
 <!-- ## COURSE DEVELOPMENT & TEACHING EXPERIENCE -->
-\vspace{-0.2cm}
+\vspace{-0.4cm}
+
 ### Undergraduate Courses, University of Florida 
 \vspace{-0.2cm}
 \begingroup 
@@ -902,6 +929,8 @@ Social Media Workshop (2016)
 \vspace{0.2cm}
 \textbf{\textcolor{darkmidnightblue}{\large{STUDENT \& POSTDOCTORAL MENTORSHIP }}}\xrfill[0.5ex]{1pt}
 
+\vspace{-0.4cm}
+
 <!-- ## STUDENT & POSTDOCTORAL MENTORSHIP -->
 
 ### GRADUATE STUDENTS ADVISED
@@ -935,27 +964,27 @@ kbl(grad_advised,digits = 1,
   sub("\\\\bottomrule", "", .)
 ```
 \vspace{-0.2cm}
-_Students under my supervision have been awarded over $35,000 in grants to support their research and been the recipients of prestigious fellowships and awards to support their studies:_ 
+_Students under my supervision have been awarded over $75,000 in grants and awards in support of their research, teaching, and outreach and been the recipients of the following fellowships to support their studies:_ 
 
-* Priyanka Hari Haran: Research Grants from the ATBC, UF-SNRE, & UF-TCD 
-*	FLAS Fellowship (S. Parsons)
-*	NSF Predoctoral Fellowships (M. Trager, S. Copeland)
-*	UF IGERT Fellowship (C. Lucas)
-*	Inter-American Foundation Grassroots Development Fellowship (C. Lucas)
-*	UF Alumni Fellowship (M. Trager)
-*	Fulbright Fellowship (A. Neto)
-*	Science Without Borders Doctoral Fellowship (E. V. Neto, F. Mundim).
-*	NSF Doctoral Dissertation Enhancement Grant (C. Lucas)
-*	UF-WEC Jennings Scholarship (A. Neto, M. Trager, F. Mundim, G. Iacona) 
-*	UF-CALS Doris Lowe & Earl & Verna Lowe Scholarship (C. Lucas, E. V. Neto). 
+*	NSF Predoctoral Fellowships (M Trager, S Copeland)
+*	NSF Doctoral Dissertation Enhancement Grant (C Lucas)
+*	Inter-American Foundation Grassroots Development Fellowship (C Lucas)
+*	Fulbright Fellowship (A Neto) 
+*	Science Without Borders Doctoral Fellowship (E V Neto, F Mundim) 
+*	FLAS Fellowship (S Parsons)
+*	UF NSF IGERT Fellowship (C Lucas)
+*	UF Alumni Fellowship (M Trager) 
+*	UF Jennings Scholarship (A Neto, M Trager, F Mundim, G Iacona) 
+*	UF Doris Lowe & Earl & Verna Lowe Scholarship (P Hariharan, C Lucas, E V Neto) 
+* UF Grinter Fellowship (P Hariharan)
+* UF William C and Bertha M Cornett Fellowship (P Hariharan)
 
 _Research by my students has also been recognized for its excellence:_ 
 
+* Priyanka Hariharan: ATBC Navjot Sodhi Conservation Research Award (2024), UF CALS International Student Outstanding Achievement Award (2022)
 * Thomas Smith: Best Student Presentation, IALE-NA Annual Meeting (2022)
-*	Fabiane Mundim: UF-IFAS High-Impact Publication (2021)
-*	Fabiane Mundim: WEC High-Impact Publication (2016)
+*	Fabiane Mundim: UF IFAS High-Impact Publication (2021), UF WEC High-Impact Publication (2016), Honorable Mention, OTS Outstanding Paper Competition (2012)
 *	Ana Cecilia Silva: Honorable Mention, Charles Wood Thesis Award, UF-LATAM (2015)
-*	Fabiane Mundim: Honorable Mention, OTS Outstanding Paper Competition (2012)
 *	Christine Lucas: Marianne Schmink Outstanding Dissertation Award, UF-TCD (2012)
 *	Ernane Vieira Neto: E. Lucy Braun Outstanding Poster Award, ESA Annual Meeting (2011)
 *	Shannon Moore: Best Presentation, UF High School Student Science Training Program Symposium (2010)
@@ -1253,7 +1282,7 @@ Field Research Grants Committee (2003-2004)
 
 Search Committee, ATBC Executive Director (2024-2025)  
 Search Committee, _Biotropica_ Editor-in-Chief (2024-2025)  
-Past-President (2022) 
+Past-President (2022)   
 Chair, Nominations Committee (2022)  
 President (2021)  
 Annual Meeting Program & Organizing Committees (2021)    
@@ -1322,7 +1351,7 @@ __Other reviewer service__: Red Line Editorial (2019, technical review of a K-12
 <!-- xrfill adjusts line position and width -->
 \vspace{0.2cm}
 \textbf{\textcolor{darkmidnightblue}{\large{SEMINARS, OUTREACH, \& MEDIA APPEARANCES }}}\xrfill[0.5ex]{1pt}
-
+\vspace{-0.4cm}
 <!-- ## SEMINARS & OUTREACH ACTIVITIES -->
 
 ### INVITED SEMINARS
