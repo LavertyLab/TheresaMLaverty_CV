@@ -397,17 +397,19 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 <!-- \begin{enumerate}[{start=7,label=[\arabic*]\addtocounter{enumi}{-2}}] -->
 
 <!-- \item  -->
-1. Ykeuti Meiga, AY,  ALJ Desbiez, RAP Dornas, A Giroux, EM Bruna, A Bertassoni, N Attias, V Hull, G Soresini, MH Alves, D Valle. Beyond deforestation: the impact of agricultural intensification on wildlife.  \textit{In review}, \textit{\textbf{Global Change Biology}}.
+
+<!-- Tropical Fragmentation Paper Victor Arroyo-Rodriguez et al -->
+1. Manning, M. G. Roberts,P. Hahn, J. Kahler, E. M. Bruna, M. Acevedo.  Sequencing foundational computational instruction in the life sciences.\textit{In review}, \textit{\textbf{Ecology and Evolution}
+
+1. Ykeuti Meiga, AY,  ALJ Desbiez, RAP Dornas, A Giroux, EM Bruna, A Bertassoni, N Attias, V Hull, G Soresini, MH Alves, D Valle. Beyond deforestation: the impact of agricultural intensification on wildlife.  \textit{In review}, \textit{\textbf{Journal for Nature Conservation}}.
+
+1. Scott, ER, M Uriartem EM Bruna. Context-dependent consequences of including delayed effects of climate in Integral Projection Models.  \textit{In revision}, \textit{\textbf{Journal of Ecology}}.
 
 1. Bruna, EM Declining contribution of the United States federal government to global research corpus. \textit{Preprint:} https://doi.org/10.31222/osf.io/4hfe9_v1
 
 1. Galmán, A.  \textit{et. al.} Beyond the mean: how plant growth-defense strategies influence intrapopulation variation in herbivory. \textit{In review}, \textit{\textbf{Ecology Letters}}.
 
-1. Mundim, FM., EVieira-Neto, GF Schneider, H Alborn, EM Bruna. Simultaneous and sequential herbivory dynamics: exploring plant defenses strategies amidst drought challenges. \textit{In review}, \textit{\textbf{Frontiers in Plant Science}}.
-
-1. Radhamoni, H, M Spicer; M Duguid, L Comita EM Bruna, A Andrade, J Beck, J Burton, H Chuquillanqui, D Cicuzza, M Dovciak, F Gilliam, K Greig, C Hale, C Hulshof, N Izlar, S Johnson, J LaManna, D Matlaga, D Melly, A Menzmer, K Miller, G Moulatlet, J Myers, J Sah, M Vaz, A Wassel, S Wessel, J Yin, A Zuluaga, S Queenborough. Herbaceous plants in forest ecosystems: One hundred fundamental and applied questions. \textit{In review}, \textit{\textbf{Journal of Vegetation Science}}.  
-
-1. R J Fletcher, Jr, TAH Smith, M Jones, F Schellenberg, R Payne, N Kortessis, EM Bruna, and RD Holt. Landscape quality drives ecological change in habitat fragmentation experiments. \textit{In revision}, \textit{\textbf{Nature Ecology \& Evolution}}.  
+1. Mundim, FM., EVieira-Neto, GF Schneider, H Alborn, EM Bruna. Simultaneous and sequential herbivory dynamics: exploring plant defenses strategies amidst drought challenges. \textit{In review}, \textit{\textbf{Frontiers in Plant Science}}. 
 
 1. Resende Rodrigues, D, YR Bovolenta, EM Bruna, JA Pimenta, E Bianchini. Coexistence of understory tree species via architecture differentiation in the Atlantic Forest of southern Brazil. \textit{In review}, \textit{\textbf{Tropical Ecology}}.
 
@@ -439,9 +441,15 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 **_Note regarding coauthorship on publications by lab members:_** _I am not a coauthor on papers by lab members, including publications that result from side projects or thesis chapters, as I consider mentorship regarding study development and design, analyses, and manuscript preparation fundamental to my role as their advisor. A list of the publications by lab members on which I am not a coauthor can be found below._ 
 
+1. Radhamoni, H, M Spicer; M Duguid, L Comita EM Bruna, A Andrade, J Beck, J Burton, H Chuquillanqui, D Cicuzza, M Dovciak, F Gilliam, K Greig, C Hale, C Hulshof, N Izlar, S Johnson, J LaManna, D Matlaga, D Melly, A Menzmer, K Miller, G Moulatlet, J Myers, J Sah, M Vaz, A Wassel, S Wessel, J Yin, A Zuluaga, S Queenborough. \textit{In press}. Herbaceous plants in forest ecosystems: One hundred fundamental and applied questions. \textit{\textbf{Journal of Vegetation Science}}.  
+
+1. R J Fletcher, Jr, TAH Smith, M Jones, F Schellenberg, R Payne, N Kortessis, EM Bruna, and RD Holt. 2026. Landscape quality drives ecological change in habitat fragmentation experiments. \textit{\textbf{Nature Ecology \& Evolution}}.  
+
 1. DS Mason, KM Robertson, PG Hahn, EM Bruna, JL  Willis, and MA Lashley. 2026. Fire promotes passive directed seed dispersal by birds. \textit{\textbf{Current Biology}} 36(1):28–37. https://doi.org/10.1016/j.cub.2025.11.014 **_Data:_** [Dryad](https://doi.org/10.5061/dryad.tqjq2bw77)
 
 1. Smith, TAH, RD Holt, EM Bruna, \& RJ Fletcher Jr. 2025. Isolating the role of the matrix at patch and landscape scales. \textit{\textbf{Journal of Animal Ecology}} 94:1800–1810. https://doi.org/10.1111/1365-2656.70089 **_Data:_** [Dryad](https://doi.org/10.5061/dryad.kprr4xhh6)
+
+1. Altomare de Paula, M., EM Bruna, KC Ferreira Neves, ER Borges, I Oliveras Menor, JA do Prado Júnior, HL Vasconcelos. \textit{In press.} The phylogenetic diversity of plant communities in response to anthropogenic disturbances and non-native species in a Neotropical savanna. \textit{\textbf{Annals of Botany}}.  
 
 1. JL Hyde, C Swanson, SA Bohlman, S Athayde, EM Bruna, and DR Valle 2025. A lack of open data standards for large infrastructure project hampers social-ecological research in the Brazilian Amazon. \textit{\textbf{PeerJ}} 13:e19926 https://doi.org/10.7717/peerj.19926
 
@@ -542,7 +550,7 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 15.	Bruna, EM 2014 On identifying rising stars in biology. **_Bioscience_** 64(3):169.  
 
-26. Girão, LC, AV Lopes, M Tabarelli, and EM Bruna. 2014. Mudanças em atributos reprodutivos de árvores reduzem a diversidade funcional em uma paisagem fragmentada de floresta Atlântica pp. 145-174 in Serra Grande: Uma Floresta de ideas.  M. Tabarelli, A. V. Neto, I. R. Leal, and A. V. Lopes (Eds.).  Editora Universitároa da UFPE. Recife. [translation of Girão I 2007, _PLoS ONE_].  
+26. Girão, LC, AV Lopes, M Tabarelli, and EM Bruna. 2014. Mudanças em atributos reprodutivos de árvores reduzem a diversidade funcional em uma paisagem fragmentada de floresta Atlântica pp. 145-174 in Serra Grande: Uma Floresta de ideas.  M. Tabarelli, A. V. Neto, I. R. Leal, and A. V. Lopes (Eds.).  Editora Universitároa da UFPE. Recife. [translation of Girão _et al_. 2007, _PLoS ONE_].  
 
 26. Araújo, GM, AF Amaral, EM Bruna, and HL Vasconcelos. 2013. Fire drives the reproductive responses of herbaceous plants in a Neotropical swamp. **_Plant Ecology_** 214:1479-1484.  
 
@@ -578,6 +586,8 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 39. Laurance, WF, JLC Camargo, RCC Luizao, SG Laurance, SL Pimm, EM Bruna, PC Stouffer, GB Williamson, J Benitez-Malvido, HL Vasconcelos, KS Van Houtan, CE Zartman, SA Boyle, RK Didham, A Andrade, and TE Lovejoy. 2011. The fate of Amazonian forest fragments: A 32-year investigation. **_Biological Conservation_** 144:56-67. **_Highlighted as 'Exceptional' by the Faculty of 1000_**.  
 
 40. Pitman, NCA, J Widmer, CN Jenkins, G Stocks, L Seales, F Paniagua, and EM Bruna. 2011. Volume and geographical distribution of ecological research in the Andes and the Amazon, 1995-2008. **_Tropical Conservation Science_** 4:64-81.    
+
+1. Girão, LC, AV Lopes, M Tabarelli, and EM. Bruna. 2011. Changes in Tree Reproductive Traits Reduce Functional Diversity in a Fragmented Atlantic Forest Landscape. pp. 71-94 In: _Reproductive Physiology in Plants_ (P Stewart and S Globig, Eds). CRC Press. (reprint of Girão _et al_. 2007, _PLoS ONE_)
 
 41. Bruna, EM, JF Guimarães, CT Lopes, R Pacheco, KG Facure, FG Lemos, and HL Vasconcelos. 2010. Mammalia, Estação Ecologica do Panga, a Cerrado protected area in Minas Gerais state, Brazil. **_CheckList: Journal of Species Lists and Distribution_** 6:668-675.  
 
@@ -690,7 +700,7 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 
 ### ANNOUNCEMENTS, BOOK REVIEWS, \& CORRESPONDENCE
 
-1. Bruna, EM, Powers, JS and Lohmann, LG 2022. 2022 ATBC Honorary Fellows. _Biotropica_ 54:1521-1522. https://doi.org/10.1111/btp.13170 [Essay]  
+1. Bruna, EM, Powers, JS and Lohmann, LG 2022. 2022 ATBC Honorary Fellows. **_Biotropica_** 54:1521-1522. https://doi.org/10.1111/btp.13170 [Essay]  
 
 1.	KR Zamudio, A Kellner, C Serejo, MR de Britto, CB Castro, PA Buckup, DO Pires, M Couri, A Brilhante Kury, I Azevedo Cardoso, ML Monné, J Pombal Jr, C Mello Patiu, V Padula, A Dias Pimenta, R Ventura, E  Hajdu, J Zanol, EM Bruna, J Fitzpatrick, LA Rocha. 2018. Lack of support for Science and Education Fails Brazilian Society - Again. **_Science_** 361(6409): 1322-1323. [Correspondence] 
 
@@ -736,6 +746,9 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 ### PUBLICATIONS \& BOOK CHAPTERS WRITTEN BY MENTEES DURING THEIR LAB TENURE 
 
 **_See co-authorship philosophy above; ^GS^Graduate Student,^PD^Postdoctoral Researcher, ^VS^Visiting Student_** 
+1. Sridhar, H, J Chanam, \& ^GS^P Hariharan. 2026. Spark, Scaffold, Substrate: The Multiple Hidden Roles of Natural History in Ecology and Evolutionary Biology. **_The American Naturalist_**. 208(3).
+
+1. Ramesh, V, ^GS^P Hariharan, PR Gupte _et al._ 2025. Grassland bird species decline with colonial-era landscape change in a tropical montane ecosystem. _Global Change Biology_ 31(7): e70358. https://doi.org/10.1111/gcb.70358.
 
 1. Ramesh, V, ^GS^P Hariharan, PR Gupte, AV Mohan, VA Akshay, A Rajan, C Das, I Lockwood, VV Robin, MW Tingley, \& R DeFries. 2025. Grassland bird species decline with colonial-era landscape change in a tropical montane system. **_Global Change Biology_**. 31(7), e70358. https://doi.org/10.1111/gcb.70358
 
@@ -850,7 +863,7 @@ the impacts of ecological restoration on faunal biodiversity in the Western Ghat
 
 <!-- 1.	Rubim, P. R., M. Uriarte, O. Ferreira, and EM Bruna. Neighborhood effects and the reproductive effort of a tropical perennial herb. In preparation for **_Ecology_** [Ph.D. Thesis Chapter]. -->
 
-<!-- Altomare de Paula, M., EM Bruna, and H. L. Vasconcelos. The phylogenetic diversity of plant communities in response to anthropogenic disturbances and non-native species in a Neotropical savanna. -->
+
 <!-- ### WEB PAGES AND OTHER FORMS OF DIGITAL COMMUNICATION -->
 
 <!-- 1. Over 30 Wikipedia pages edited with students as part of graduate and undergraduate courses in Plant Animal Interactions and Tropical Ecology. Complete at: http://en.wikipedia.org/wiki/User:Embruna -->
@@ -874,7 +887,7 @@ the impacts of ecological restoration on faunal biodiversity in the Western Ghat
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}  
-The Future of Rain Forests (Quest 2 & General Education, 2021-2023,2025)  
+The Future of Rain Forests (General Education & UF Quest Program, 2021-2023,2025-2026)  
 Ecology and Conservation of Tropical Wildlife (biannually 2003-11 & 2012-2014,2018)  
 
 \endgroup 
@@ -897,11 +910,11 @@ Social Media Workshop (2016)
 
 \endgroup 
 \vspace{-0.2cm}
-### Guest Lectures, Field Courses, & Teaching as Visiting Faculty
+### Guest Lectures, Participation in Field Courses, & courses taught as Visiting Faculty
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}  
-**University of Florida:** _UF SACNAS CV Workshop_ (2023, 2024, 2025), _The Professional Scientist_ (WIS 6934: 2021, 2022), _Diverse Perspectives in Conservation_ (WIS4934: 2021, 2022, 2025), _Human Footprint on the Landscape_ (GEO3352: 2019), _Facets of Sustainability_ (IDS2154: 2011, 2013), _Environmental Planning & Design_ (EES 6051: 2016, 2018), _The Amazon_ (LAS6290: 2009, 2011), _Design & Methods of Research in Latin American Studies_ (Graduate, 2019, 2020), _Discovering Research & Communicating Science_ (IDH3931: 2015), _Wildlife Techniques_ (WIS4945C: 2005), _Development Theory & Practice_ (LAS6938: 2010), _Wildlife Population Modeling_ (WIS6466: 2003, 2006, 2008, 2010), _Principles of Wildlife Ecology & Conservation_ (WIS6934: 2008), _Luso-Brazilian Civilization_ (POW3500: 2004)  **Yale**: Tropical Forest Ecology & Conservation (2024), **Michigan State University** _Decolonizing EEB_ (2024), **INPA:** _Population Ecology_ (2002, 2003), Community Ecology (2002), **OTS**: _3M Field Course_ (2001), _Amazonian Ecosystems Field Course_ (2001), **Antioch College**: Semester Abroad in Brazil (1999, 2001), **Univ. Federal do Amazonas**: _Fragmented Landscapes Field Course_ (2000, 2002), **Univ. Federal de Uberlândia**: _Mechanisms of Species Coexistence_ (Graduate Course, 2006), _Data Management & Archiving_ (Graduate Course, 2012, 2014), _Scientific Publishing_ (Graduate Course, 2011)  
+**University of Florida:** _Data Management Workshop - LAS Annual Conference_ (2026), _UF SACNAS CV Workshop_ (2023, 2024, 2025), _The Professional Scientist_ (WIS 6934: 2021, 2022), _Diverse Perspectives in Conservation_ (WIS4934: 2021, 2022, 2025), _Human Footprint on the Landscape_ (GEO3352: 2019), _Facets of Sustainability_ (IDS2154: 2011, 2013), _Environmental Planning & Design_ (EES 6051: 2016, 2018), _The Amazon_ (LAS6290: 2009, 2011), _Design & Methods of Research in Latin American Studies_ (Graduate, 2019, 2020), _Discovering Research & Communicating Science_ (IDH3931: 2015), _Wildlife Techniques_ (WIS4945C: 2005), _Development Theory & Practice_ (LAS6938: 2010), _Wildlife Population Modeling_ (WIS6466: 2003, 2006, 2008, 2010), _Principles of Wildlife Ecology & Conservation_ (WIS6934: 2008), _Luso-Brazilian Civilization_ (POW3500: 2004)  **Yale**: Tropical Forest Ecology & Conservation (2024), **Michigan State University** _Decolonizing EEB_ (2024), **INPA:** _Population Ecology_ (2002, 2003), Community Ecology (2002), **OTS**: _3M Field Course_ (2001), _Amazonian Ecosystems Field Course_ (2001), **Antioch College**: Semester Abroad in Brazil (1999, 2001), **Univ. Federal do Amazonas**: _Fragmented Landscapes Field Course_ (2000, 2002), **Univ. Federal de Uberlândia**: _Mechanisms of Species Coexistence_ (Graduate Course, 2006), _Data Management & Archiving_ (Graduate Course, 2012, 2014), _Scientific Publishing_ (Graduate Course, 2011)  
  
 
 \endgroup 
@@ -1146,6 +1159,7 @@ kbl(lab_members3,digits = 1,
 \begingroup 
 \setlength{\leftskip}{.2cm}
 
+UF Quest Advisory Board (2026-present)  
 SEED Grant Committee, Artificial Intelligence & Informatics Research Institute (2026)  
 Search Committee, UF QUEST Program Director (2023)   
 Selection Committee, UF Undergraduate Faculty Mentor/Advisor of the Year (2022)  
@@ -1233,6 +1247,7 @@ Search & Screen Committee, Asst. Professor of Conservation Genetics, WEC (2004)
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
+Search Committee, TCD Program Director (2026)    
 Graduate Admissions Committee (2026)    
 Search & Screen Committee, Asst. Professor of Environmental Justice (2023)  
 Post-Tenure Review Committee (2023)  
@@ -1253,7 +1268,7 @@ LAS Graduate Admissions & Fellowship Committee (2007)
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
-Chair, Field Research Grants Committee (2024, 2020-2021, 2015, 2008-2010, 2004)  
+Chair, Field Research Grants Committee (2026, 2024, 2020-2021, 2015, 2008-2010, 2004)  
 Academic Advisor (2021-2022, 2008-11)  
 Steering Committee (2018-2024,2010-16, 2002-08)  
 Chair, Marianne Schmink Outstanding Dissertation Award Selection Committee (2022, 2013, 2011, 2010)  
@@ -1308,7 +1323,7 @@ Historical Records Committee (2022-2025)
 \begingroup 
 \setlength{\leftskip}{.2cm}
 
-External Tenure & Promotion Evaluations (N=23, 2011-present)  
+External Tenure & Promotion Evaluations (N=26, 2011-present)  
 <!-- 2024 (3) 2023 (3), 2022 (4), 2021 (2), 2020 (3), 2018 (2), 2017 (1), 2016 (3), 2015 (1), 2011 (1)   -->
 ASN/SSE/SSB Committee on Development a Professional Code of Ethics (2018-2019)  
 External Advisor, 2nd Planning Workshop, Brazilian Biodiversity & Ecosystem Services Synthesis Center (2018)  
@@ -1331,7 +1346,7 @@ UCSD Selection Committee, UC Tropical Biology Education Abroad Program (1994)
 
 **Subject Editor:** _PLOS Ecosystems_ (2025-Present), _Biotropica_ (2007-2019), _Ecology_ (2008-2012), _Ecological Monographs_ (2008-2012), _Ecological Applications_ (2008-2012).
 
-__*Ad hoc* journal referee (No. of reviews):__ *Trends in Ecology and Evolution* (1), *Nature Human Behavior* (1),*Nature Ecology & Evolution* (2), *Information, Communication,& Society* (1), _Acta Amazonica_ (1), *Ecology* (5), *Ecology and Evolution* (1),  *Methods in Ecology & Evolution* (1), *Conservation Biology* (5), *Biological Conservation* (7), *Ecological Applications* (1), *Oecologia* (4), *Journal of Tropical Ecology* (2), *Journal of Ecology* (6), *New Phytologist* (1), *American Naturalist* (3), *Plant Ecology* (3), *Proc. Roy. Soc. Lond. B* (1), *Journal of Applied Ecology* (1), *Biotropica* (14), *Ecography* (5), *Ciência y Cultura* (2), *Oikos* (1), *Revista Chilena de Historia Natural* (1), *Biochemical Systematics & Ecology* (1), *Ecology Letters* (2), *Insectes Sociaux* (1), *American J. of Botany* (1), *Scientometrics* (1), *F1000* (1), *Desenvolvimento e Meio Ambiente* (1), *PLoS Biology* (2), *PLoS ONE* (1), *Theoretical Ecology* (1), *Conservation Science & Practice* (1)
+__*Ad hoc* journal referee (No. of reviews):__ *Trends in Ecology and Evolution* (1), *Nature Human Behavior* (1),*Nature Ecology & Evolution* (3), *Information, Communication,& Society* (1), _Acta Amazonica_ (1), *Ecology* (5), *Ecology and Evolution* (1),  *Methods in Ecology & Evolution* (1), *Conservation Biology* (5), *Biological Conservation* (7), *Ecological Applications* (1), *Oecologia* (4), *Journal of Tropical Ecology* (2), *Journal of Ecology* (6), *New Phytologist* (1), *American Naturalist* (5), *Plant Ecology* (3), *Proc. Roy. Soc. Lond. B* (1), *Journal of Applied Ecology* (1), *Biotropica* (14), *Ecography* (5), *Ciência y Cultura* (2), *Oikos* (1), *Revista Chilena de Historia Natural* (1), *Biochemical Systematics & Ecology* (1), *Ecology Letters* (2), *Insectes Sociaux* (1), *American J. of Botany* (1), *Scientometrics* (1), *F1000* (1), *Desenvolvimento e Meio Ambiente* (1), *PLoS Biology* (2), *PLoS ONE* (1), *Theoretical Ecology* (1), *Conservation Science & Practice* (1), *Nature Communications* (1)
 
 __US National Science Foundation:__ Committee of Visitors, NSF Office of International Science & Engineering (2023), Proposal Review Panels: DEB Ecology (2005), DEB Population & Evolutionary Processes (2007), DEB Population & Community Ecology (2011, 2013). Ad-hoc proposal review: Division of Environmental Biology Core Programs (9), UMEB Program (2), RUI Program (1), AMERICAS Dissertation Improvement Grants (1), NSF Global Scientists & Engineers Program (1), International Research Fellowship Program (1),  Dimensions of Biodiversity Program (1)
 
@@ -1373,6 +1388,7 @@ kbl(talks,
 ### INTERVIEWS & MEDIA APPEARANCES  
 \begingroup 
 \setlength{\leftskip}{.2cm}
+2026\hspace{4mm}  [Daily Campus (UConn)](https://dailycampus.com/2026/02/09/how-habitat-fragmentation-and-climate-change-impact-tropical-plants/)   
 2024\hspace{4mm}  [Science News](https://www.sciencenews.org/article/invasive-ant-lion-dinner-trees-ecosystem), [Revista Piauí](https://piaui.folha.uol.com.br/materia/ciencia-recalcula-sua-rota/), _Science_     
 2023\hspace{4mm}  [_Nature_](https://www.nature.com/articles/d41586-023-00711-z), [Vox](https://www.vox.com/policy-and-politics/23593369/ron-desantis-florida-schools-higher-education-woke)   
 2022\hspace{4mm}  [NRC (The Netherlands)](https://www.nrc.nl/nieuws/2022/02/22/systeem-van-open-access-helpt-wetenschappers-uit-arme-landen-niet-a4092976), [Nature](https://www.nature.com/articles/d41586-022-00342-w), WIRED Magazine, [Fox News Business](https://www.foxbusiness.com/politics/university-professors-unhappy-desantis-accountability), [The Scientist](https://www.the-scientist.com/news-opinion/florida-faculty-await-details-on-new-tenure-law-69971),  
