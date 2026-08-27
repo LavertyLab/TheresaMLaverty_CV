@@ -1,13 +1,13 @@
 ---
 title: "Curriculum Vitae"
-author: "Emilio M. Bruna"
+author: "Theresa M. Laverty"
 date: "`r format(Sys.time(), '%B %Y')`"
 
-email: embruna@ufl.edu
-phone: "(352) 514-3935"
-web: www.BrunaLab.org
-github: embruna
-twitter: BrunaLab
+email: tlaverty@nmsu.edu
+phone: "(609) 515-3953"
+web: www.LavertyLab.org
+github: theresalaverty
+#twitter: BrunaLab
 
 # bibliography: ./emb_cv_modular/EMB_publications.bib
 # csl: brunacv.csl
@@ -25,7 +25,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyfoot[R]{`r format(Sys.time(), '%B %Y')`}
-- \fancyhead[R]{Emilio M. Bruna, p. \thepage}
+- \fancyhead[R]{Theresa M. Laverty, p. \thepage}
 - \fancyhead[L]{}
 - \usepackage{setspace}
 - \usepackage{parskip}
@@ -62,10 +62,9 @@ library(RefManageR)
 \thispagestyle{empty}  
 # FIRSTNAME MIDDLENAME LASTNAME
 \vspace{-0.3cm}  <!--space between name and address -->
-University of ----\hfill -----@ufl.edu  
-Dept. of -\hfill +1 (352) 846-xxxx  
-Center for ---- Studies\hfill&nbsp;[www.------.org](www.-----.org)  
-Gainesville, FL 32611-0430 USA\hfill&nbsp;[\@asasdad](https://twitter.com/asasd) 
+New Mexico ----\hfill -----@nmsu.edu  
+Dept. of -\hfill +1 (609) 515-xxxx  
+Las Cruces, NM 88003-8003 USA\hfill&nbsp;[www.------.org](www.-----.org)  
 \vspace{-0.5cm}  <!--there was too much space, so reduced it with minus: -Xcm -->
 <!-- ___   -->
 \par\noindent\rule{\textwidth}{0.4pt}
@@ -101,11 +100,10 @@ Gainesville, FL 32611-0430 USA\hfill&nbsp;[\@asasdad](https://twitter.com/asasd)
 
 
 
-2001\hspace{4mm} Ph.D. in Population Biology, University of California, Davis  
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;\hspace{6mm}  _Dissertation Co-Advisors: Susan P. Harrison and Sharon Y. Strauss_   -->
-1995\hspace{4mm} M.S. in Biology, University of California, San Diego  
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;\hspace{6mm} _Thesis Advisor: Ted J. Case_   -->
-1994\hspace{4mm} B.S. in Ecology, Behavior, & Evolution with a minor in Literature, University of California, San Diego  
+2019\hspace{4mm} Ph.D. in Fish, Wildlife, and Conservation Biology, Colorado State University  
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;\hspace{6mm}  _Dissertation Advisor: Joel Berger_   -->
+2010\hspace{4mm} B.A. in Ecology and Evolutionary Biology, Princeton University 
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;\hspace{6mm} _Thesis Advisor: Andrew P. Dobson_   -->
 
 \endgroup 
 

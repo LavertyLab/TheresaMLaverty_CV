@@ -1,10 +1,10 @@
 ---
 title: "pub_list"
-author: "Emilio M. Bruna"
-date: "12/1/2021"
+author: "Theresa M. Laverty"
+date: "8/21/2026"
 output: pdf_document
 # output: html_document
-bibliography: EMB_publications.bib
+bibliography: TML_publications.bib
 # csl: ecology.csl
 csl: journal-of-applied-ecology.csl
 # csl: biotropica.csl

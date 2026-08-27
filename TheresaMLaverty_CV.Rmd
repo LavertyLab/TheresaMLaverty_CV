@@ -1,16 +1,16 @@
 ---
 title: "Curriculum Vitae"
-author: "Emilio M. Bruna"
+author: "Theresa M. Laverty"
 date: "`r format(Sys.time(), '%B %Y')`"
 
-web: www.BrunaLab.org
-github: embruna
-twitter: BrunaLab
-phone: "(352) 514-3935"
-email: embruna@ufl.edu
+web: www.LavertyLab.org
+github: theresalaverty
+#twitter: BrunaLab
+phone: "(609) 515-3953"
+email: tlaverty@nmsu.edu
 
-bibliography: ./emb_cv_modular/EMB_publications.bib
-csl: brunacv.csl
+bibliography: ./emb_cv_modular/TML_publications.bib
+csl: lavertycv.csl
 
 updated: yes
 
@@ -27,7 +27,7 @@ header-includes:
 - \pagestyle{fancy} # cues the use of fancy headers
 - \fancyfoot{} # cues the use of fancy footer
 - \fancyfoot[R]{`r format(Sys.time(), '%B %Y')`} # month & year on footer right
-- \fancyhead[R]{Emilio M. Bruna, p. \thepage} # name and page on header right
+- \fancyhead[R]{Theresa M. Laverty, p. \thepage} # name and page on header right
 # - \fancyhead[L]{\hl{Highlighting indicates items in the 2021-2025 PTR period}} # name and page on header left
 - \usepackage{setspace} # manipulate line spacing 
 - \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
@@ -82,12 +82,12 @@ library(RefManageR)
 \thispagestyle{empty}
 
 \vspace{-0.3cm}  <!--space between name and address -->
-# EMILIO MIGUEL BRUNA
+# THERESA MARIE LAVERTY
 \vspace{-0.3cm}  <!--space between name and address -->
-University of Florida\hfill embruna@ufl.edu  
-Dept. of Wildlife Ecology & Conservation &\hfill +1 (352) 846-0634  
-Center for Latin American Studies\hfill&nbsp;[www.BrunaLab.org](www.brunalab.org)  
-Gainesville, FL 32611-0430 USA\hfill&nbsp;[Github.com/BrunaLab](https://github.com/BrunaLab)
+New Mexico State University\hfill tlaverty@nmsu.edu  
+Dept. of Fish, Wildlife and Conservation Ecology\hfill +1 (609) 515-3953  
+2980 South Espina Street, Knox Hall 132\hfill&nbsp;[www.LavertyLab.org](www.lavertylab.org)  
+Las Cruces, NM 88003-8003 USA\hfill&nbsp;[Github.com/LavertyLab](https://github.com/LavertyLab)
 \vspace{-0.5cm}  <!--there was too much space, so reduced it with minus: -Xcm -->
 <!-- ___   -->
 <!-- \par\noindent\rule{\textwidth}{0.4pt} -->
@@ -99,7 +99,7 @@ Gainesville, FL 32611-0430 USA\hfill&nbsp;[Github.com/BrunaLab](https://github.c
 \vspace{0.1cm}
 \textbf{\textcolor{darkmidnightblue}{\large{RESEARCH \& TEACHING INTERESTS }}}\xrfill[0.5ex]{1pt}
 
-Tropical ecology and conservation, plant population ecology, demographic modeling, plant-animal interactions, scientometrics and bibliometrics, science & science policy in Latin America
+Vertebrate ecology and conservation, population and community ecology, food web ecology, dryland ecology and management, demographic modeling, bibliometics 
 
 <!-- \textbf{\textcolor{darkmidnightblue}{LANGUAGES:}} Fluent in Spanish, English, & Portuguese   -->
 <!-- \vspace{-0.6cm}   -->
@@ -136,11 +136,10 @@ Tropical ecology and conservation, plant population ecology, demographic modelin
 
 
 
-**Ph.D. in Population Biology**, University of California, Davis  \hfill 2001  
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;\hspace{6mm}  _Dissertation Co-Advisors: Susan P. Harrison and Sharon Y. Strauss_   -->
-**M.S. in Biology**, University of California, San Diego  \hfill 1995  
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;\hspace{6mm} _Thesis Advisor: Ted J. Case_   -->
-**B.S. in Ecology, Behavior, & Evolution**, Revelle College,  University of California, San Diego  \hfill 1994  
+**Ph.D. in Fish, Wildlife, and Conservation Biology**, Colorado State University  \hfill 2019  
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;\hspace{6mm}  _Dissertation Advisor: Joel Berger_   -->
+**B.A. in Ecology and Evolutionary Biology**, Princeton University  \hfill 2010  
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;\hspace{6mm} _Thesis Advisor: Andrew P. Dobson_   -->
 
 \endgroup 
 
@@ -179,27 +178,14 @@ Tropical ecology and conservation, plant population ecology, demographic modelin
 \begingroup 
 \setlength{\leftskip}{.2cm} 
 \setlength{\rightskip}{1cm} 
-\textbf{Professor \& Distinguished Teaching Scholar}, University of Florida  
-Department of Wildlife Ecology and Conservation \& Center for Latin American Studies \hfill 2013-Present  
+\textbf{Assistant Professor}, New Mexico State University  
+Department of Fish, Wildlife and Conservation Ecology \hfill 2023-Present  
 
-\textbf{Secretary}, Ecological Society of America  \hfill 2022-2025  
+\textbf{Postdoctoral Scholar}, University of Chicago  
+Department of Ecology and Evolution \hfill 2021-2022  
 
-\textbf{President}, Association for Tropical Biology \& Conservation   \hfill 2020-2021  
-
-\textbf{Director}, Florida-Brazil Linkage Institute, University of Florida  \hfill 2012-2021  
-
-**Editor-in-Chief**, _Biotropica_   \hfill 2013-2019
-
-**Board of Directors**, Dryad Digital Data Repository   \hfill 2014-2020  
-
-**Adjunct Professor**, Universidade Federal de Uberlândia, Brazil   \hfill 2005-2020  
-
-**Associate Professor**, University of Florida  \hfill 2007-2013  
-
-**Assistant Professor**, University of Florida  \hfill 2002-2007  
-
-**NSF Minority Postdoctoral Fellow**, Biological Dynamics of Forest Fragments Project   \hfill 2001-2002  
-Instituto Nacional de Pesquisas da Amazônia-Smithsonian Institution  
+\textbf{Postdoctoral Scholar}, Colorado State University   
+Department of Fish, Wildlife and Conservation Ecology \hfill 2019-2021  
 
 \endgroup
 <!-- ```{r positions, echo=FALSE,message = FALSE,warning=FALSE} -->
@@ -243,19 +229,7 @@ Instituto Nacional de Pesquisas da Amazônia-Smithsonian Institution
 \begingroup 
 \setlength{\leftskip}{.3cm} 
 \setlength{\rightskip}{1cm} 
-Fellow of the American Association for the Advancement of Science \hfill 2022   
-Alpha Zeta (Faculty Affiliate UF Chapter) \hfill 2020  
-Roche Teaching Scholar, UF College of Agricultural & Life Sciences \hfill 2020  
-Sigma Xi (Full Member UF Chapter) \hfill 2016  
-University of Florida Academy of Distinguished Teaching Scholars \hfill 2014  
-Outstanding Paper Award, US Chapter of the International Association for Landscape Ecology \hfill 2012  
-Graduate Advisor & Teacher of the Year, UF College of Agricultural & Life Sciences \hfill 2011  
-University of Florida Research Foundation Professor \hfill 2009  
-Julie S. Denslow Prize for the Outstanding article in _Biotropica_ \hfill 2007  
-UF International Educator of the Year (Untenured Faculty category) \hfill 2005  
-Diversity Scholar, American Institute for Biological Sciences \hfill 2003  
-John L. Harper Early Career Researcher Award, British Ecological Society \hfill 2002  
-Ernest C. Mort Leadership Excellence Award, Revelle College, UC San Diego \hfill 1994  
+Outstanding Departmental Publication Award, Colorado State University for the article in _BioScience_ \hfill 2021  
 
 \endgroup
 
@@ -272,18 +246,7 @@ Ernest C. Mort Leadership Excellence Award, Revelle College, UC San Diego \hfill
 \begingroup 
 \setlength{\leftskip}{.3cm} 
 \setlength{\rightskip}{1cm} 
-Edward P. Bass Distinguished Visiting Environmental Scholar, Yale University \hfill 2024  
-*Ciência Sem Fronteiras* Special Visiting Researcher Fellowship, CNPq Brazil \hfill 2012  
-Fulbright Scholar, Brazil \hfill 2009  
-Visiting Researcher Fellowship, CNPq Brazil \hfill 2009  
-NSF Minority Postdoctoral Research Fellowship \hfill 2001  
-NSF International Research Fellowship *(declined)* \hfill 2001  
-Ford Foundation Dissertation Year Fellowship \hfill 2000  
-UC Davis Graduate Studies Fellowship \hfill 1999  
-UC Davis John F. Steindler Graduate Fellowship \hfill 1998  
-NSF Minority Predoctoral Research Fellowship \hfill 1995  
-Howard Hughes Senior Honors Thesis Fellowship \hfill 1993  
-UCSD Howard Hughes Summer Research Fellowship \hfill 1993  
+NSF Graduate Research Fellowship \hfill 2013  
 
 \endgroup
 
@@ -296,81 +259,25 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 \begingroup 
 \setlength{\leftskip}{.2cm}  
 
-1. National Science Foundation. _"OPUS: Is habitat fragmentation detrimental or beneficial? Promoting our understanding of a contentious ecological question via synthesis."_ ($245,385, PI: EM Bruna)  
+1. New Mexico Department of Wildlife. _"Acoustic surveys of bat species of greatest conservation need within wind energy-impacted landscapes of New Mexico"_ ($114,066; PI: TM Laverty; 2027-2029)  
 
-1. UF Faculty Enhancement Opportunity Program _"Application of artificial intelligence for the study of tropical plant demography"_ ($31,159.03, Spring 2025).
+1. National Science Foundation. _"LTER: Advancing ecological understanding of drylands through integrated research at the Jornada Basin (JRN-8)"_ ($7,649,997 [% credit]; PI: NP Hanan, Co-PIs: BT Bestelmeyer, S Bestelmeyer, DM Browning, F Garcia-Pichel, TM Laverty, GE Maurer, ME Mauritz-Tozer, GS Okin, N Pietrasiak, SC Reed, AL Romero-Olivares, OE Sala, RL Schooley, ER Vivoni; 2025-2031).
 
-1. Maxwell-Hanrahan Foundation. _"Support for the ATBC Field Grant Program"_ (PIs EM Bruna, P Sampaio, L Lohmann: $10,000 for 2022-2023, renewed 2023-2026 for $45,000)
+1. Arizona Game and Fish Department. _"Movement ecology of bats with Motus"_ ($100,000; PI: TM Laverty; 2025)
 
-1. Maxwell-Hanrahan Foundation. _"Support for the UF TCD Seed Grant Program"_ ($10,000; PIs EM Bruna, B Loiselle: $10,000 for 2022-2023, renewed 2023-2026 for $45,000)
+1. Bureau of Land Management. _"Identifying barriers to pronghorn (Antilocapra americana) habitat connectivity in southwestern New Mexico in relation to rangeland management and renewable energy development"_ ($502,843 [30% credit]; PI: JW Cain, Co-Pis: JK Frey, TM Laverty; 2024-2028)
 
-1. Sloan Foundation. _"Reinventing Field Courses"_ ($74,060; PI: EM Bruna, Co-PIs: R McCleery, P Antonenko, N Attias, D Barton, 2020-2021)
+1. National Science Foundation. _"BRC-BIO: The interactive effects of bats and insects on shrub encroachment dynamics in the Chihuahuan Desert"_ ($497,568; PI: TM Laverty, 2024-2027)
 
-2. National Science Foundation. _"SG: Synergistic effects of forest fragmentation and droughts on tropical plant population dynamics"_ ($199,904; PI: EM Bruna, Co-PIs: M. Uriarte, 2020-2022).
+2. National Park Service. _"Determining activity patterns within and seasonal movements between protected areas in the southwest borderlands for bats of greatest conservation need"_ ($54,884; PI: TM Laverty; 2024-2025; renewed 2026 for $42,500).
 
-3. National Science Foundation. _"REU Supplement for SG: Synergistic effects of forest fragmentation and droughts on tropical plant population dynamics"_ ($14,400; PI: EM Bruna, Co-PIs: M Uriarte, 2021).
+3. Bureau of Land Management. _"Influence of Wind Energy Development on Medium and Large Mammals"_ ($248,609 [50% credit]; PI: JK Frey, Co-PI: TM Laverty, 2023-2025; with an additional $5,800 awarded in 2024).
 
-3. National Science Foundation. _"The role of the matrix in fragmented landscapes: experimental tests and novel theory"_ ($548,058; PI: R Fletcher, Co-PIs: EM Bruna, RD Holt, and B Reichert, 2018-2023)  
+3. New Mexico Department of Game and Fish. _"Seasonal abundance, population structure, and diet of long-nosed bats in southwestern New Mexico in relation to contemporaneous food availability"_ ($49,839; PI: K Stoner, Co-PI: TM Laverty; 2020-2022
 
-4. UF Informatics Institute SEED Funds: _"Cross-National Patterns of Productivity & Collaboration by Latin American Scientists"_ ($20,000, PI: EM Bruna, Co-PIs: S Perz, C McCarty).
+4. Grants for Graduate Research: NSF Graduate Research Fellowship, Bat Conservation International Student Research Scholarship for Global Bat Conservation Priorities, National Geographic Society Young Explorers Grant, Sigma Xi Grant-In-Aid of Research, The Explorers Club Exploration Fund, University of Montana (Fred H. Mass Scholarship, Danny On Memorial Scholarship, George and Mildred Cirica Graduate Student Support Fund [declined]), and Colorado State University (Eugene Decker Fellowship, Hill Memorial Fellowship, WCNR Student Success Scholarship) (Total: $149,450; 2013-2019).
 
-5. Mindlin Foundation. _"Who are the Gatekeepers of Discovery? A crowdsourced project to ID & map the editors of academic journals"_ ($3633, 2017-2018).
-
-5. National Geographic Global Exploration Fund. _"Experimental climate change in the Amazon: How will rising CO2 influence plants, insects, and their interactions?"_ ($19,970, PI: EM Bruna, Co-PIs H Vasconcelos, F Mundim, D Lapola).
-
-5. John Wiley and Sons. _"Funds to support the Biotropica Editorial Office"_ ($199,945; 2014-2019).
-
-5. UF Center for Latin American Studies Faculty Travel Award ($1500, 2014)
-
-5. UF Center for Latin American Studies Speakers Program. _"Herton Escobar: Science Correspondent, Estado de São Paulo Newspaper"_ ($2000, including matching funds provided by the College of Journalism and Communications, the Tropical Conservation & Development Program, and Office of the VP for Research, 2014).
-
-5. UF IFAS Dean For Research, UF VP for Research, and FAPESP-Brazil. _"Support for 4 UF-FAPESP Collaborative Research Grants"_ ($160,000, 2013-2015).
-
-5. UF Center for Latin American Studies Faculty Research Award: _"Cross-national patterns of productivity and collaboration by Latin American ecologists"_ ($5450, 2012-2013).
-
-5. National Science Foundation: _"Doctoral Dissertation Enhancement Proposal: International: Carbon sequestration and tree biodiversity in Amazonian floodplain forests."_  ($11,000; OISE-0929183 to E. Bruna prepared by and for doctoral student Christine Lucas, 2010-2012).
-
-5. David and Lucile Packard Foundation. _"Nitrogen dynamics in Brazil's Cerrado"_ ($142,198, Grant 2008-32691 to E. Bruna and co-PIs M Mack and H Vasconcelos, 2009-2011).
-
-5. National Science Foundation. _"IGERT in Spatial Ecology & Evolution: Quantitative Training in Biology, Statistics, & Mathematics."_ ($2,958,113; PI: B Bolker; Co-PIs: E Bruna, C Osenberg, M Martcheva, & M Christman, 2008-2013).
-
-5. UF International Center. _"International Speakers Program: Dr. Claudio Padua, 2008 UF Distinguished Alumnus"_ ($1500, with $3500 in matching funds from Wildlife Ecology and Conservation, Latin American Studies, the Tropical Conservation & Development Program, and Institute for Agricultural & Life Sciences).
-
-5. US Department of Education Fund for the Improvement of Postsecondary Education (FIPSE). _"Energy, environment, and sustainable development: the central role of the United States and Brazil"_ ($202,329; PI: J. Kahn, Washington & Lee University; E. Bruna is UF Project Director; 2006-2010)
-
-5. National Science Foundation Collaborative Grant. _"Mechanisms influencing seedling recruitment and establishment in a fragmented Amazonian landscape"_ DEB-0614149 to E. Bruna ($230,888) and DEB-0614339 to M Uriarte, Columbia Univ. ($251,831; 2006-10).
-
-5. National Science Foundation Minority Career Advancement Award. _"Linking population and ecosystem ecology: how does nitrogen deposition influence plant demography in tropical savannas?"_ DEB-0542287 ($174,499; 2006-08).
-
-5. Joseph Jones Ecological Research Center. _"Productivity and Biodiversity Patterns: Control in a SE Coastal Plain Landscape (Support for the graduate studies of Gwen Iacona)."_ ($19,860; 2005-2007).
-
-5. National Science Foundation Collaborative Grant. _"Elucidating mechanisms of coexistence in a community of ant-plant mutualists"_.  DEB-0453631 to E Bruna ($245,096) & DEB-0452720 to B Inouye, FSU ($260,000; 2005-09).
-
-5. National Science Foundation Grant OISE-0437369.  _"U.S.-Brazil Collaborative Research: Seed predation and herbivory in Neotropical savannas: are there demographic consequences for plants?"_ ($25,012; 2005-2008).
-
-5.  Conselho Nacional de Desenvolvimento Científico e Tecnológico, Brazil. _"Top-down effects on the structure of Cerrado plant communities"_ (R$ 22,875.74, Co-PI, 2005-2007)
-
-5. Fundação de Amparo a Pesquisa do Estado de Minas Gerais, Brazil. _"Diversity and conservation of invertebrates in the "Triângulo Mineiro": a case study using ants as bioindicators"_ (R$12,924.13; Senior Collaborator, 2005-2007)
-
-5. Fundação de Amparo a Pesquisa do Estado de Minas Gerais, Brazil (Fapemig). _"Effect of herbivory by leaf-cutter ants on Cerrado vegetation"_ (R$25,229.74, Co-PI, 2004-2006)
-
-5. School for Natural Resources and the Environment New Faculty Support Program. _"Seed predation and herbivory in Neotropical savannas: are there demographic consequences for plants?"_ ($5,000; 2004)
-
-5. Alfred P. Sloan Foundation.  _"Increasing the number of minority PhDs studying Ecology at UF."_ ($32,440 and four-year Teaching Assistantships from the College of Agricultural and Life Sciences; 2004).
-
-5. National Science Foundation Research Starter Grant DEB-0309819.  _"The effect of forest fragmentation on ant-plant mutualisms."_ $50,585; 2003-2005).
-
-5. USAID Subcontract from IIEB.  _"Sustainable Communities and Landscapes: A proposed 	program to sustain natural ecosystems and enhance local livelihoods in Brazil's Amazon and Atlantic Forest regions"_ ($199,145; 10/01/03-9/30/07; PI: Marianne Schmink; EB and 5 other Co-PIs).
-
-5. Instituto Internacional de Educação do Brasil-SUNY International Development Group.  _"Training of young scientists in Amazonia: A new internship program at the Biological Dynamics of Forest Fragments Project."_ (R$21,000; co-PI Patricia Delamônica, 2001).
-
-5. National Science Foundation Minority Postdoctoral Research Fellowship DBI-0109226. _"The effect of forest fragmentation on ant-plant mutualisms"_ ($190,200; 2001).
-
-5. NSF Dissertation Improvement Grant INT 98-06351. _"Effect of habitat fragmentation on the growth, reproduction, and population dynamics of an Amazonian understory herb"_ ($17,600; 1998-2000).
-
-5. Grants for Graduate Research: Smithsonian Institution, Manomet Observatory Kathleen S. Anderson Award, Wilson Ornithological Society Paul A. Stewart Award, and UC Davis (M.E. Mathias Award, Graduate Studies Research Grant, Jastro-Shields Research Award, and Center for Population Biology Summer Research Grant (Total: $11860; 1996-1997).
-
-5. Grants for Undergraduate Research: Explorer's Club Grant, UCSD Undergraduate Scholastic Research Grant (Total: $1955; 1994-1995).
+5. Grants for Undergraduate Research: Princeton University (John T. Bonner Senior Thesis Fund and the Dean of the College Fund for undergraduate senior thesis research) (Total: $7,800; 2009).
 
 \endgroup
 
@@ -437,7 +344,7 @@ UCSD Howard Hughes Summer Research Fellowship \hfill 1993
 <!-- --- -->
 
  
-### PEER-REVIEWED PUBLICATIONS \& BOOK CHAPTERS}
+### PEER-REVIEWED PUBLICATIONS \& BOOK CHAPTERS
 
 **_Note regarding coauthorship on publications by lab members:_** _I am not a coauthor on papers by lab members, including publications that result from side projects or thesis chapters, as I consider mentorship regarding study development and design, analyses, and manuscript preparation fundamental to my role as their advisor. A list of the publications by lab members on which I am not a coauthor can be found below._ 
 
@@ -1438,7 +1345,8 @@ kbl(talks,
 
 \begingroup 
 \setlength{\leftskip}{.2cm}  
-Ecological Society of America, Association for Tropical Biology & Conservation, British Ecological Society, American Association for the Advancement of Science, International Society for Scientometrics & Infometrics  
+North American Society for Bat Research, Society for Conservation Biology, American Society of Mammalogists, Ecological Society of America, Association for Tropical Biology and Conservation, Global South Bats, Western Bat Working Group, The Wildlife Society 
+
 
 \endgroup
 
