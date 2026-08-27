@@ -246,7 +246,7 @@ Outstanding Departmental Publication Award, Colorado State University for the ar
 \begingroup 
 \setlength{\leftskip}{.3cm} 
 \setlength{\rightskip}{1cm} 
-NSF Graduate Research Fellowship \hfill 2013  
+NSF Graduate Research Fellowship \hfill 2013-2018  
 
 \endgroup
 
@@ -273,7 +273,7 @@ NSF Graduate Research Fellowship \hfill 2013
 
 3. Bureau of Land Management. _"Influence of Wind Energy Development on Medium and Large Mammals"_ ($248,609 [50% credit]; PI: JK Frey, Co-PI: TM Laverty, 2023-2025; with an additional $5,800 awarded in 2024).
 
-3. New Mexico Department of Game and Fish. _"Seasonal abundance, population structure, and diet of long-nosed bats in southwestern New Mexico in relation to contemporaneous food availability"_ ($49,839; PI: K Stoner, Co-PI: TM Laverty; 2020-2022
+3. New Mexico Department of Game and Fish. _"Seasonal abundance, population structure, and diet of long-nosed bats in southwestern New Mexico in relation to contemporaneous food availability"_ ($49,839; PI: K Stoner, Co-PI: TM Laverty; 2020-2022).
 
 4. Grants for Graduate Research: NSF Graduate Research Fellowship, Bat Conservation International Student Research Scholarship for Global Bat Conservation Priorities, National Geographic Society Young Explorers Grant, Sigma Xi Grant-In-Aid of Research, The Explorers Club Exploration Fund, University of Montana (Fred H. Mass Scholarship, Danny On Memorial Scholarship, George and Mildred Cirica Graduate Student Support Fund [declined]), and Colorado State University (Eugene Decker Fellowship, Hill Memorial Fellowship, WCNR Student Success Scholarship) (Total: $149,450; 2013-2019).
 
