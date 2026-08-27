@@ -10,7 +10,7 @@ phone: "(609) 515-3953"
 email: tlaverty@nmsu.edu
 
 bibliography: ./emb_cv_modular/TML_publications.bib
-csl: lavertycv.csl
+csl: brunacv.csl
 
 updated: yes
 
