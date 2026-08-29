@@ -303,8 +303,12 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 \vspace{0.2cm}
 \textbf{\textcolor{darkmidnightblue}{\large{PUBLICATIONS \& SCHOLARLY COMMUNICATION  }}}\xrfill[0.5ex]{1pt}
 <!-- ## PUBLICATIONS & SCHOLARLY COMMUNICATION -->
-\vspace{-0.4cm}
+<!-- \vspace{-0.4cm} -->
 
+**_Lab personnel: ^GS^Graduate Student, ^UG^Undergraduate Student; ^*^Co-First Author_** 
+<!-- ^PD^Postdoctoral Researcher, ^VS^Visiting Student -->
+
+\vspace{-0.4cm}
 ### PREPRINTS AND MANUSCRIPTS IN REVIEW or IN REVISION 
 
 <!-- \begin{enumerate}[{start=7,label=[\arabic*]\addtocounter{enumi}{-2}}] -->
@@ -312,7 +316,7 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 <!-- \item  -->
 1. Cooper MC, LaRue ZBT, Boeing WJ, Laverty TM, Fernald AG, Geli HME, Jones KW. Water conservation attitudes and behaviors in the arid southwestern United States.\textit{In review}, \textit{\textbf{Sustainable Water Resources Management}}.
 
-1. Rohan IM, Laverty TM, Frey JK. Terrestrial mammals alter habitat selection in response to turbine visibility at a central New Mexico wind energy facility. \textit{In revision}, \textit{\textbf{Conservation Science and Practice}}.
+1. ^GS^Rohan IM, Laverty TM, Frey JK. Terrestrial mammals alter habitat selection in response to turbine visibility at a central New Mexico wind energy facility. \textit{In revision}, \textit{\textbf{Conservation Science and Practice}}.
 
 
 <!-- \end{enumerate}   -->
@@ -339,9 +343,6 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 
  
 ### PEER-REVIEWED PUBLICATIONS \& BOOK CHAPTERS
-
-**_Lab personnel: ^GS^Graduate Student, ^UG^Undergraduate Student; ^*^Co-first author_** 
-<!-- ^PD^Postdoctoral Researcher, ^VS^Visiting Student -->
 
 1. Montauban C, Budinski I, Webala PW, Laverty TM, Tanshi I, Torrent L, Bakwo-Fils E, Taylor PJ, Kane A, Monadjem A. 2026. Underrepresentation of bats in Africa’s protected areas. \textit{\textbf{Conservation Biology}} 40(1):e70108. https://doi.org/10.1111/cobi.70108
 
@@ -379,7 +380,7 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 
 18. Laverty TM, Berger J. 2020. Do bats seek clean water? A perspective on biodiversity from the Namib Desert. \textit{\textbf{Biological Conservation}} 248:108686. https://doi.org/10.1016/j.biocon.2020.108686 **_Data & Code:_** [Mendeley Data](https://doi.org/10.17632/dz6fyzrj5p.1)
 
-18. Laverty TM. 2020. The Namib Desert and its bats. In: Goldstein MI, DellaSala DA, editors. *Encyclopedia of the world’s biomes, vol. 2*. Oxford: Elsevier; p. 181–192.
+18. Laverty TM. 2020. The Namib Desert and its bats. In: Goldstein MI, DellaSala DA, editors. *Encyclopedia of the world’s biomes, vol. 2*. Oxford: Elsevier; p. 181–192. https://doi.org/10.1016/B978-0-12-409548-9.12011-1
 
 19. Orlova MV, Laverty TM, Reeves WK, ^UG^Gratton EM, Davies ML. 2020. The first finding of parasitic mite, *Parasteatonyssus nyctinomi* (Mesostigmata: Gamasina: Macronyssidae), in Namibia. \textit{\textbf{Journal of the South African Veterinary Association}} 91(1):a2002. https://doi.org/10.4102/jsava.v91i0.2002
 
@@ -668,7 +669,7 @@ _Students under my supervision have been awarded over $12,000 in grants and awar
 <!-- *	Shannon Moore: Best Presentation, UF High School Student Science Training Program Symposium (2010) -->
 <!-- *	Matthew Trager: Outstanding Research Award - MS Category, Wildlife Graduate Student Association (2005) -->
 
-
+\vspace{-0.2cm}
 ### DOCTORAL COMMITTEE SERVICE
 \vspace{-0.2cm}
 ```{r DocCmte, echo=FALSE,message = FALSE,warning=FALSE}
@@ -689,10 +690,9 @@ kbl(grad_advised,digits = 1,
   sub("\\\\toprule", "", .) %>%
   sub("\\\\bottomrule", "", .)
 ```
+\vspace{-0.4cm}
 <!-- **Wildlife Ecology & Conservation**: David Mason (in progress), Flavia Montaño Centellas (2018), Margo Stoddard (2017), Rajeev Pillay (2016), Rosalyn Johnson (2016), Gonzalo Rivas (2015), Oscar Gonzalez (2015), Dan Thornton (2010), Ivan Diaz (2008), Christa Zweig (2008), Traci Darnell (2006)  **Forest Resources & Conservation**: Andrea Irons (in progress), Demian Gomez Damiano (2020), Jacy Hyde (2019), Christie Klimas (2010)  **Biology (*formerly Depts. of Botany & Zoology*)**: Maria Beatriz Cortez (in progress), Johanna R. Jantzen (2020), Trevor Caughlin (2013), Kristine Callis (2013), Mollie Brooks (2012), Silvia Alvarez-Clare (2012), C. Seabird McKeon (2010), Joseph Veldman (2010), Jennifer Schafer (2010), Alex Jahn (2009), Silvia Lomáscolo (2008), Bonifacio Mostacedo (2007)  **Interdisciplinary Ecology**: Joanna Tucker (2010), Matt Trager	(2009)  **Entomology**: Jade Badon (2018), Pablo Allen (2017), David Serrano (2006)  **Anthropology**: Scott Macrae (2017)  **Columbia University**: Marina Cortes (Ecology, Evolution, Behavior (2012) -->
-
-
-
+\vspace{-0.2cm}
 ### MASTERS COMMITTEE SERVICE
 \vspace{-0.2cm}
 ```{r MastersCmte, echo=FALSE,message = FALSE,warning=FALSE}
@@ -713,8 +713,9 @@ kbl(grad_advised,digits = 1,
   sub("\\\\toprule", "", .) %>%
   sub("\\\\bottomrule", "", .)
 ```
+\vspace{-0.4cm}
 <!-- **Wildlife Ecology & Conservation**: Lauren Trotta (2016), Brittany Bankovich (2014), Nathan Marcy (2010), Kristen Aaltonen (2009), Mariano Rodriguez Cabal (2007)  **Forest Resources & Conservation**: Jennifer Holm (2007), Christie Klimas (2006)  **Biology (*formerly Depts. of Botany & Zoology*)**: Tania Kim (2006), Silvia Alvarez Clare (2004)  **Interdisciplinary Ecology**: Jamie Cotta (2006)  **Entomology**: Teresa Cooper (2006)  **Latin American Studies**: Crisne Lebron (2015), Carly Voight (2010), Laura Fonseca (2009), Jennifer Davies (2003), **Anthropology**: Autumn Rose (in progress). -->
-
+\vspace{-0.2cm}
 ### EXTERNAL THESIS EXAMINER
 <!-- ### PROPOSAL REVIEW, THESIS REVIEW, OR THESIS DEFENSE COMMITTEE -->
 \vspace{-0.2cm}
@@ -822,7 +823,8 @@ kbl(other,digits = 1,
 
 <!-- text size: https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles -->
 <!-- xrfill adjusts line position and width -->
-\vspace{0.2cm}
+<!-- \vspace{0.2cm} -->
+\vspace{-0.2cm}
 \textbf{\textcolor{darkmidnightblue}{\large{SERVICE TO THE UNIVERSITY \& PROFESSIONAL ORGANIZATIONS }}}\xrfill[0.5ex]{1pt}
 
 <!-- ## INSTITUIONAL AND PROFESSIONAL SERVICE -->
@@ -954,7 +956,7 @@ Diversity, Equity, and Inclusion Committee (2023-2024)
 
 <!-- \endgroup  -->
 \vspace{-0.2cm}
-### JORNADA BASIN LONG-TERM ECOLOGICAL RESEARCH SITE  
+### JORNADA BASIN LTER 
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
