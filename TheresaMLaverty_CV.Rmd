@@ -557,12 +557,22 @@ Intro to GitHub Workshop (2023)
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}  
-**New Mexico State University:** _FWCE 464: Management of Aquatic and Terrestrial Ecosystems_ (2026), _FWCE 330: Natural History of the Vertebrates_ (2023)  
-**University of British Columbia, Okanagan:** _BIOL_O 370: African Savannah Biology_ (2025)  
-**Colorado State University:** _NR 300: Biological Diversity_ (2018, 2019, 2020), _BZ 330: Mammalogy_ (2020), _FW 455: Principles of Conservation Biology_ (2020), _FW 370: Design of Fish and Wildlife Projects_ (2018), _FW 104: Wildlife Ecology and Conservation_ (2017)  
-**University of Montana:** _WILD 480: The Upshot: Applied Wildlife Management_ (2014, 2015), _BIOO 101N: Montana Wildlife_ (2013)  
-**Princeton University:** _EEB 380: Ecology and Conservation of African Landscapes field course_ (2012)
+**New Mexico State University:** FWCE 464: Management of Aquatic and Terrestrial Ecosystems (2026), FWCE 330: Natural History of the Vertebrates (2023)  
+**University of British Columbia, Okanagan:** BIOL_O 370: African Savannah Biology (2025)  
+**Colorado State University:** NR 300: Biological Diversity (2018, 2019, 2020), BZ 330: Mammalogy (2020), FW 455: Principles of Conservation Biology (2020), FW 370: Design of Fish and Wildlife Projects (2018), FW 104: Wildlife Ecology and Conservation (2017)  
+**University of Montana:** WILD 480: The Upshot: Applied Wildlife Management (2014, 2015), BIOO 101N: Montana Wildlife (2013)  
+**Princeton University:** EEB 380: Ecology and Conservation of African Landscapes field course (2012)
  
+
+\endgroup 
+\vspace{-0.2cm}
+### Teaching Assistant
+\vspace{-0.2cm}
+\begingroup 
+\setlength{\leftskip}{.2cm}
+**Colorado State University:** NR 300: Biological Diversity (2018, 2019), FW 370: Design of Fish and Wildlife Projects (2018)  
+**University of Montana:** WILD 480: The Upshot: Applied Wildlife Management (2014), BIOO 101N: Montana Wildlife (2013)  
+**Princeton University:** EEB 380: Ecology and Conservation of African Landscapes field course (2012)
 
 \endgroup 
 
@@ -580,7 +590,7 @@ Intro to GitHub Workshop (2023)
 <!-- text size: https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles -->
 <!-- xrfill adjusts line position and width -->
 \vspace{0.2cm}
-\textbf{\textcolor{darkmidnightblue}{\large{STUDENT \& POSTDOCTORAL MENTORSHIP }}}\xrfill[0.5ex]{1pt}
+\textbf{\textcolor{darkmidnightblue}{\large{STUDENT MENTORSHIP }}}\xrfill[0.5ex]{1pt}
 
 \vspace{-0.4cm}
 
@@ -599,15 +609,24 @@ Intro to GitHub Workshop (2023)
 ```
 \vspace{-0.2cm}
 ```{r GradStudents, echo=FALSE,message = FALSE,warning=FALSE}
-grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="advisor") %>% select(-role)
-kbl(grad_advised,digits = 1,
+grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="advisor") %>% select(-role) %>%
+  mutate(
+    Student = if_else(
+      !is.na(coadvisor) & coadvisor != "",
+      str_c("\\makecell[tl]{", Student, " \\\\ \\textit{\\small (Co-advisor: ", coadvisor, ")}}"),
+      Student
+    )
+  ) %>%
+  select(-coadvisor) # Remove the standalone column so it doesn't print
+kbl(grad_advised, digits = 1,
                   format = "latex",
-                  align="l",
-    col.names = NULL,
-    longtable = T,
+                  align = "l",
+                  col.names = NULL,
                   row.names = FALSE,
-                  booktabs=T,
-                  linesep = "") %>%
+                  booktabs = T,
+                  longtable = T, 
+                  linesep = "",
+                  escape = FALSE) %>% # CRITICAL: Allows LaTeX code inside cells to render
   kable_styling(bootstrap_options = c("hover"),
                 latex_options = c("scale_down"),
                 full_width = F,
@@ -615,39 +634,45 @@ kbl(grad_advised,digits = 1,
                 position = "left") %>%
   sub("\\\\toprule", "", .) %>%
   sub("\\\\bottomrule", "", .)
+# kbl(grad_advised,digits = 1,
+#                   format = "latex",
+#                   align="l",
+#     col.names = NULL,
+#     longtable = T,
+#                   row.names = FALSE,
+#                   booktabs=T,
+#                   linesep = "") %>%
+#   kable_styling(bootstrap_options = c("hover"),
+#                 latex_options = c("scale_down"),
+#                 full_width = F,
+#                 font_size = 10,
+#                 position = "left") %>%
+#   sub("\\\\toprule", "", .) %>%
+#   sub("\\\\bottomrule", "", .)
 ```
 \vspace{-0.2cm}
-_Students under my supervision have been awarded over $75,000 in grants and awards in support of their research, teaching, and outreach and been the recipients of the following fellowships to support their studies:_ 
+_Students under my supervision have been awarded over $12,000 in grants and awards in support of their research, teaching, and outreach and been the recipients of the following fellowships- and grants to support their studies:_ 
 
-*	NSF Predoctoral Fellowships (M Trager, S Copeland)
-*	NSF Doctoral Dissertation Enhancement Grant (C Lucas)
-*	Inter-American Foundation Grassroots Development Fellowship (C Lucas)
-*	Fulbright Fellowship (A Neto) 
-*	Science Without Borders Doctoral Fellowship (E V Neto, F Mundim) 
-*	FLAS Fellowship (S Parsons)
-*	UF NSF IGERT Fellowship (C Lucas)
-*	UF Alumni Fellowship (M Trager) 
-*	UF Jennings Scholarship (A Neto, M Trager, F Mundim, G Iacona) 
-*	UF Doris Lowe & Earl & Verna Lowe Scholarship (P Hariharan, C Lucas, E V Neto) 
-* UF Grinter Fellowship (P Hariharan)
-* UF William C and Bertha M Cornett Fellowship (P Hariharan)
+*	JRN-LTER Graduate Research Fellowship (R Moore)
+*	Ecological Society of America's Forrest Shreve Student Research Award (T Pichler)
+*	Southwestern Association of Naturalists’ Howard McCarley Student Research Grant (H Whited)
 
-_Research by my students has also been recognized for its excellence:_ 
+<!-- _Research by my students has also been recognized for its excellence:_  -->
 
-* Priyanka Hariharan: ATBC Navjot Sodhi Conservation Research Award (2024), UF CALS International Student Outstanding Achievement Award (2022)
-* Thomas Smith: Best Student Presentation, IALE-NA Annual Meeting (2022)
-*	Fabiane Mundim: UF IFAS High-Impact Publication (2021), UF WEC High-Impact Publication (2016), Honorable Mention, OTS Outstanding Paper Competition (2012)
-*	Ana Cecilia Silva: Honorable Mention, Charles Wood Thesis Award, UF-LATAM (2015)
-*	Christine Lucas: Marianne Schmink Outstanding Dissertation Award, UF-TCD (2012)
-*	Ernane Vieira Neto: E. Lucy Braun Outstanding Poster Award, ESA Annual Meeting (2011)
-*	Shannon Moore: Best Presentation, UF High School Student Science Training Program Symposium (2010)
-*	Matthew Trager: Outstanding Research Award - MS Category, Wildlife Graduate Student Association (2005)
+<!-- * Priyanka Hariharan: ATBC Navjot Sodhi Conservation Research Award (2024), UF CALS International Student Outstanding Achievement Award (2022) -->
+<!-- * Thomas Smith: Best Student Presentation, IALE-NA Annual Meeting (2022) -->
+<!-- *	Fabiane Mundim: UF IFAS High-Impact Publication (2021), UF WEC High-Impact Publication (2016), Honorable Mention, OTS Outstanding Paper Competition (2012) -->
+<!-- *	Ana Cecilia Silva: Honorable Mention, Charles Wood Thesis Award, UF-LATAM (2015) -->
+<!-- *	Christine Lucas: Marianne Schmink Outstanding Dissertation Award, UF-TCD (2012) -->
+<!-- *	Ernane Vieira Neto: E. Lucy Braun Outstanding Poster Award, ESA Annual Meeting (2011) -->
+<!-- *	Shannon Moore: Best Presentation, UF High School Student Science Training Program Symposium (2010) -->
+<!-- *	Matthew Trager: Outstanding Research Award - MS Category, Wildlife Graduate Student Association (2005) -->
 
 
 ### DOCTORAL COMMITTEE SERVICE
 \vspace{-0.2cm}
 ```{r DocCmte, echo=FALSE,message = FALSE,warning=FALSE}
-grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="doc_cmte") %>% select(-role)
+grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="doc_cmte") %>% select(-role, -coadvisor)
 kbl(grad_advised,digits = 1,
                   format = "latex",
                   align="l",
@@ -657,8 +682,8 @@ kbl(grad_advised,digits = 1,
                   longtable = T, 
                   linesep = "") %>%
   kable_styling(bootstrap_options = c("hover"),
-                latex_options = c("scale_down"),
-                full_width = F,
+                #latex_options = c("scale_down"),
+                full_width = T, #F, #change this back when FWCE students are added
                 font_size = 10,
                 position = "left") %>%
   sub("\\\\toprule", "", .) %>%
@@ -671,7 +696,7 @@ kbl(grad_advised,digits = 1,
 ### MASTERS COMMITTEE SERVICE
 \vspace{-0.2cm}
 ```{r MastersCmte, echo=FALSE,message = FALSE,warning=FALSE}
-grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="masters_cmte") %>% select(-role)
+grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="masters_cmte") %>% select(-role, -coadvisor)
 kbl(grad_advised,digits = 1,
                   format = "latex",
                   align="l",
@@ -690,10 +715,11 @@ kbl(grad_advised,digits = 1,
 ```
 <!-- **Wildlife Ecology & Conservation**: Lauren Trotta (2016), Brittany Bankovich (2014), Nathan Marcy (2010), Kristen Aaltonen (2009), Mariano Rodriguez Cabal (2007)  **Forest Resources & Conservation**: Jennifer Holm (2007), Christie Klimas (2006)  **Biology (*formerly Depts. of Botany & Zoology*)**: Tania Kim (2006), Silvia Alvarez Clare (2004)  **Interdisciplinary Ecology**: Jamie Cotta (2006)  **Entomology**: Teresa Cooper (2006)  **Latin American Studies**: Crisne Lebron (2015), Carly Voight (2010), Laura Fonseca (2009), Jennifer Davies (2003), **Anthropology**: Autumn Rose (in progress). -->
 
-### PROPOSAL REVIEW, THESIS REVIEW, OR THESIS DEFENSE COMMITTEE
+### EXTERNAL THESIS EXAMINER
+<!-- ### PROPOSAL REVIEW, THESIS REVIEW, OR THESIS DEFENSE COMMITTEE -->
 \vspace{-0.2cm}
 ```{r external, echo=FALSE,message = FALSE,warning=FALSE}
-other<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="other") %>% select(-role,-Program)
+other<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="other") %>% select(-role,-coadvisor,-Program)
 kbl(other,digits = 1,
                   format = "latex",
                   align="l",
@@ -711,34 +737,34 @@ kbl(other,digits = 1,
   sub("\\\\bottomrule", "", .)
 ```
 
-### POSTDOCTORAL, SABBATICAL, & POSTGRADUATE SCHOLARS 
-\vspace{-0.2cm}
-```{r lab_members, echo=FALSE,message = FALSE,warning=FALSE}
-lab_members<-read_csv("./cv_files/lab_members.csv") 
-lab_members$cat<-as.factor(lab_members$cat)
-lab_members$cat <- ordered(lab_members$cat, levels = c("postdoc","sab" ,"postgrad", "vis_grad","ug","hs"))
-lab_members2<-lab_members %>% 
-  filter(cat=="postdoc"|cat=="sab"|cat=="postgrad") %>% 
-  arrange(order(cat)) %>% 
-  select(-cat) %>% 
-  drop_na()
-  # replace_na(list(Name=" ", Institution=" ", Position=" ", Year=" "))
-kbl(lab_members2,digits = 1,
-    format = "latex",
-    align="l",
-    longtable = T, 
-    col.names = NULL,
-    row.names = FALSE,
-    booktabs=T,
-    linesep = "") %>%
-  kable_styling(bootstrap_options = c("hover"),
-                latex_options = c("scale_down"),
-                full_width = F,
-                font_size = 10,
-                position = "left") %>%
-  sub("\\\\toprule", "", .) %>%
-  sub("\\\\bottomrule", "", .)
-```
+<!-- ### POSTDOCTORAL, SABBATICAL, & POSTGRADUATE SCHOLARS  -->
+<!-- \vspace{-0.2cm} -->
+<!-- ```{r lab_members, echo=FALSE,message = FALSE,warning=FALSE} -->
+<!-- lab_members<-read_csv("./cv_files/lab_members.csv")  -->
+<!-- lab_members$cat<-as.factor(lab_members$cat) -->
+<!-- lab_members$cat <- ordered(lab_members$cat, levels = c("postdoc","sab" ,"postgrad", "vis_grad","ug","hs")) -->
+<!-- lab_members2<-lab_members %>%  -->
+<!--   filter(cat=="postdoc"|cat=="sab"|cat=="postgrad") %>%  -->
+<!--   arrange(order(cat)) %>%  -->
+<!--   select(-cat) %>%  -->
+<!--   drop_na() -->
+<!--   # replace_na(list(Name=" ", Institution=" ", Position=" ", Year=" ")) -->
+<!-- kbl(lab_members2,digits = 1, -->
+<!--     format = "latex", -->
+<!--     align="l", -->
+<!--     longtable = T,  -->
+<!--     col.names = NULL, -->
+<!--     row.names = FALSE, -->
+<!--     booktabs=T, -->
+<!--     linesep = "") %>% -->
+<!--   kable_styling(bootstrap_options = c("hover"), -->
+<!--                 latex_options = c("scale_down"), -->
+<!--                 full_width = F, -->
+<!--                 font_size = 10, -->
+<!--                 position = "left") %>% -->
+<!--   sub("\\\\toprule", "", .) %>% -->
+<!--   sub("\\\\bottomrule", "", .) -->
+<!-- ``` -->
 
 <!-- **Doctoral Defense Committee:** Helen Belan (U. Federal de Uberlândia, Brazil, 2020), Alan Nilo da Costa (U. Federal de Uberlândia, Brazil, 2013). **Doctoral Dissertation Examiner:** Talita Reis (UNICAMP, Brazil, 2015), Mauricio Bonesso Sampaio (UNICAMP, Brazil, 2012), Maria Rosa Darrigo (UNICAMP, Brazil, 2011), Sjirk Geerts (Stellenbosch University, South Africa, 2011), Rafael Soares de Arruda (INPA, Brazil, 2008), Thiago Junqueira Izzo (INPA, Brazil, 2005). **Doctoral Proposal Defense**: Laura Vivian Barbosa (U. Federal de Uberlândia, Brazil, 2014) **Master's Thesis Defense Committee**: Jonas B. Marvalhas (U. Federal de Uberlândia, Brazil 2013), Ernane Vieira Neto (U. Federal de Uberlândia, Brazil, 2008), Alan Nilo da Costa (U. Federal de Uberlândia, Brazil, 2007), Daniel Mascia Vieira (Universidade de Brasília, Brazil, 2002) -->
 
@@ -757,41 +783,41 @@ kbl(lab_members2,digits = 1,
 
 <!-- Pedro B. Vasconcelos		U. Federal de Uberlândia, Brazil		B.S. Thesis Defense, 2009 -->
 <!-- Fabiane M. Mundim 		U. Federal de Uberlândia, Brazil		B.S. Thesis Defense, 2007 -->
-### UNDERGRADUATE THESIS STUDENTS, HIGH SCHOOL RESEARCHERS, & VISITING GRADUATE STUDENTS 
-\vspace{-0.2cm}
-```{r lab_members2, echo=FALSE,message = FALSE,warning=FALSE}
-lab_members<-read_csv("./cv_files/lab_members.csv") 
-lab_members$cat<-as.factor(lab_members$cat)
-lab_members$cat <- ordered(lab_members$cat, levels = c("postdoc","sab" ,"postgrad", "vis_grad","ug","hs"))
-lab_members3<-lab_members %>% 
-  filter(cat=="ug"|cat=="hs"|cat=="vis_grad") %>% 
-  arrange(order(cat)) %>% 
-  select(-cat) %>% 
-  drop_na()
-  # replace_na(list(Name=" ", Institution=" ", Position=" ", Year=" "))
-kbl(lab_members3,digits = 1,
-                  format = "latex",
-                  align="l",
-        longtable = T, 
-    col.names = NULL,
-                  row.names = FALSE,
-                  booktabs=T,
-                  linesep = "") %>%
-  kable_styling(bootstrap_options = c("hover"),
-                latex_options = c("scale_down"),
-                full_width = F,
-                font_size = 10,
-                position = "left") %>%
-  sub("\\\\toprule", "", .) %>%
-  sub("\\\\bottomrule", "", .)
-```
+<!-- ### UNDERGRADUATE THESIS STUDENTS, HIGH SCHOOL RESEARCHERS, & VISITING GRADUATE STUDENTS  -->
+<!-- \vspace{-0.2cm} -->
+<!-- ```{r lab_members2, echo=FALSE,message = FALSE,warning=FALSE} -->
+<!-- lab_members<-read_csv("./cv_files/lab_members.csv")  -->
+<!-- lab_members$cat<-as.factor(lab_members$cat) -->
+<!-- lab_members$cat <- ordered(lab_members$cat, levels = c("postdoc","sab" ,"postgrad", "vis_grad","ug","hs")) -->
+<!-- lab_members3<-lab_members %>%  -->
+<!--   filter(cat=="ug"|cat=="hs"|cat=="vis_grad") %>%  -->
+<!--   arrange(order(cat)) %>%  -->
+<!--   select(-cat) %>%  -->
+<!--   drop_na() -->
+<!--   # replace_na(list(Name=" ", Institution=" ", Position=" ", Year=" ")) -->
+<!-- kbl(lab_members3,digits = 1, -->
+<!--                   format = "latex", -->
+<!--                   align="l", -->
+<!--         longtable = T,  -->
+<!--     col.names = NULL, -->
+<!--                   row.names = FALSE, -->
+<!--                   booktabs=T, -->
+<!--                   linesep = "") %>% -->
+<!--   kable_styling(bootstrap_options = c("hover"), -->
+<!--                 latex_options = c("scale_down"), -->
+<!--                 full_width = F, -->
+<!--                 font_size = 10, -->
+<!--                 position = "left") %>% -->
+<!--   sub("\\\\toprule", "", .) %>% -->
+<!--   sub("\\\\bottomrule", "", .) -->
+<!-- ``` -->
 
-\begingroup 
-\setlength{\leftskip}{.2cm}
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
 
-*__Field Research Interns:__* _2007_: Wesley Dáttilo da Cruz, Univ. Estadual do Norte Fluminense (Brazil), Jefferson José Valsko da Silva, Universidade do Norte Fluminense (Brazil). _2005-2007_: Renata Pacheco do Nacimento and Cauê Thomé Lopes, Univ. Federal de Uberlândia (Brazil). _2005-2006_: Polyanna Custodio Duarte, Univ. Federal de Uberlândia (Brazil). _2006_: Waldete Castro Lourenço, Univ. Federal do Amazonas (Brazil), Elisabete Marques da Costa, Univ. Federal de Pernambuco (Brazil). _2005_: Bruno Turbiani, Universidade Estadual Paulista (Brazil). _2004_: Cristina Escate, Universidade Federal do Amazonas (Brazil), Simone Benedet, Universidade do Vale do Rio do Sinos (Brazil). _2003_: Cris Follman Jurinitz, Univ. Federal do Rio Grande do Sul (Brazil), Denise Cruz, Univ. Federal do Rio de Janeiro (Brazil). _2003-2004_: David M. Lapola, Universidade Estadual Paulista (Brazil). _2002_: Maria Beatriz Nogueira, Universidade de São Paulo (Brazil). _2001-2002_: Sylvia Heredia, Universidad de los Andes (Colombia). _2001_: Obed Garcia, INPA (Brazil), Olavo Nardy, UNESP (Brazil).
+<!-- *__Field Research Interns:__* _2007_: Wesley Dáttilo da Cruz, Univ. Estadual do Norte Fluminense (Brazil), Jefferson José Valsko da Silva, Universidade do Norte Fluminense (Brazil). _2005-2007_: Renata Pacheco do Nacimento and Cauê Thomé Lopes, Univ. Federal de Uberlândia (Brazil). _2005-2006_: Polyanna Custodio Duarte, Univ. Federal de Uberlândia (Brazil). _2006_: Waldete Castro Lourenço, Univ. Federal do Amazonas (Brazil), Elisabete Marques da Costa, Univ. Federal de Pernambuco (Brazil). _2005_: Bruno Turbiani, Universidade Estadual Paulista (Brazil). _2004_: Cristina Escate, Universidade Federal do Amazonas (Brazil), Simone Benedet, Universidade do Vale do Rio do Sinos (Brazil). _2003_: Cris Follman Jurinitz, Univ. Federal do Rio Grande do Sul (Brazil), Denise Cruz, Univ. Federal do Rio de Janeiro (Brazil). _2003-2004_: David M. Lapola, Universidade Estadual Paulista (Brazil). _2002_: Maria Beatriz Nogueira, Universidade de São Paulo (Brazil). _2001-2002_: Sylvia Heredia, Universidad de los Andes (Colombia). _2001_: Obed Garcia, INPA (Brazil), Olavo Nardy, UNESP (Brazil). -->
 
-\endgroup
+<!-- \endgroup -->
 
 
 <!-- text size: https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles -->
@@ -801,183 +827,161 @@ kbl(lab_members3,digits = 1,
 
 <!-- ## INSTITUIONAL AND PROFESSIONAL SERVICE -->
 \vspace{-0.4cm}
-### UNIVERSITY OF FLORIDA  
+### NEW MEXICO STATE UNIVERSITY  
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
-
-UF Quest Advisory Board (2026-present)  
-SEED Grant Committee, Artificial Intelligence & Informatics Research Institute (2026)  
-Search Committee, UF QUEST Program Director (2023)   
-Selection Committee, UF Undergraduate Faculty Mentor/Advisor of the Year (2022)  
-Selection Committee, UF Undergraduate Teacher of the Year  (2022)  
-International Outreach Advisory Council, Graduate School (2014-2020)  
-Fulbright Fellows Campus Interview Committee  (2019)  
-Catalyst Fellow, UF Innovation Academy Catalyst Challenge (2018)  
-External Advisory Committee, Institute of Museum & Library Services Grant (2015-2018)  
-Selection Committee, UF Teacher/Scholar of the Year (2015)  
-Samuel P. Harn Museum of Art Faculty Council (2012-2015)  
-Internal Advisory Board, Innovation through Institutional Integration (I3) program (2010-2014)  
-Administrative Council, QSE3 IGERT (2008-2014)  
-UF Research Foundation Professorship Selection Committee (2010)  
-Selection Committee, UF International Educator of the Year (2006)  
+Institutional Animal Care and Use Committee (2023-present)  
 
 \endgroup 
 
 \vspace{-0.2cm}
-### UF COLLEGE OF AGRICULTURAL & LIFE SCIENCES
+### NMSU COLLEGE OF AGRICULTURAL, CONSUMER AND ENVIRONMENTAL SCIENCES
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
-IFAS International Programs Advisory Team (2020-2022)  
-UF-CALS Outstanding Thesis Selection Committee (2020)  
-Commencement Marshal (2018, 2015, 2014, 2004)   
-York Distinguished Lecture Selection Committee (2015)  
-Search & Screen Committee, CALS Quantitative Sciences Faculty Positions (2013)  
-IFAS Faculty Professional Development Advisory Committee (2012-2013)  
-Coordinating Committee, School for Natural Resources & the Environment (2012)  
-Selection Committee, CALS Teaching and Advising Awards (2012)  
-CALS Undergraduate Scholarships & Awards Committee (2007-2009)  
-Unifas Focus Group - Teaching Section (2007)  
-Unifas Advisory Committee (2006-2007)  
-SNRE Seed Grant and New Faculty Support Grant Programs (2005)  
-
+Connections & Engagement Initiative Committee (2025-present) 
 
 \endgroup 
 
+<!-- \vspace{-0.2cm} -->
+<!-- ### UF TENURE MENTORSHIP & PEER TEACHING EVALUATION COMMITTEES -->
+<!-- \vspace{-0.2cm} -->
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
+<!-- Tenure Mentorship Committee, Dr. Nia Morales (Wildlife Ecology & Conservation, 2021-2025)   -->
+<!-- Tenure Mentorship Committee, Dr. Matt Hallet (Wildlife Ecology & Conservation, 2022-2025)   -->
+<!-- Tenure Mentorship Committee, Dr. Luke Flory (Agronomy, 2012)   -->
+<!-- Chair, Tenure Mentorship Committee, Dr. Robert Fletcher (Wildlife Ecology & Conservation, 2009-2012)   -->
+<!-- Chair, Peer Teaching Evaluation Committee, Dr. Ben Baiser (Wildlife Ecology & Conservation, 2025)   -->
+<!-- Peer Teaching Evaluation Committee, Dr. Raelene Crandall (Forest Fisheries, & Geomatic Sciences, 2021-2022)   -->
+<!-- Chair, Peer Teaching Evaluation Committee, Dr. Ethan White (Wildlife Ecology & Conservation, 2019-2020)   -->
+<!-- Chair, Peer Teaching Evaluation Committee, Dr. Morgan Ernest (Wildlife Ecology & Conservation, 2017-2018)   -->
+<!-- Peer Teaching Evaluation Committee, Dr. Bill Pine (Wildlife Ecology & Conservation, 2015)   -->
+<!-- Chair, Peer Teaching Evaluation Committee, Dr. Lyn Branch (Wildlife Ecology & Conservation, 2011)   -->
+<!-- Chair, Peer Teaching Evaluation Committee, Dr. Bill Pine (Wildlife Ecology & Conservation, 2010)   -->
+<!-- Chair, Peer Teaching Evaluation Committee, Dr. Robert Fletcher (Wildlife Ecology & Conservation, 2009)   -->
+<!-- Peer Teaching Evaluation for Dr. Michelle Mack (Botany, 2006)     -->
+<!-- Peer Teaching Evaluation Committee, Dr. Madan Oli (Wildlife Ecology & Conservation, 2003)   -->
+
+<!-- \endgroup  -->
+
 \vspace{-0.2cm}
-### UF TENURE MENTORSHIP & PEER TEACHING EVALUATION COMMITTEES
+### NMSU DEPARTMENT OF FISH, WILDLIFE AND CONSERVATION ECOLOGY
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
-Tenure Mentorship Committee, Dr. Nia Morales (Wildlife Ecology & Conservation, 2021-2025)  
-Tenure Mentorship Committee, Dr. Matt Hallet (Wildlife Ecology & Conservation, 2022-2025)  
-Tenure Mentorship Committee, Dr. Luke Flory (Agronomy, 2012)  
-Chair, Tenure Mentorship Committee, Dr. Robert Fletcher (Wildlife Ecology & Conservation, 2009-2012)  
-Chair, Peer Teaching Evaluation Committee, Dr. Ben Baiser (Wildlife Ecology & Conservation, 2025)  
-Peer Teaching Evaluation Committee, Dr. Raelene Crandall (Forest Fisheries, & Geomatic Sciences, 2021-2022)  
-Chair, Peer Teaching Evaluation Committee, Dr. Ethan White (Wildlife Ecology & Conservation, 2019-2020)  
-Chair, Peer Teaching Evaluation Committee, Dr. Morgan Ernest (Wildlife Ecology & Conservation, 2017-2018)  
-Peer Teaching Evaluation Committee, Dr. Bill Pine (Wildlife Ecology & Conservation, 2015)  
-Chair, Peer Teaching Evaluation Committee, Dr. Lyn Branch (Wildlife Ecology & Conservation, 2011)  
-Chair, Peer Teaching Evaluation Committee, Dr. Bill Pine (Wildlife Ecology & Conservation, 2010)  
-Chair, Peer Teaching Evaluation Committee, Dr. Robert Fletcher (Wildlife Ecology & Conservation, 2009)  
-Peer Teaching Evaluation for Dr. Michelle Mack (Botany, 2006)    
-Peer Teaching Evaluation Committee, Dr. Madan Oli (Wildlife Ecology & Conservation, 2003)  
+Undergraduate Curriculum Committee (2024-present)  
+Search Committee, Chair of the Department of Fish, Wildlife and Conservation Ecology (2024)  
+Diversity, Equity, and Inclusion Committee (2023-2024)  
 
 \endgroup 
 
+<!-- \vspace{-0.2cm} -->
+
+<!-- ### UF CENTER FOR LATIN AMERICAN STUDIES -->
+<!-- \vspace{-0.2cm} -->
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
+<!-- Search Committee, TCD Program Director (2026)     -->
+<!-- Graduate Admissions Committee (2026)     -->
+<!-- Search & Screen Committee, Asst. Professor of Environmental Justice (2023)   -->
+<!-- Post-Tenure Review Committee (2023)   -->
+<!-- LAS Faculty Advisory Council (2020-2023)   -->
+<!-- LAS Bylaws Revision Committee (2020-2021)   -->
+<!-- Chair, LAS Awards & Scholarship Committee (2019)   -->
+<!-- LAS Merit Evaluation Committee (2015-2017)   -->
+<!-- Chair, Search & Screen Committee, Lecturer in Latin American Studies (2015)   -->
+<!-- Search & Screen Committee, LAS Communications Coordinator (2015)   -->
+<!-- Bacardi Seminar Series Coordinator (2015)   -->
+<!-- Curriculum Committee, Masters Program in Sustainable Development Practice (2010-2012)   -->
+<!-- LAS Graduate Admissions & Fellowship Committee (2007)   -->
+
+<!-- \endgroup  -->
+
+<!-- \vspace{-0.2cm} -->
+<!-- ### UF TROPICAL CONSERVATION & DEVELOPMENT PROGRAM -->
+<!-- \vspace{-0.2cm} -->
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
+<!-- Chair, Field Research Grants Committee (2026, 2024, 2020-2021, 2015, 2008-2010, 2004)   -->
+<!-- Academic Advisor (2021-2022, 2008-11)   -->
+<!-- Steering Committee (2018-2024,2010-16, 2002-08)   -->
+<!-- Chair, Marianne Schmink Outstanding Dissertation Award Selection Committee (2022, 2013, 2011, 2010)   -->
+<!-- Chair, Fellowship Committee (2022, 2012)   -->
+<!-- Advisory Committee, Pan-Amazon Community of Practice Project (2018-2020)   -->
+<!-- Faculty Advisor, TCD Graduate Student Organization (2008-2016)   -->
+<!-- Organizing Committee, TCD Strategic Planning (2007-2008)   -->
+<!-- Advisory Council, Amazon Conservation Leadership Initiative (2004-2005)   -->
+<!-- Fellowship Committee (2003-2005)   -->
+<!-- Field Research Grants Committee (2003-2004)   -->
+
+<!-- \endgroup   -->
+
+<!-- \vspace{-0.2cm} -->
+<!-- ### ASSOCIATION FOR TROPICAL BIOLOGY & CONSERVATION  -->
+<!-- \vspace{-0.2cm} -->
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm}   -->
+
+<!-- Search Committee, ATBC Executive Director (2024-2025)   -->
+<!-- Search Committee, _Biotropica_ Editor-in-Chief (2024-2025)   -->
+<!-- Past-President (2022)    -->
+<!-- Chair, Nominations Committee (2022)   -->
+<!-- President (2021)   -->
+<!-- Annual Meeting Program & Organizing Committees (2021)     -->
+<!-- President-Elect (2020)   -->
+<!-- Student Field Grants Selection Committee (2020)   -->
+<!-- Crowdfunding Workshop, Annual Meeting (2018)   -->
+<!-- Annual Meeting Scientific Committee (2017, 2012)   -->
+<!-- Councillor (2009-2011)   -->
+<!-- Conservation Committee (2004-2006)   -->
+<!-- Annual Meeting Symposium Co-organizer (2004)   -->
+
+<!-- \endgroup  -->
+
+<!-- \vspace{-0.2cm} -->
+<!-- ### ECOLOGICAL SOCIETY OF AMERICA    -->
+<!-- \vspace{-0.2cm} -->
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm}   -->
+
+<!-- Secretary (2022-2025)   -->
+<!-- Governing Board (2022-2025)   -->
+<!-- Teller's Committee (2022-2025)     -->
+<!-- Governance & Leadership Committee (2022-2025)    -->
+<!-- Historical Records Committee (2022-2025)    -->
+
+<!-- \endgroup  -->
 \vspace{-0.2cm}
-### UF DEPARTMENT OF WILDLIFE ECOLOGY & CONSERVATION
+### JORNADA BASIN LONG-TERM ECOLOGICAL RESEARCH SITE  
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
-Research Committee (2020-present, 2005-2007)  
-Search & Screen Committee, Research Asst. Professor, Zoo Wildlife Conservation Biology (2020)  
-Communications Committee (2014-2020)  
-Space Committee (2019)  
-Search & Screen Committee, Asst. Professor of Population Ecology (2017)  
-Seminar Series Coordinator (2015)  
-Graduate Program Committee (2005-2012)  
-International Programs Committee (2006-2010)  
-Steering Committee, PSTC Compton Fellowship Program (2002-2010)  
-Search & Screen Committee, Department Head (2006)  
-Seminar Series Coordinator (2003-2004)  
-Search & Screen Committee, Asst. Professor of Landscape Ecology (2004)  
-Search & Screen Committee, Asst. Professor of Conservation Genetics, WEC (2004)  
+Information Management Committee (2025-present)
 
-\endgroup 
+\endgroup
 
-\vspace{-0.2cm}
 
-### UF CENTER FOR LATIN AMERICAN STUDIES
-\vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}
-Search Committee, TCD Program Director (2026)    
-Graduate Admissions Committee (2026)    
-Search & Screen Committee, Asst. Professor of Environmental Justice (2023)  
-Post-Tenure Review Committee (2023)  
-LAS Faculty Advisory Council (2020-2023)  
-LAS Bylaws Revision Committee (2020-2021)  
-Chair, LAS Awards & Scholarship Committee (2019)  
-LAS Merit Evaluation Committee (2015-2017)  
-Chair, Search & Screen Committee, Lecturer in Latin American Studies (2015)  
-Search & Screen Committee, LAS Communications Coordinator (2015)  
-Bacardi Seminar Series Coordinator (2015)  
-Curriculum Committee, Masters Program in Sustainable Development Practice (2010-2012)  
-LAS Graduate Admissions & Fellowship Committee (2007)  
-
-\endgroup 
-
-\vspace{-0.2cm}
-### UF TROPICAL CONSERVATION & DEVELOPMENT PROGRAM
-\vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}
-Chair, Field Research Grants Committee (2026, 2024, 2020-2021, 2015, 2008-2010, 2004)  
-Academic Advisor (2021-2022, 2008-11)  
-Steering Committee (2018-2024,2010-16, 2002-08)  
-Chair, Marianne Schmink Outstanding Dissertation Award Selection Committee (2022, 2013, 2011, 2010)  
-Chair, Fellowship Committee (2022, 2012)  
-Advisory Committee, Pan-Amazon Community of Practice Project (2018-2020)  
-Faculty Advisor, TCD Graduate Student Organization (2008-2016)  
-Organizing Committee, TCD Strategic Planning (2007-2008)  
-Advisory Council, Amazon Conservation Leadership Initiative (2004-2005)  
-Fellowship Committee (2003-2005)  
-Field Research Grants Committee (2003-2004)  
-
-\endgroup  
-
-\vspace{-0.2cm}
-### ASSOCIATION FOR TROPICAL BIOLOGY & CONSERVATION 
-\vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}  
-
-Search Committee, ATBC Executive Director (2024-2025)  
-Search Committee, _Biotropica_ Editor-in-Chief (2024-2025)  
-Past-President (2022)   
-Chair, Nominations Committee (2022)  
-President (2021)  
-Annual Meeting Program & Organizing Committees (2021)    
-President-Elect (2020)  
-Student Field Grants Selection Committee (2020)  
-Crowdfunding Workshop, Annual Meeting (2018)  
-Annual Meeting Scientific Committee (2017, 2012)  
-Councillor (2009-2011)  
-Conservation Committee (2004-2006)  
-Annual Meeting Symposium Co-organizer (2004)  
-
-\endgroup 
-
-\vspace{-0.2cm}
-### ECOLOGICAL SOCIETY OF AMERICA   
-\vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}  
-
-Secretary (2022-2025)  
-Governing Board (2022-2025)  
-Teller's Committee (2022-2025)    
-Governance & Leadership Committee (2022-2025)   
-Historical Records Committee (2022-2025)   
-
-\endgroup 
 \vspace{-0.2cm}
 ### OTHER UNIVERSITIES & PROFESSIONAL ORGANIZATIONS   
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
-
-External Tenure & Promotion Evaluations (N=26, 2011-present)  
+State Wildlife Action Plan (SWAP) for New Mexico Core Team, New Mexico Department of Wildlife (2025-present)  
+<!-- External Tenure & Promotion Evaluations (N=26, 2011-present)   -->
 <!-- 2024 (3) 2023 (3), 2022 (4), 2021 (2), 2020 (3), 2018 (2), 2017 (1), 2016 (3), 2015 (1), 2011 (1)   -->
-ASN/SSE/SSB Committee on Development a Professional Code of Ethics (2018-2019)  
-External Advisor, 2nd Planning Workshop, Brazilian Biodiversity & Ecosystem Services Synthesis Center (2018)  
-Discussant, Research & Writing Conference, Florida Education Fund/McKnight Fellowship Program (2016)  
-Co-host & Co-organizer, UC Davis Population Biology Workshop (2000)  
-Student Representative, UC Davis Population Biology GRT Executive Committee (1996-1997)  
-UCSD Selection Committee, UC Tropical Biology Education Abroad Program (1994)  
+Co-coordinator of Southern African bat assessments for the IUCN Red List (2023-present)  
+GBatNet Prioritizing Key Habitats and Species Conservation Working Group (2022-present)  
+NABat Emergence/Summer Colony Count Working Group (2020-2024)  
+Lesser Long-nosed Bat Post-Delisting Monitoring Plan Participant, U.S. Fish and Wildlife Service (2023)  
+Diversity, Equity, & Inclusion Committee, Ecology and Evolution Department, University of Chicago (2021-2022)  
+Planning Committee Member, Northern Colorado & Wyoming chapter of Expanding Your Horizons—an annual STEM workshop for 6th through 8th grade girls (2017-2019)  
+Dr. David Otis Speaker Series Selection Committee, Colorado State University (2017-2018)  
+Panel member, Colorado State University Info Session on the NSF Graduate Research Fellowship Program (2017)  
+Graduate Representative, Population Ecology Assistant Professor Search Committee, University of Montana (2013-2014)  
+Graduate Representative, Department of Ecosystem & Conservation Sciences Student Evaluation Committee, University of Montana (2014)  
+
 
 \endgroup 
 
@@ -1098,6 +1102,6 @@ North American Society for Bat Research, Society for Conservation Biology, Ameri
 \begingroup 
 \setlength{\leftskip}{.2cm}  
 
-Fluent in Spanish, English, & Portuguese  
+Fluent in English & Spanish  
 
 \endgroup

@@ -1,109 +1,18 @@
-role,Student,Instititution,Program,Degree,Year
-advisor,Priyanka Hari Haran,UF,Wildlife Ecology & Conservation,Ph.D.,2025
-advisor,Eric Escobar Chena,UF,Wildlife Ecology & Conservation,M.S.,2025
-advisor,Thomas Smith,UF,Wildlife Ecology & Conservation,Ph.D.,2023
-advisor,Simon Parsons,UF,Latin American Studies,M.A.,2018
-advisor,Ernane H. M. Vieira Neto,UF,Wildlife Ecology & Conservation,Ph.D.,2016
-advisor,Fabiane Moreira Mundim,UF,Wildlife Ecology & Conservation,Ph.D.,2016
-advisor,Ana Ceclia Silva ,UF,Latin American Studies,M.A.,2014
-advisor,Paulo Rubim,UFSCar (Brazil),Ecology,Ph.D.,2014
-advisor,Pedro B. de Vasconcelos,UFU (Brazil),Biology,M.S.,2012
-advisor,Christine Lucas,UF,Wildlife Ecology & Conservation,Ph.D.,2011
-advisor,Cris Follman Jurinitz,USP (Brazil),Ecology,Ph.D.,2010
-advisor,Stella Copeland,UF,Wildlife Ecology & Conservation,M.S.,2009
-advisor,Gwen Iacona,UF,Wildlife Ecology & Conservation,M.S.,2008
-advisor,Alana Vaz Ferreira,UFU (Brazil),Ecology & Nat. Res. Cons.,M.S.,2008
-advisor,Ian Fiske ,UF,Wildlife Ecology & Conservation,M.S.,2006
-advisor,Matthew Trager,UF,Interdisciplinary Ecology,M.S.,2005
-advisor,Maria B. Nogueira-Ribeiro ,USP (Brazil),Ecology,M.S.,2005
-doc_cmte,Gabriela Garcia Reynaga,UMiami,Biology,Ph.D.,In progress
-doc_cmte,Jeremy Quiros-Navarro,UConn,Ecology and Evolutionary Biology,Ph.D.,In progress
-doc_cmte,Morgan Manning,UF,Interdisciplinary Ecology,Ph.D.,In progress
-doc_cmte,Fabian Romero Soto,UF,Biology,Ph.D.,In progress
-doc_cmte,Adam Herdman,UF,Environmental Horticulture,Ph.D.,In progress
-doc_cmte,Emeline Pano,UF,Biology,Ph.D.,In progress
-doc_cmte,Lydia Soifer,UF,SNRE,Ph.D.,In progress
-doc_cmte,María José Román,UF,Biology,Ph.D.,In progress
-doc_cmte,Malu Ore Rengifo,UF,Biology,Ph.D.,In progress
-doc_cmte,Ana Ykeuti Meiga,,Interdisciplinary Ecology,Ph.D.,In progress
-doc_cmte,Jacob Herschberger,UF,Entomology,Ph.D.,In progress
-doc_cmte,Austin Nelsen,UF,History,Ph.D.,In progress
-doc_cmte,Andrea Irons,UF,Forest Resources & Conservation,Ph.D.,In progress
-doc_cmte,Yuley Encarnacion Pineyro,UF,Biology,Ph.D.,2024
-doc_cmte,Maria Beatriz Cortez,UF,Biology,Ph.D.,2023
-doc_cmte,David Mason,UF,Wildlife Ecology & Conservation ,Ph.D.,2022
-doc_cmte,Johanna R. Jantzen,UF,Biology,Ph.D.,2020
-doc_cmte,Demian Gomez Damiano,UF,Forest Resources & Conservation,Ph.D.,2020
-doc_cmte,Jacy Hyde ,UF,Forest Resources & Conservation,Ph.D.,2019
-doc_cmte,Flavia Montaño Centellas,UF,Wildlife Ecology & Conservation,Ph.D.,2018
-doc_cmte,Jade Badon,UF,Entomology,Ph.D.,2018
-doc_cmte,Pablo Allen,UF,Entomology,Ph.D.,2017
-doc_cmte,Margo Stoddard ,UF,Wildlife Ecology & Conservation,Ph.D.,2017
-doc_cmte,Scott Macrae,UF,Anthropology,Ph.D.,2017
-doc_cmte,Rajeev Pillay ,UF,Wildlife Ecology & Conservation,Ph.D.,2016
-doc_cmte,Rosalyn Johnson,UF,Wildlife Ecology & Conservation,Ph.D.,2016
-doc_cmte,Gonzalo Rivas,UF,Wildlife Ecology & Conservation,Ph.D.,2015
-doc_cmte,Oscar Gonzalez ,UF,Wildlife Ecology & Conservation,Ph.D.,2015
-doc_cmte,Trevor Caughlin,UF,Biology,Ph.D.,2013
-doc_cmte,Kristine Callis,UF,Biology,Ph.D.,2013
-doc_cmte,Marina Cortes,Columbia,"Ecology, Evolution, Behavior",Ph.D.,2012
-doc_cmte,Mollie Brooks,UF,Biology,Ph.D.,2012
-doc_cmte,Silvia Alvarez-Clare ,UF,Biology,Ph.D.,2012
-doc_cmte,Christie Klimas,UF,Forest Resources & Conservation,Ph.D.,2010
-doc_cmte,C. Seabird McKeon,UF,Biology,Ph.D.,2010
-doc_cmte,Joseph Veldman,UF,Biology,Ph.D.,2010
-doc_cmte,Jennifer Schafer,UF,Biology,Ph.D.,2010
-doc_cmte,Joanna Tucker,UF,Interdisciplinary Ecology,Ph.D.,2010
-doc_cmte,Dan Thornton,UF,Wildlife Ecology & Conservation,Ph.D.,2010
-doc_cmte,Matt Trager,UF,Interdisciplinary Ecology,Ph.D.,2009
-doc_cmte,Alex Jahn,UF,Zoology,Ph.D.,2009
-doc_cmte,Ivan Diaz,UF,Wildlife Ecology & Conservation ,Ph.D.,2009
-doc_cmte,Christa Zweig,UF,Wildlife Ecology & Conservation ,Ph.D.,2008
-doc_cmte,Silvia Lomascolo,UF,Zoology ,Ph.D.,2008
-doc_cmte,Bonifacio Mostacedo,UF,Botany,Ph.D.,2007
-doc_cmte,David Serrano,UF,Entomology,Ph.D.,2006
-doc_cmte,Traci Darnell,UF,Wildlife Ecology & Conservation,Ph.D.,2006
-masters_cmte,Emma Zeitler,UF,Wildlife Ecology & Conservation,M.S.,2023
-masters_cmte,Autumn Rose,UF,Anthropology,M.A.,2022
-masters_cmte,Tania Kim,UF,Zoology,M.S.,2006
-masters_cmte,Lauren Trotta,UF,Wildlife Ecology & Conservation,M.S.,2016
-masters_cmte,Crisne Lebron,UF,Latin American Studies,M.A.,2015
-masters_cmte,Brittany Bankovich,UF,Wildlife Ecology & Conservation,M.S.,2014
-masters_cmte,Carly Voight ,UF,Latin American Studies,M.A.,2010
-masters_cmte,Nathan Marcy,UF,Wildlife Ecology & Conservation,M.S.,2010
-masters_cmte,Kristen Aaltonen,UF,Wildlife Ecology & Conservation,M.S.,2009
-masters_cmte,Laura Fonseca,UF,Latin American Studies,M.A.,2009
-masters_cmte,Mariano Rodriguez Cabal,UF,Wildlife Ecology & Conservation,M.S.,2007
-masters_cmte,Jennifer Holm,UF,Forest Resources & Conservation,M.S.,2007
-masters_cmte,Jamie Cotta,UF,Interdisciplinary Ecology,M.S.,2006
-masters_cmte,Teresa Cooper,UF,Entomology,M.S.,2006
-masters_cmte,Christie Klimas,UF,Forest Resources & Conservation,M.S.,2006
-masters_cmte,Silvia Alvarez Clare,UF,"Botany, 2004 ",M.S.,2004
-masters_cmte,Jennifer Davies,UF,Latin American Studies,M.A.,2003
-masters_cmte,Emma Zeitler,UF,Wildlife Ecology & Conservation,M.S.,2021
-other,Bruna Melo de Lima,INPA (Brazil),Botany,M.S. Defense,2023
-other,Helen Belan,UFU (Brazil),Ecology & Nat. Res. Cons.,PH.D. Defense,2020
-other,Talita Reis,UNICAMP (Brazil),Ecology,Ph.D. Thesis Examiner,2015
-other,Laura Vivian Barbosa ,UFU (Brazil),Ecology & Nat. Res. Cons.,Ph. D. Proposal Defense,2014
-other,Alan Nilo da Costa,UFU (Brazil),Ecology & Nat. Res. Cons.,Ph.D. Defense ,2013
-other,Jonas B. Marvalhas ,UFU (Brazil),Ecology & Nat. Res. Cons.,M.S. Defense,2013
-other,Mauricio Bonesso Sampaio ,UNICAMP (Brazil),Ecology,Ph.D. Thesis Examiner,2012
-other,Carine Emer,INPA (Brazil),Ecology,M.S. Thesis Examiner,2011
-other,Flávio de Oliveira Rodrigues,INPA (Brazil),Ecology,M.S. Thesis Examiner,2011
-other,Sjirk Geerts,Stellenbosch (S. Africa),Ecology,Ph.D. Thesis Examiner,2011
-other,Maria Rosa Darrigo,UNICAMP (Brazil),Ecology,Ph.D. Thesis Examiner,2011
-other,Waldete Castro Lourenço,INPA (Brazil),Entomology,M.S. Thesis Examiner,2009
-other,Carine Emer ,INPA (Brazil),Ecology,M.S. Proposal Examiner,2009
-other,Melina Alcalá,UFSCar (Brazil),Ecology,M.S. Qualifying Exam,2009
-other,Raquel Negrão Baldoni,UFSCar (Brazil),Ecology,M.S. Qualifying Exam,2009
-other,Pedro B. Vasconcelos,UFU (Brazil),Biological Sciences,B.S. Thesis Defense,2009
-other,Rafael Soares de Arruda,INPA (Brazil),Ecology,Ph.D. Thesis Examiner,2008
-other,Ernane Vieira Neto ,UFU (Brazil),Ecology & Nat. Res. Cons.,M.S. Defense,2008
-other,Simone B. Fontoura,INPA (Brazil),Ecology,M.S. Thesis Examiner,2007
-other,Alan Nilo da Costa,UFU (Brazil),Ecology & Nat. Res. Cons.,M.S. Defense,2007
-other,Fabiane M. Mundim ,UFU (Brazil),Biological Sciences,B.S. Thesis Defense,2007
-other,Simone Benedet Founatura,"INPA, Brazil",Ecology,M.S. Proposal Examiner,2006
-other,Thiago Junqueira Izzo,INPA (Brazil),Ecology,Ph.D. Thesis Examiner,2005
-other,Paula M. Pedrosa,INPA (Brazil),Ecology,M.S. Thesis Examiner,2004
-other,Thiago Junqueira Izzo,INPA (Brazil),Ecology,M.S. Proposal Examiner,2002
-other,Daniel Mascia Vieira,UnB (Brazil),Ecology,M.S. Defense,2002
+﻿role,coadvisor,Student,Instititution,Program,Degree,Year
+advisor,,Flor Calderón,NMSU,Wildlife and Fisheries Ecology,Ph.D.,In progress
+advisor,,Ryan Moore,NMSU,Wildlife and Fisheries Ecology,Ph.D.,In progress
+advisor,Wiebke Boeing,Melanie Solis Alvarez ,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,In progress
+advisor,Jennifer Frey,Matthew Becker,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,In progress
+advisor,,Taylor Pichler,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,In progress
+advisor,,Brandi Stevenson,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,In progress
+advisor,,Holly Whited,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,2026
+advisor,Jennifer Frey,Iona Rohan,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,2026
+doc_cmte,,Ryan Rimple,NMSU,Biology,Ph.D.,In progress
+doc_cmte,,Mark Peyton,NMSU,Biology,Ph.D.,In progress
+masters_cmte,,Nick Sebastian,UIUC,Natural Resources and Environmental Sciences,M.S.,In progress
+masters_cmte,,Charisa Bell,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,In progress
+masters_cmte,,Julia Nelson,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,2026
+masters_cmte,,William Grooms,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,2025
+masters_cmte,,Elizabeth Brock,NMSU,Water Science and Management,M.S.,2025
+masters_cmte,,Samuel Martinez,NMSU,"Fish, Wildlife and Conservation Ecology",M.S.,2024
+other,,Veli Monday Mdluli,University of the Free State QwaQwa (S. Africa),Zoology,Ph.D. Thesis Examiner,2024
