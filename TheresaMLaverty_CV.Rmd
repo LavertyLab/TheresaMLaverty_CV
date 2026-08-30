@@ -1098,7 +1098,7 @@ kbl(talks,
 
 \begingroup 
 \setlength{\leftskip}{.2cm}  
-North American Society for Bat Research, Society for Conservation Biology, American Society of Mammalogists, Ecological Society of America, Association for Tropical Biology and Conservation, Global South Bats, Western Bat Working Group, The Wildlife Society 
+American Society of Mammalogists,  Association for Tropical Biology and Conservation, Ecological Society of America, Global South Bats, North American Society for Bat Research, Society for Conservation Biology, The Wildlife Society, Western Bat Working Group
 
 
 \endgroup
