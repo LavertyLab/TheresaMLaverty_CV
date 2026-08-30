@@ -121,7 +121,7 @@ Vertebrate ecology and conservation, population and community ecology, food web 
 
 \begingroup 
 \setlength{\leftskip}{.2cm} 
-\setlength{\rightskip}{1cm} 
+\setlength{\rightskip}{.2cm} 
 <!-- ### EDUCATION \hrulefill\ -->
 <!-- TEXT \hrulefill\ -->
 <!-- Here is some text\xfill{1pt} \par -->
@@ -180,7 +180,7 @@ Thesis Advisor: Andrew P. Dobson
 <!-- ### PROFESSIONAL APPOINTMENTS -->
 \begingroup 
 \setlength{\leftskip}{.2cm} 
-\setlength{\rightskip}{1cm} 
+\setlength{\rightskip}{.2cm} 
 \textbf{Assistant Professor}, New Mexico State University  \hfill 2023-Present  
 Department of Fish, Wildlife and Conservation Ecology  
 
@@ -231,9 +231,9 @@ Department of Fish, Wildlife and Conservation Ecology
 \vspace{-0.2cm}  
 \begingroup 
 \setlength{\leftskip}{.3cm} 
-\setlength{\rightskip}{1cm} 
+\setlength{\rightskip}{.2cm} 
 Outstanding Departmental Publication Award, Colorado State University \hfill 2021 \newline
-for the _Ecological Applications_ article   
+for the 2021 _Ecological Applications_ article   
 
 \endgroup
 
@@ -249,7 +249,7 @@ for the _Ecological Applications_ article
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.3cm} 
-\setlength{\rightskip}{1cm} 
+\setlength{\rightskip}{.2cm} 
 National Science Foundation Graduate Research Fellowship \hfill 2013-2018  
 
 \endgroup
@@ -392,7 +392,7 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 
 23. Moldowan PD, Laverty TM, Emmans CJ, Stanley RC. 2016. Diet, gastric parasitism, and injuries of caimans (*Caiman*, _Melanosuchus_, and _Paleosuchus_) in the Peruvian Amazon. \textit{\textbf{South American Journal of Herpetology}} 11(3):176–182. https://doi.org/10.2994/SAJH-D-16-00012.1
 
-24. Laverty TM, Dobson AP. 2013. Dietary overlap between Black Caimans and Spectacled Caimans in the Peruvian Amazon. \textit{\textbf{Herpetologica}} 69(1):91–101. https://doi.org/10.1655/HERPETOLOGICA-D-12-00031
+24. Laverty TM, Dobson AP. 2013. Dietary overlap between black caimans and spectacled caimans in the Peruvian Amazon. \textit{\textbf{Herpetologica}} 69(1):91–101. https://doi.org/10.1655/HERPETOLOGICA-D-12-00031
 
 
 <!-- ### ANNOUNCEMENTS, BOOK REVIEWS, \& CORRESPONDENCE -->
@@ -988,22 +988,23 @@ Graduate Representative, Department of Ecosystem & Conservation Sciences Student
 \endgroup 
 
 \vspace{0.2cm}
-\textbf{\textcolor{darkmidnightblue}{\large{EDITORIAL POSITIONS \& SERVICE AS A REVIEWER}}}\xrfill[0.5ex]{1pt}
+\textbf{\textcolor{darkmidnightblue}{\large{SERVICE AS A REVIEWER}}}\xrfill[0.5ex]{1pt}
+<!-- \textbf{\textcolor{darkmidnightblue}{\large{EDITORIAL POSITIONS \& SERVICE AS A REVIEWER}}}\xrfill[0.5ex]{1pt} -->
 
 \begingroup 
 \setlength{\leftskip}{.2cm}
 
-**Editor-in-Chief**: _Biotropica_ (2013-2019; _>2400 decisions_)  
+<!-- **Editor-in-Chief**: _Biotropica_ (2013-2019; _>2400 decisions_)   -->
 
-**Associate Editor:** _Biotropica_ (2010-2013)  
+<!-- **Associate Editor:** _Biotropica_ (2010-2013)   -->
 
-**Subject Editor:** _PLOS Ecosystems_ (2025-Present), _Biotropica_ (2007-2019), _Ecology_ (2008-2012), _Ecological Monographs_ (2008-2012), _Ecological Applications_ (2008-2012).
+<!-- **Subject Editor:** _PLOS Ecosystems_ (2025-Present), _Biotropica_ (2007-2019), _Ecology_ (2008-2012), _Ecological Monographs_ (2008-2012), _Ecological Applications_ (2008-2012). -->
 
-__*Ad hoc* journal referee (No. of reviews):__ *Trends in Ecology and Evolution* (1), *Nature Human Behavior* (1),*Nature Ecology & Evolution* (3), *Information, Communication,& Society* (1), _Acta Amazonica_ (1), *Ecology* (5), *Ecology and Evolution* (1),  *Methods in Ecology & Evolution* (1), *Conservation Biology* (5), *Biological Conservation* (7), *Ecological Applications* (1), *Oecologia* (4), *Journal of Tropical Ecology* (2), *Journal of Ecology* (6), *New Phytologist* (1), *American Naturalist* (5), *Plant Ecology* (3), *Proc. Roy. Soc. Lond. B* (1), *Journal of Applied Ecology* (1), *Biotropica* (14), *Ecography* (5), *Ciência y Cultura* (2), *Oikos* (1), *Revista Chilena de Historia Natural* (1), *Biochemical Systematics & Ecology* (1), *Ecology Letters* (2), *Insectes Sociaux* (1), *American J. of Botany* (1), *Scientometrics* (1), *F1000* (1), *Desenvolvimento e Meio Ambiente* (1), *PLoS Biology* (2), *PLoS ONE* (1), *Theoretical Ecology* (1), *Conservation Science & Practice* (1), *Nature Communications* (1)
+__*Ad hoc* journal referee (No. of reviews):__ *Acta Chiropterologica* (5), *Biological Conservation* (2), *Biotropica* (2), *EcoHealth* (1), *Global Change Biology* (1), *Global Ecology and Biogeography* (3), *Herpetological Monographs* (1), *Human Dimensions of Wildlife* (7), *Journal of Bat Research and Conservation* (1), *Journal of Mammalogy* (5), *Mammal Review* (1), *PLOS ONE* (1), *Proceedings of the Royal Society B: Biological Sciences* (2), *Scientific Reports* (1), *Sustainability* (2), *Urban Ecosystems* (2)
 
-__US National Science Foundation:__ Committee of Visitors, NSF Office of International Science & Engineering (2023), Proposal Review Panels: DEB Ecology (2005), DEB Population & Evolutionary Processes (2007), DEB Population & Community Ecology (2011, 2013). Ad-hoc proposal review: Division of Environmental Biology Core Programs (9), UMEB Program (2), RUI Program (1), AMERICAS Dissertation Improvement Grants (1), NSF Global Scientists & Engineers Program (1), International Research Fellowship Program (1),  Dimensions of Biodiversity Program (1)
+<!-- __US National Science Foundation:__ Committee of Visitors, NSF Office of International Science & Engineering (2023), Proposal Review Panels: DEB Ecology (2005), DEB Population & Evolutionary Processes (2007), DEB Population & Community Ecology (2011, 2013). Ad-hoc proposal review: Division of Environmental Biology Core Programs (9), UMEB Program (2), RUI Program (1), AMERICAS Dissertation Improvement Grants (1), NSF Global Scientists & Engineers Program (1), International Research Fellowship Program (1),  Dimensions of Biodiversity Program (1) -->
 
-__Other reviewer service__: Red Line Editorial (2019, technical review of a K-12 book), Mindlin Foundation (2018), Cornell University Press (2017), Instituto Serrapliheira (2017), HHMI Professors Program (2017), UF FAES/CRIS Project Proposals (2), U. of Chicago Press (1), Alfred P. Sloan Foundation Minority Ph.D. Program (3). National Geographic Society (1), U. of California Press (1)  
+__Other reviewer service__: Bat Conservation International (8), National Geographic Society (17), The Red List of Mammals of South Africa, Lesotho and Swaziland (1, species status assessment)  
 
 \endgroup 
 
@@ -1037,34 +1038,40 @@ kbl(talks,
   sub("\\\\toprule", "", .) %>%
   sub("\\\\bottomrule", "", .)
 ```
-
-### INTERVIEWS & MEDIA APPEARANCES  
+\vspace{-0.4cm}
+\vspace{-0.2cm}
+### INTERVIEWS & MEDIA APPEARANCES
+\vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
-2026\hspace{4mm}  [Daily Campus (UConn)](https://dailycampus.com/2026/02/09/how-habitat-fragmentation-and-climate-change-impact-tropical-plants/)   
-2024\hspace{4mm}  [Science News](https://www.sciencenews.org/article/invasive-ant-lion-dinner-trees-ecosystem), [Revista Piauí](https://piaui.folha.uol.com.br/materia/ciencia-recalcula-sua-rota/), _Science_     
-2023\hspace{4mm}  [_Nature_](https://www.nature.com/articles/d41586-023-00711-z), [Vox](https://www.vox.com/policy-and-politics/23593369/ron-desantis-florida-schools-higher-education-woke)   
-2022\hspace{4mm}  [NRC (The Netherlands)](https://www.nrc.nl/nieuws/2022/02/22/systeem-van-open-access-helpt-wetenschappers-uit-arme-landen-niet-a4092976), [Nature](https://www.nature.com/articles/d41586-022-00342-w), WIRED Magazine, [Fox News Business](https://www.foxbusiness.com/politics/university-professors-unhappy-desantis-accountability), [The Scientist](https://www.the-scientist.com/news-opinion/florida-faculty-await-details-on-new-tenure-law-69971),  
-&nbsp;\hspace{10mm} [Miami Herald](https://www.miamiherald.com/news/local/education/article263966316.html), [The Independent Florida Alligator](https://www.alligator.org/article/2022/09/blue-and-gold-macaw-uf-campus), [Chronicle for Higher Education](https://www.chronicle.com/article/it-could-have-been-worse-higher-ed-reacts-to-ben-sasse-at-u-of-florida),  
-&nbsp;\hspace{10mm} [The Hill](https://thehill.com/changing-america/enrichment/education/3274661-texas-and-florida-take-steps-to-limit-professor-tenure-at-state-schools/), Voice of America, ['How Ecology Works' Podcast](https://www.chemistryworld.com/news/most-scientific-editors-still-come-from-us-or-uk/3008426.article)  
-2021\hspace{4mm} Chronicle for Higher Education, [The Florida Independent Alligator](https://www.alligator.org/article/2021/01/what-happens-if-my-classmate-has-covid-19), [Associated Press](https://apnews.com/article/brazil-rio-de-janeiro-trees-abf6a15a804ea1485fbcec0eeed3d8d7), ABC's Nightline  
-2020\hspace{4mm} [Washington Post](https://www.washingtonpost.com/nation/2020/11/11/kyle-lamb-data-florida-coronavirus-desantis/), [South Florida Sun Sentinel](https://www.sun-sentinel.com/opinion/commentary/fl-op-com-grimm-ohio-sports-blogger-florida-covid-20201113-wikb2iv3gbd2vcby4hcevwyd6i-story.html)   
-2019\hspace{4mm} [USA Today](https://www.usatoday.com/story/news/nation/2019/10/18/amazon-rainforest-still-burning-more-fires-future/4011238002/), CBC News Network, [The Atlantic](https://www.theatlantic.com/science/archive/2019/04/amnh-under-fire-hosting-brazils-jair-bolsonaro/587068/), [The Verge](https://www.theverge.com/2019/9/10/20858834/amazon-fire-brazil-forest-harm-recovery-century), MSNBCs Velshi & Ruhle  
-&nbsp;\hspace{10mm} [WIRED Magazine](https://www.wired.com/story/the-horrifying-science-of-the-deforestation-fueling-amazon-fires/), [Mashable](https://mashable.com/article/amazon-rainforest-fires-tipping-point-deforestation), BBC World Service, [BBC News](https://www.bbc.com/mundo/noticias-america-latina-49504502), The Miradas Podcast, [Phys.org](https://phys.org/news/2019-10-amazon-hasnt-outbreaks-month-future.html), [Infobae](https://www.infobae.com/america/america-latina/2019/09/10/las-areas-quemadas-del-amazonas-podrian-tardar-siglos-en-recuperarse-por-completo/)    
-2018\hspace{4mm} Popular Science, Associated Press, [National Geographic](https://www.nationalgeographic.com/science/article/news-museu-nacional-fire-rio-de-janeiro-natural-history), Scholastic Classroom Magazines,  
-&nbsp;\hspace{10mm} [Minnesota Public Radio's Climate Cast](https://www.mprnews.org/story/2018/11/15/why-brazils-new-president-may-bring-more-climate-disaster-death), Gainesville Sun, Mongabay.com, [NBC News](https://www.nbcnews.com/news/latino/brazil-s-president-elect-jair-bolsonaro-may-smother-rainforest-scientists-n940326), [La Repubblica](https://www.repubblica.it/ambiente/2018/11/27/news/amazzonia_un_milione_di_campi_di_calcio_perduti_in_un_anno-212784490/),  
-&nbsp;\hspace{10mm} [Editage Insights](https://www.editage.com/insights/science-journals-might-be-more-international-but-not-their-editorial-boards)     
-2017\hspace{4mm} [Nature](https://www.nature.com/articles/548271a), [The Wire (India)](https://thewire.in/science/science-journals-might-international-not-editorial-boards), [Chemistry World](https://www.chemistryworld.com/news/most-scientific-editors-still-come-from-us-or-uk/3008426.article), Gainesville Sun, [Indianapolis  Star](https://www.indystar.com/story/opinion/columnists/suzette-hackney/2017/03/24/hackney-robotics-kids-kindness-triumphs-hate/99578116/), [Phys.org](https://phys.org/news/2017-12-science-international-scientific-editorial-boards.html)   
-2016\hspace{4mm} [_Nature_](https://www.nature.com/articles/nature.2016.20830), [Chronicle of Higher Education](https://www.chronicle.com/article/in-donald-trump-phd-scientists-find-catharsis-amid-gags/), [DailyDot](https://www.dailydot.com/unclick/donald-trump-phd-twitter-makes-science-great-again/), [Mongabay.com](https://news.mongabay.com/2016/01/special-issue-of-biotropica-makes-the-case-for-protecting-south-americas-white-sand-forests/) [Mongabay.com](https://news.mongabay.com/2016/04/building-roads-agricultural-expansion-brazil-aiding-spread-insects-harm-crops/)  
-2015\hspace{4mm} [WAMC Public Radio](https://www.wamc.org/2015-01-30/is-there-a-pubradiovoice-that-sounds-like-america)  
-2014\hspace{4mm} NPRs Morning Edition - "Joe's Big Idea", TV Acre - Rede Globo Rio Branco, Bom Dia Amazônia, [SciDevNet](https://www.scidev.net/global/news/armadillo-mascot-world-cup/)  
-&nbsp;\hspace{10mm} TV Gazetta 'Entrevista com Rogério Wenceslau' (Rede Record Rio Branco), Estado de São Paulo  
-&nbsp;\hspace{10mm} Nature.com, WUFT, Science/Science Insider, Howler Soccer Magazine's Dummy Podcast  
-2013\hspace{4mm} SciDevNet, WSLR Florida-Caribe Radio Show  
-2006\hspace{4mm} The Scientist Magazine, Science Minority Scientists Network  
-2005\hspace{4mm} Science's Next Wave, Televisão Universitária, Uberlândia, Folha de São Paulo  
-2004\hspace{4mm} _Science_ Magazine's Minority Scientists Network  
-2002\hspace{4mm} NPR's Weekend Edition Saturday, BBC World Service Radio 4, Austrian Public Television's Modern Times.  
+2025\hspace{4mm}  [KRQE News 13-Albuquerque](https://www.youtube.com/watch?v=tSvK9wcM-D4)   
+2021\hspace{4mm}  Roan NEWS Magazine, Namibian Environment & Wildlife Society  
+2020\hspace{4mm}  [Nature Research Ecology & Evolution Community](https://natureecoevocommunity.nature.com/posts/catalyzing-dialogue-about-who-should-be-advancing-equity-diversity-and-inclusion-on-college-campuses-and-beyond)  
+2019\hspace{4mm}  [Nature Research Ecology & Evolution Community](https://natureecoevocommunity.nature.com/channels/521-behind-the-paper/posts/49514-how-can-we-achieve-diversity-and-inclusion-in-ecology)  
+2018\hspace{4mm}  [Rocky Mountain Public Broadcasting Station](https://www.youtube.com/watch?v=wg_Weynsgf0), [The Conservation](https://theconversation.com/could-bats-guide-humans-to-clean-drinking-water-in-places-where-its-scarce-90311)   
+2016\hspace{4mm}  National Geographic Society
+<!-- [Vox](https://www.vox.com/policy-and-politics/23593369/ron-desantis-florida-schools-higher-education-woke)    -->
+<!-- 2022\hspace{4mm}  [NRC (The Netherlands)](https://www.nrc.nl/nieuws/2022/02/22/systeem-van-open-access-helpt-wetenschappers-uit-arme-landen-niet-a4092976), [Nature](https://www.nature.com/articles/d41586-022-00342-w), WIRED Magazine, [Fox News Business](https://www.foxbusiness.com/politics/university-professors-unhappy-desantis-accountability), [The Scientist](https://www.the-scientist.com/news-opinion/florida-faculty-await-details-on-new-tenure-law-69971),   -->
+<!-- &nbsp;\hspace{10mm} [Miami Herald](https://www.miamiherald.com/news/local/education/article263966316.html), [The Independent Florida Alligator](https://www.alligator.org/article/2022/09/blue-and-gold-macaw-uf-campus), [Chronicle for Higher Education](https://www.chronicle.com/article/it-could-have-been-worse-higher-ed-reacts-to-ben-sasse-at-u-of-florida),   -->
+<!-- &nbsp;\hspace{10mm} [The Hill](https://thehill.com/changing-america/enrichment/education/3274661-texas-and-florida-take-steps-to-limit-professor-tenure-at-state-schools/), Voice of America, ['How Ecology Works' Podcast](https://www.chemistryworld.com/news/most-scientific-editors-still-come-from-us-or-uk/3008426.article)   -->
+<!-- 2021\hspace{4mm} Chronicle for Higher Education, [The Florida Independent Alligator](https://www.alligator.org/article/2021/01/what-happens-if-my-classmate-has-covid-19), [Associated Press](https://apnews.com/article/brazil-rio-de-janeiro-trees-abf6a15a804ea1485fbcec0eeed3d8d7), ABC's Nightline   -->
+<!-- 2020\hspace{4mm} [Washington Post](https://www.washingtonpost.com/nation/2020/11/11/kyle-lamb-data-florida-coronavirus-desantis/), [South Florida Sun Sentinel](https://www.sun-sentinel.com/opinion/commentary/fl-op-com-grimm-ohio-sports-blogger-florida-covid-20201113-wikb2iv3gbd2vcby4hcevwyd6i-story.html)    -->
+<!-- 2019\hspace{4mm} [USA Today](https://www.usatoday.com/story/news/nation/2019/10/18/amazon-rainforest-still-burning-more-fires-future/4011238002/), CBC News Network, [The Atlantic](https://www.theatlantic.com/science/archive/2019/04/amnh-under-fire-hosting-brazils-jair-bolsonaro/587068/), [The Verge](https://www.theverge.com/2019/9/10/20858834/amazon-fire-brazil-forest-harm-recovery-century), MSNBCs Velshi & Ruhle   -->
+<!-- &nbsp;\hspace{10mm} [WIRED Magazine](https://www.wired.com/story/the-horrifying-science-of-the-deforestation-fueling-amazon-fires/), [Mashable](https://mashable.com/article/amazon-rainforest-fires-tipping-point-deforestation), BBC World Service, [BBC News](https://www.bbc.com/mundo/noticias-america-latina-49504502), The Miradas Podcast, [Phys.org](https://phys.org/news/2019-10-amazon-hasnt-outbreaks-month-future.html), [Infobae](https://www.infobae.com/america/america-latina/2019/09/10/las-areas-quemadas-del-amazonas-podrian-tardar-siglos-en-recuperarse-por-completo/)     -->
+<!-- 2018\hspace{4mm} Popular Science, Associated Press, [National Geographic](https://www.nationalgeographic.com/science/article/news-museu-nacional-fire-rio-de-janeiro-natural-history), Scholastic Classroom Magazines,   -->
+<!-- &nbsp;\hspace{10mm} [Minnesota Public Radio's Climate Cast](https://www.mprnews.org/story/2018/11/15/why-brazils-new-president-may-bring-more-climate-disaster-death), Gainesville Sun, Mongabay.com, [NBC News](https://www.nbcnews.com/news/latino/brazil-s-president-elect-jair-bolsonaro-may-smother-rainforest-scientists-n940326), [La Repubblica](https://www.repubblica.it/ambiente/2018/11/27/news/amazzonia_un_milione_di_campi_di_calcio_perduti_in_un_anno-212784490/),   -->
+<!-- &nbsp;\hspace{10mm} [Editage Insights](https://www.editage.com/insights/science-journals-might-be-more-international-but-not-their-editorial-boards)      -->
+<!-- 2017\hspace{4mm} [Nature](https://www.nature.com/articles/548271a), [The Wire (India)](https://thewire.in/science/science-journals-might-international-not-editorial-boards), [Chemistry World](https://www.chemistryworld.com/news/most-scientific-editors-still-come-from-us-or-uk/3008426.article), Gainesville Sun, [Indianapolis  Star](https://www.indystar.com/story/opinion/columnists/suzette-hackney/2017/03/24/hackney-robotics-kids-kindness-triumphs-hate/99578116/), [Phys.org](https://phys.org/news/2017-12-science-international-scientific-editorial-boards.html)    -->
+<!-- 2016\hspace{4mm} [_Nature_](https://www.nature.com/articles/nature.2016.20830), [Chronicle of Higher Education](https://www.chronicle.com/article/in-donald-trump-phd-scientists-find-catharsis-amid-gags/), [DailyDot](https://www.dailydot.com/unclick/donald-trump-phd-twitter-makes-science-great-again/), [Mongabay.com](https://news.mongabay.com/2016/01/special-issue-of-biotropica-makes-the-case-for-protecting-south-americas-white-sand-forests/) [Mongabay.com](https://news.mongabay.com/2016/04/building-roads-agricultural-expansion-brazil-aiding-spread-insects-harm-crops/)   -->
+<!-- 2015\hspace{4mm} [WAMC Public Radio](https://www.wamc.org/2015-01-30/is-there-a-pubradiovoice-that-sounds-like-america)   -->
+<!-- 2014\hspace{4mm} NPRs Morning Edition - "Joe's Big Idea", TV Acre - Rede Globo Rio Branco, Bom Dia Amazônia, [SciDevNet](https://www.scidev.net/global/news/armadillo-mascot-world-cup/)   -->
+<!-- &nbsp;\hspace{10mm} TV Gazetta 'Entrevista com Rogério Wenceslau' (Rede Record Rio Branco), Estado de São Paulo   -->
+<!-- &nbsp;\hspace{10mm} Nature.com, WUFT, Science/Science Insider, Howler Soccer Magazine's Dummy Podcast   -->
+<!-- 2013\hspace{4mm} SciDevNet, WSLR Florida-Caribe Radio Show   -->
+<!-- 2006\hspace{4mm} The Scientist Magazine, Science Minority Scientists Network   -->
+<!-- 2005\hspace{4mm} Science's Next Wave, Televisão Universitária, Uberlândia, Folha de São Paulo   -->
+<!-- 2004\hspace{4mm} _Science_ Magazine's Minority Scientists Network   -->
+<!-- 2002\hspace{4mm} NPR's Weekend Edition Saturday, BBC World Service Radio 4, Austrian Public Television's Modern Times.   -->
 
 \endgroup   
 
