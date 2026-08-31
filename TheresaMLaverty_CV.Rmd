@@ -318,7 +318,7 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 
 1. ^GS^Rohan IM, Laverty TM, Frey JK. Terrestrial mammals alter habitat selection in response to turbine visibility at a central New Mexico wind energy facility. \textit{In revision}, \textit{\textbf{Conservation Science and Practice}}.
 
-
+\vspace{-0.2cm}
 <!-- \end{enumerate}   -->
 
 <!-- very helpful for bibliography: https://inbo.github.io/tutorials/tutorials/r_citations_markdown/ -->
@@ -625,9 +625,14 @@ kbl(grad_advised, digits = 1,
                   col.names = NULL,
                   row.names = FALSE,
                   booktabs = T,
-                  longtable = T, 
+                  longtable = T,
                   linesep = "",
                   escape = FALSE) %>% # CRITICAL: Allows LaTeX code inside cells to render
+  #column_spec(1, width = "3.6cm") %>%
+  column_spec(2, width = "0.95cm") %>%
+  column_spec(3, width = "6.7cm") %>%
+  column_spec(4, width = "0.7cm") %>%
+  column_spec(5, width = "1.8cm") %>%
   kable_styling(bootstrap_options = c("hover"),
                 latex_options = c("scale_down"),
                 full_width = F,
@@ -635,23 +640,33 @@ kbl(grad_advised, digits = 1,
                 position = "left") %>%
   sub("\\\\toprule", "", .) %>%
   sub("\\\\bottomrule", "", .)
-# kbl(grad_advised,digits = 1,
-#                   format = "latex",
-#                   align="l",
-#     col.names = NULL,
-#     longtable = T,
-#                   row.names = FALSE,
-#                   booktabs=T,
-#                   linesep = "") %>%
-#   kable_styling(bootstrap_options = c("hover"),
-#                 latex_options = c("scale_down"),
-#                 full_width = F,
-#                 font_size = 10,
-#                 position = "left") %>%
+
+# kbl(
+#   grad_advised,
+#   format = "latex",
+#   align = c("l", "l", "l", "l", "l"),
+#   longtable = TRUE,
+#   row.names = FALSE,
+#   col.names = NULL,
+#   booktabs = TRUE,
+#   linesep = "",
+#   escape = F
+# ) %>%
+#   column_spec(1, width = "3.6cm") %>%
+#   column_spec(2, width = "0.95cm") %>%
+#   column_spec(3, width = "6.7cm") %>%
+#   column_spec(4, width = "0.7cm") %>%
+#   column_spec(5, width = "1.8cm") %>%
+#   kable_styling(
+#     latex_options = c("repeat_header"),
+#     full_width = FALSE,
+#     font_size = 10,
+#     position = "left"
+#   ) %>%
 #   sub("\\\\toprule", "", .) %>%
 #   sub("\\\\bottomrule", "", .)
 ```
-\vspace{-0.2cm}
+\vspace{-0.4cm}
 _Students under my supervision have been awarded over $12,000 in grants and awards in support of their research, teaching, and outreach and been the recipients of the following fellowships- and grants to support their studies:_ 
 
 *	JRN-LTER Graduate Research Fellowship (R Moore)
@@ -674,46 +689,94 @@ _Students under my supervision have been awarded over $12,000 in grants and awar
 \vspace{-0.2cm}
 ```{r DocCmte, echo=FALSE,message = FALSE,warning=FALSE}
 grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="doc_cmte") %>% select(-role, -coadvisor)
-kbl(grad_advised,digits = 1,
-                  format = "latex",
-                  align="l",
-                  col.names = NULL,
-                  row.names = FALSE,
-                  booktabs=T,
-                  longtable = T, 
-                  linesep = "") %>%
-  kable_styling(bootstrap_options = c("hover"),
-                #latex_options = c("scale_down"),
-                full_width = T, #F, #change this back when FWCE students are added
-                font_size = 10,
-                position = "left") %>%
+# kbl(grad_advised,digits = 1,
+#                   format = "latex",
+#                   align="l",
+#                   col.names = NULL,
+#                   row.names = FALSE,
+#                   booktabs=T,
+#                   longtable = T, 
+#                   linesep = "") %>%
+#   kable_styling(bootstrap_options = c("hover"),
+#                 #latex_options = c("scale_down"),
+#                 full_width = T, #F, #change this back when FWCE students are added
+#                 font_size = 10,
+#                 position = "left") %>%
+#   sub("\\\\toprule", "", .) %>%
+#  sub("\\\\bottomrule", "", .)
+kbl(
+  grad_advised,
+  format = "latex",
+  align = c("l", "l", "l", "l", "l"),
+  longtable = TRUE,
+  row.names = FALSE,
+  col.names = NULL,
+  booktabs = TRUE,
+  linesep = "",
+  escape = TRUE
+) %>%
+  column_spec(1, width = "3.6cm") %>%
+  column_spec(2, width = "0.95cm") %>%
+  column_spec(3, width = "6.7cm") %>%
+  column_spec(4, width = "0.7cm") %>%
+  column_spec(5, width = "1.8cm") %>%
+  kable_styling(
+    latex_options = c("repeat_header"),
+    full_width = FALSE,
+    font_size = 10,
+    position = "left"
+  ) %>%
   sub("\\\\toprule", "", .) %>%
   sub("\\\\bottomrule", "", .)
 ```
-\vspace{-0.4cm}
+\vspace{-0.6cm}
 <!-- **Wildlife Ecology & Conservation**: David Mason (in progress), Flavia Montaño Centellas (2018), Margo Stoddard (2017), Rajeev Pillay (2016), Rosalyn Johnson (2016), Gonzalo Rivas (2015), Oscar Gonzalez (2015), Dan Thornton (2010), Ivan Diaz (2008), Christa Zweig (2008), Traci Darnell (2006)  **Forest Resources & Conservation**: Andrea Irons (in progress), Demian Gomez Damiano (2020), Jacy Hyde (2019), Christie Klimas (2010)  **Biology (*formerly Depts. of Botany & Zoology*)**: Maria Beatriz Cortez (in progress), Johanna R. Jantzen (2020), Trevor Caughlin (2013), Kristine Callis (2013), Mollie Brooks (2012), Silvia Alvarez-Clare (2012), C. Seabird McKeon (2010), Joseph Veldman (2010), Jennifer Schafer (2010), Alex Jahn (2009), Silvia Lomáscolo (2008), Bonifacio Mostacedo (2007)  **Interdisciplinary Ecology**: Joanna Tucker (2010), Matt Trager	(2009)  **Entomology**: Jade Badon (2018), Pablo Allen (2017), David Serrano (2006)  **Anthropology**: Scott Macrae (2017)  **Columbia University**: Marina Cortes (Ecology, Evolution, Behavior (2012) -->
 \vspace{-0.2cm}
 ### MASTERS COMMITTEE SERVICE
 \vspace{-0.2cm}
 ```{r MastersCmte, echo=FALSE,message = FALSE,warning=FALSE}
 grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="masters_cmte") %>% select(-role, -coadvisor)
-kbl(grad_advised,digits = 1,
-                  format = "latex",
-                  align="l",
-        longtable = T, 
-    col.names = NULL,
-                  row.names = FALSE,
-                  booktabs=T,
-                  linesep = "") %>%
-  kable_styling(bootstrap_options = c("hover"),
-                latex_options = c("scale_down"),
-                full_width = F,
-                font_size = 10,
-                position = "left") %>%
+# kbl(grad_advised,digits = 1,
+#                   format = "latex",
+#                   align="l",
+#         longtable = T, 
+#     col.names = NULL,
+#                   row.names = FALSE,
+#                   booktabs=T,
+#                   linesep = "") %>%
+#   kable_styling(bootstrap_options = c("hover"),
+#                 latex_options = c("scale_down"),
+#                 full_width = F,
+#                 font_size = 10,
+#                 position = "left") %>%
+#   sub("\\\\toprule", "", .) %>%
+#   sub("\\\\bottomrule", "", .)
+kbl(
+  grad_advised,
+  format = "latex",
+  align = c("l", "l", "l", "l", "l"),
+  longtable = TRUE,
+  row.names = FALSE,
+  col.names = NULL,
+  booktabs = TRUE,
+  linesep = "",
+  escape = TRUE
+) %>%
+  column_spec(1, width = "3.6cm") %>%
+  column_spec(2, width = "0.95cm") %>%
+  column_spec(3, width = "6.7cm") %>%
+  column_spec(4, width = "0.7cm") %>%
+  column_spec(5, width = "1.8cm") %>%
+  kable_styling(
+    latex_options = c("repeat_header"),
+    full_width = FALSE,
+    font_size = 10,
+    position = "left"
+  ) %>%
   sub("\\\\toprule", "", .) %>%
   sub("\\\\bottomrule", "", .)
 ```
-\vspace{-0.4cm}
+\vspace{-0.6cm}
 <!-- **Wildlife Ecology & Conservation**: Lauren Trotta (2016), Brittany Bankovich (2014), Nathan Marcy (2010), Kristen Aaltonen (2009), Mariano Rodriguez Cabal (2007)  **Forest Resources & Conservation**: Jennifer Holm (2007), Christie Klimas (2006)  **Biology (*formerly Depts. of Botany & Zoology*)**: Tania Kim (2006), Silvia Alvarez Clare (2004)  **Interdisciplinary Ecology**: Jamie Cotta (2006)  **Entomology**: Teresa Cooper (2006)  **Latin American Studies**: Crisne Lebron (2015), Carly Voight (2010), Laura Fonseca (2009), Jennifer Davies (2003), **Anthropology**: Autumn Rose (in progress). -->
 \vspace{-0.2cm}
 ### EXTERNAL THESIS EXAMINER
@@ -831,20 +894,70 @@ kbl(other,digits = 1,
 \vspace{-0.4cm}
 ### NEW MEXICO STATE UNIVERSITY  
 \vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}
-Institutional Animal Care and Use Committee (2023-present)  
+```{r uni, echo=FALSE,message = FALSE,warning=FALSE}
+service<-read_csv("./cv_files/service.csv") %>% filter(level=="uni") %>% select(-level)
+kbl(
+  service,
+  format = "latex",
+  align = c("l", "l"),
+  longtable = TRUE,
+  row.names = FALSE,
+  col.names = NULL,
+  booktabs = TRUE,
+  linesep = "",
+  escape = TRUE
+) %>%
+  column_spec(1, width = "2cm") %>%
+  column_spec(2, width = "13cm") %>%
+  kable_styling(
+    latex_options = c("repeat_header"),
+    full_width = FALSE,
+    font_size = 10,
+    position = "left"
+  ) %>%
+  sub("\\\\toprule", "", .) %>%
+  sub("\\\\bottomrule", "", .)
+```
+\vspace{-0.6cm}
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
+<!-- Institutional Animal Care and Use Committee (2023-present)   -->
 
-\endgroup 
+<!-- \endgroup  -->
 
 \vspace{-0.2cm}
 ### NMSU COLLEGE OF AGRICULTURAL, CONSUMER AND ENVIRONMENTAL SCIENCES
 \vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}
-Connections & Engagement Initiative Committee (2025-present) 
+```{r col, echo=FALSE,message = FALSE,warning=FALSE}
+service<-read_csv("./cv_files/service.csv") %>% filter(level=="col") %>% select(-level)
+kbl(
+  service,
+  format = "latex",
+  align = c("l", "l"),
+  longtable = TRUE,
+  row.names = FALSE,
+  col.names = NULL,
+  booktabs = TRUE,
+  linesep = "",
+  escape = TRUE
+) %>%
+  column_spec(1, width = "2cm") %>%
+  column_spec(2, width = "13cm") %>%
+  kable_styling(
+    latex_options = c("repeat_header"),
+    full_width = FALSE,
+    font_size = 10,
+    position = "left"
+  ) %>%
+  sub("\\\\toprule", "", .) %>%
+  sub("\\\\bottomrule", "", .)
+```
+\vspace{-0.6cm}
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
+<!-- Connections & Engagement Initiative Committee (2025-present)  -->
 
-\endgroup 
+<!-- \endgroup  -->
 
 <!-- \vspace{-0.2cm} -->
 <!-- ### UF TENURE MENTORSHIP & PEER TEACHING EVALUATION COMMITTEES -->
@@ -871,13 +984,38 @@ Connections & Engagement Initiative Committee (2025-present)
 \vspace{-0.2cm}
 ### NMSU DEPARTMENT OF FISH, WILDLIFE AND CONSERVATION ECOLOGY
 \vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}
-Undergraduate Curriculum Committee (2024-present)  
-Search Committee, Chair of the Department of Fish, Wildlife and Conservation Ecology (2024)  
-Diversity, Equity, and Inclusion Committee (2023-2024)  
+```{r dept, echo=FALSE,message = FALSE,warning=FALSE}
+service<-read_csv("./cv_files/service.csv") %>% filter(level=="dept") %>% select(-level)
+kbl(
+  service,
+  format = "latex",
+  align = c("l", "l"),
+  longtable = TRUE,
+  row.names = FALSE,
+  col.names = NULL,
+  booktabs = TRUE,
+  linesep = "",
+  escape = TRUE
+) %>%
+  column_spec(1, width = "2cm") %>%
+  column_spec(2, width = "13cm") %>%
+  kable_styling(
+    latex_options = c("repeat_header"),
+    full_width = FALSE,
+    font_size = 10,
+    position = "left"
+  ) %>%
+  sub("\\\\toprule", "", .) %>%
+  sub("\\\\bottomrule", "", .)
+```
+\vspace{-0.6cm}
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
+<!-- Undergraduate Curriculum Committee (2024-present)   -->
+<!-- Search Committee, Chair of the Department of Fish, Wildlife and Conservation Ecology (2024)   -->
+<!-- Diversity, Equity, and Inclusion Committee (2023-2024)   -->
 
-\endgroup 
+<!-- \endgroup  -->
 
 <!-- \vspace{-0.2cm} -->
 
@@ -958,34 +1096,84 @@ Diversity, Equity, and Inclusion Committee (2023-2024)
 \vspace{-0.2cm}
 ### JORNADA BASIN LTER 
 \vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}
-Information Management Committee (2025-present)
+```{r jrn, echo=FALSE,message = FALSE,warning=FALSE}
+service<-read_csv("./cv_files/service.csv") %>% filter(level=="jrn") %>% select(-level)
+kbl(
+  service,
+  format = "latex",
+  align = c("l", "l"),
+  longtable = TRUE,
+  row.names = FALSE,
+  col.names = NULL,
+  booktabs = TRUE,
+  linesep = "",
+  escape = TRUE
+) %>%
+  column_spec(1, width = "2cm") %>%
+  column_spec(2, width = "13cm") %>%
+  kable_styling(
+    latex_options = c("repeat_header"),
+    full_width = FALSE,
+    font_size = 10,
+    position = "left"
+  ) %>%
+  sub("\\\\toprule", "", .) %>%
+  sub("\\\\bottomrule", "", .)
+```
+\vspace{-0.6cm}
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
+<!-- Information Management Committee (2025-present) -->
 
-\endgroup
+<!-- \endgroup -->
 
 
 \vspace{-0.2cm}
 ### OTHER UNIVERSITIES & PROFESSIONAL ORGANIZATIONS   
 \vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.2cm}
-State Wildlife Action Plan (SWAP) for New Mexico Core Team, New Mexico Department of Wildlife (2025-present)  
-<!-- External Tenure & Promotion Evaluations (N=26, 2011-present)   -->
-<!-- 2024 (3) 2023 (3), 2022 (4), 2021 (2), 2020 (3), 2018 (2), 2017 (1), 2016 (3), 2015 (1), 2011 (1)   -->
-Co-coordinator of Southern African bat assessments for the IUCN Red List (2023-present)  
-GBatNet Prioritizing Key Habitats and Species Conservation Working Group (2022-present)  
-NABat Emergence/Summer Colony Count Working Group (2020-2024)  
-Lesser Long-nosed Bat Post-Delisting Monitoring Plan Participant, U.S. Fish and Wildlife Service (2023)  
-Diversity, Equity, & Inclusion Committee, Ecology and Evolution Department, University of Chicago (2021-2022)  
-Planning Committee Member, Northern Colorado & Wyoming chapter of Expanding Your Horizons—an annual STEM workshop for 6th through 8th grade girls (2017-2019)  
-Dr. David Otis Speaker Series Selection Committee, Colorado State University (2017-2018)  
-Panel member, Colorado State University Info Session on the NSF Graduate Research Fellowship Program (2017)  
-Graduate Representative, Population Ecology Assistant Professor Search Committee, University of Montana (2013-2014)  
-Graduate Representative, Department of Ecosystem & Conservation Sciences Student Evaluation Committee, University of Montana (2014)  
+```{r other, echo=FALSE,message = FALSE,warning=FALSE}
+service<-read_csv("./cv_files/service.csv") %>% filter(level=="other") %>% select(-level)
+kbl(
+  service,
+  format = "latex",
+  align = c("l", "l"),
+  longtable = TRUE,
+  row.names = FALSE,
+  col.names = NULL,
+  booktabs = TRUE,
+  linesep = "",
+  escape = TRUE
+) %>%
+  column_spec(1, width = "2cm") %>%
+  column_spec(2, width = "14cm") %>%
+  kable_styling(
+    latex_options = c("repeat_header"),
+    full_width = FALSE,
+    font_size = 10,
+    position = "left"
+  ) %>%
+  sub("\\\\toprule", "", .) %>%
+  sub("\\\\bottomrule", "", .)
+```
+\vspace{-0.4cm}
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm} -->
+<!-- State Wildlife Action Plan (SWAP) for New Mexico Core Team, New Mexico Department of Wildlife (2025-present)   -->
+<!-- Co-coordinator of Southern African bat assessments for the IUCN Red List (2023-present)   -->
+<!-- GBatNet Prioritizing Key Habitats and Species Conservation Working Group (2022-present)   -->
+<!-- NABat Emergence/Summer Colony Count Working Group (2020-2024)   -->
+<!-- Lesser Long-nosed Bat Post-Delisting Monitoring Plan Participant, U.S. Fish and Wildlife Service (2023)   -->
+<!-- Diversity, Equity, & Inclusion Committee, Ecology and Evolution Department, University of Chicago (2021-2022)   -->
+<!-- Planning Committee Member, Northern Colorado & Wyoming chapter of Expanding Your Horizons—an annual STEM workshop for 6th through 8th grade girls (2017-2019)   -->
+<!-- Dr. David Otis Speaker Series Selection Committee, Colorado State University (2017-2018)   -->
+<!-- Panel member, Colorado State University Info Session on the NSF Graduate Research Fellowship Program (2017)   -->
+<!-- Graduate Representative, Population Ecology Assistant Professor Search Committee, University of Montana (2013-2014)   -->
+<!-- Graduate Representative, Department of Ecosystem & Conservation Sciences Student Evaluation Committee, University of Montana (2014)   -->
 
+<!-- External Tenure & Promotion Evaluations (N=26, 2011-present)   --> 
+<!--  2024 (3) 2023 (3), 2022 (4), 2021 (2), 2020 (3), 2018 (2), 2017 (1), 2016 (3), 2015 (1), 2011 (1)   --> 
 
-\endgroup 
+<!-- \endgroup  -->
 
 \vspace{0.2cm}
 \textbf{\textcolor{darkmidnightblue}{\large{SERVICE AS A REVIEWER}}}\xrfill[0.5ex]{1pt}
@@ -1038,7 +1226,7 @@ kbl(talks,
   sub("\\\\toprule", "", .) %>%
   sub("\\\\bottomrule", "", .)
 ```
-\vspace{-0.4cm}
+\vspace{-0.6cm}
 \vspace{-0.2cm}
 ### INTERVIEWS & MEDIA APPEARANCES
 \vspace{-0.2cm}
@@ -1083,14 +1271,74 @@ kbl(talks,
 <!-- ## PROFESSIONAL DEVELOPMENT ACTIVITIES   -->
 \vspace{-0.2cm}
 ### TRAINING PROGRAMS
-\begingroup 
-\setlength{\leftskip}{.2cm}  
-2013\hspace{4mm} University of Florida Science Communication Academy  
-2004\hspace{4mm} California Academy of Sciences: The Ant Course: Taxonomy & Systematics (Costa Rica)  
-1996\hspace{4mm} Organization for Tropical Studies: Tropical Plant Systematics 96-9 (Costa Rica)  
-1993\hspace{4mm} University of California Education Abroad Program: Tropical Biology Quarter (Costa Rica) 
+\vspace{-0.2cm}
+```{r trainings, echo=FALSE,message = FALSE,warning=FALSE}
+trainings<-read_csv("./cv_files/trainings.csv", col_types = cols(.default = "c")) %>% 
+  select(-year)  %>% 
+  replace_na(list(year2=""))%>%
+  mutate(
+  Training = if_else(
+    !is.na(Instructor) & Instructor != "",
+    paste0(
+      Training,
+      if_else(
+        str_detect(Instructor, fixed("&")),
+        " (Instructors: ",
+        " (Instructor: "
+      ),
+      Instructor,
+      ")."
+    ),
+    paste0(Training,".")
+  )
+) %>%
+select(-Instructor) # Remove the standalone column so it doesn't print
+# kbl(trainings, 
+#       format    = "latex", 
+#       align = "l",
+#       longtable = T, 
+#       row.names = FALSE,
+#       col.names = NULL,
+#       booktabs=T,
+#       linesep = "") %>%
+#   kable_styling(bootstrap_options = c("hover"),
+#                 latex_options = c("scale_down"),
+#                 full_width = F,
+#                 font_size = 10,
+#                 position = "left") %>%
+#   sub("\\\\toprule", "", .) %>%
+#   sub("\\\\bottomrule", "", .)
+kbl(
+  trainings,
+  format = "latex",
+  align = c("l", "l"),
+  longtable = TRUE,
+  row.names = FALSE,
+  col.names = NULL,
+  booktabs = TRUE,
+  linesep = "",
+  escape = TRUE
+) %>%
+  column_spec(1, width = "0.8cm") %>%
+  column_spec(2, width = "14.7cm") %>%
+  kable_styling(
+    latex_options = c("repeat_header"),
+    full_width = FALSE,
+    font_size = 10,
+    position = "left"
+  ) %>%
+  sub("\\\\toprule", "", .) %>%
+  sub("\\\\bottomrule", "", .)
+```
+\vspace{-0.6cm}
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm}   -->
+<!-- 2013\hspace{4mm} University of Florida Science Communication Academy   -->
+<!-- 2004\hspace{4mm} California Academy of Sciences: The Ant Course: Taxonomy & Systematics (Costa Rica)   -->
+<!-- 1996\hspace{4mm} Organization for Tropical Studies: Tropical Plant Systematics 96-9 (Costa Rica)   -->
+<!-- 1993\hspace{4mm} University of California Education Abroad Program: Tropical Biology Quarter (Costa Rica)  -->
 
-\endgroup
+<!-- \endgroup -->
 
 \vspace{-0.2cm}
 
