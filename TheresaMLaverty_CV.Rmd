@@ -269,13 +269,15 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 
 1. Arizona Game and Fish Department. _"Movement ecology of bats with Motus"_ ($100,000; PI: TM Laverty; 2025).
 
-1. Bureau of Land Management. _"Identifying barriers to pronghorn (Antilocapra americana) habitat connectivity in southwestern New Mexico in relation to rangeland management and renewable energy development"_ ($502,843 [30% credit]; PI: JW Cain, Co-Pis: JK Frey, TM Laverty; 2024-2028).
+1. Bureau of Land Management. _"Identifying barriers to pronghorn (Antilocapra americana) habitat connectivity in southwestern New Mexico in relation to rangeland management and renewable energy development"_ ($502,843 [30% credit]; PI: JW Cain, Co-PIs: JK Frey, TM Laverty; 2024-2028).
 
-1. National Science Foundation. _"BRC-BIO: The interactive effects of bats and insects on shrub encroachment dynamics in the Chihuahuan Desert"_ ($497,568; PI: TM Laverty, 2024-2027).
+1. National Science Foundation. _"BRC-BIO: The interactive effects of bats and insects on shrub encroachment dynamics in the Chihuahuan Desert"_ ($497,568; PI: TM Laverty; 2024-2027).
 
-2. National Park Service. _"Determining activity patterns within and seasonal movements between protected areas in the southwest borderlands for bats of greatest conservation need"_ ($54,884; PI: TM Laverty; 2024-2026; with an additional $42,500 awarded in 2025).
+2. National Park Service. _"Determining activity patterns within and seasonal movements between protected areas in the southwest borderlands for bats of greatest conservation need"_ ($54,884; PI: TM Laverty; 2024-2026, with an additional $42,500 awarded in 2025).
 
-3. Bureau of Land Management. _"Influence of Wind Energy Development on Medium and Large Mammals"_ ($248,609 [50% credit]; PI: JK Frey, Co-PI: TM Laverty, 2023-2025; with an additional $5,800 awarded in 2024).
+3. U.S. Department of Agriculture National Institute of Food and Agriculture. _"Current and Future Issues of Southwestern Ecosystem Structure and Function"_ ($90,000 [13% credit]; PI: TM Laverty, Co-PIs: F Abadi, WJ Boeing, KE Bowers, CS Bundy, MJ Desmond, JK Frey, S Fuentes-Soriano, M Garbowksi, ME Gompper, NP Hanan, O Hernández-Gómez, ZB Klein, RA Ramirez, AC Young; 2024-2028)
+
+3. Bureau of Land Management. _"Influence of Wind Energy Development on Medium and Large Mammals"_ ($248,609 [50% credit]; PI: JK Frey, Co-PI: TM Laverty; 2023-2025, with an additional $5,800 awarded in 2024).
 
 3. National Geographic Society. _"Coding for conservation: Quantitative training for the next generation of environmental leaders in Madagascar"_ ($25,000; PI: CE Brook, Team Members: AF Andrianiaina, E Cornelius Ruhs, TM Laverty, O Razafindramatsima; 2022-2023).
 
@@ -1188,7 +1190,7 @@ kbl(
 
 <!-- **Subject Editor:** _PLOS Ecosystems_ (2025-Present), _Biotropica_ (2007-2019), _Ecology_ (2008-2012), _Ecological Monographs_ (2008-2012), _Ecological Applications_ (2008-2012). -->
 
-__*Ad hoc* journal referee (No. of reviews):__ *Acta Chiropterologica* (5), *Biological Conservation* (2), *Biotropica* (2), *EcoHealth* (1), *Global Change Biology* (1), *Global Ecology and Biogeography* (3), *Herpetological Monographs* (1), *Human Dimensions of Wildlife* (7), *Journal of Bat Research and Conservation* (1), *Journal of Mammalogy* (5), *Mammal Review* (1), *PLOS ONE* (1), *Proceedings of the Royal Society B: Biological Sciences* (2), *Scientific Reports* (1), *Sustainability* (2), *Urban Ecosystems* (2)
+__*Ad hoc* journal referee (No. of reviews):__ *Acta Chiropterologica* (5), *African Zoology* (1), *Biological Conservation* (2), *Biotropica* (2), *EcoHealth* (1), *Global Change Biology* (1), *Global Ecology and Biogeography* (3), *Herpetological Monographs* (1), *Human Dimensions of Wildlife* (7), *Journal of Bat Research and Conservation* (1), *Journal of Mammalogy* (5), *Mammal Review* (1), *PLOS ONE* (1), *Proceedings of the Royal Society B: Biological Sciences* (2), *Scientific Reports* (1), *Sustainability* (2), *Urban Ecosystems* (2)
 
 <!-- __US National Science Foundation:__ Committee of Visitors, NSF Office of International Science & Engineering (2023), Proposal Review Panels: DEB Ecology (2005), DEB Population & Evolutionary Processes (2007), DEB Population & Community Ecology (2011, 2013). Ad-hoc proposal review: Division of Environmental Biology Core Programs (9), UMEB Program (2), RUI Program (1), AMERICAS Dissertation Improvement Grants (1), NSF Global Scientists & Engineers Program (1), International Research Fellowship Program (1),  Dimensions of Biodiversity Program (1) -->
 
