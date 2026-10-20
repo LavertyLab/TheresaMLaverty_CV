@@ -43,6 +43,7 @@ header-includes:
 # define the colors used above with rgb codes
 - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+- \definecolor{aggiecrimson}{rgb}{0.5490, 0.0431, 0.2588}
 - \usepackage{xhfill} # modification of line color and width
 - \pdfmapfile{=SourceSansPro.map} # this is to deal with error https://tex.stackexchange.com/questions/173204/texlive-font-installation-what-am-i-doing-wrong
 
@@ -223,40 +224,6 @@ Department of Fish, Wildlife and Conservation Ecology
 <!-- text size: https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles -->
 <!-- xrfill adjusts line position and width -->
 \vspace{0.2cm}
-
-\textbf{\textcolor{darkmidnightblue}{\large{AWARDS \& FELLOWSHIPS }}}\xrfill[0.5ex]{1pt}
-\vspace{-0.4cm}
-
-### AWARDS  
-\vspace{-0.2cm}  
-\begingroup 
-\setlength{\leftskip}{.3cm} 
-\setlength{\rightskip}{.2cm} 
-Outstanding Departmental Publication Award, Colorado State University \hfill 2021 \newline
-for the 2021 _Ecological Applications_ article   
-
-\endgroup
-
-<!-- &nbsp;\quad\quad\quad\quad _for the year's outstanding contribution to the field, published in any journal_   -->
-<!-- &nbsp;\quad\quad\quad\quad _for the outstanding paper published in the journal Biotropica_   -->
-<!-- &nbsp;\quad\quad\quad\quad _for the outstanding paper by a young investigator in the Journal of Ecology_ -->
-
-<!-- \endgroup -->
-\vspace{-0.2cm}
-<!-- \begingroup  -->
-<!-- \setlength{\leftskip}{.2cm}   -->
-### FELLOWSHIPS
-\vspace{-0.2cm}
-\begingroup 
-\setlength{\leftskip}{.3cm} 
-\setlength{\rightskip}{.2cm} 
-National Science Foundation Graduate Research Fellowship \hfill 2013-2018  
-
-\endgroup
-
-<!-- text size: https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles -->
-<!-- xrfill adjusts line position and width -->
-\vspace{0.2cm}
 \textbf{\textcolor{darkmidnightblue}{\large{GRANTS IN SUPPORT OF RESEARCH, TEACHING, \& TRAINING }}}\xrfill[0.5ex]{1pt}
 <!-- ## GRANTS IN SUPPORT OF RESEARCH, TRAINING, & PROGRAM DEVELOPMENT (>$5.5 million)   -->
 
@@ -264,6 +231,8 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 \setlength{\leftskip}{.2cm}  
 
 1. New Mexico Department of Wildlife. _"Acoustic surveys of bat species of greatest conservation need within wind energy-impacted landscapes of New Mexico"_ ($114,066; PI: TM Laverty; 2027-2029).
+
+1. New Mexico State University. _"Tracking tiny flying creatures: quantifying the use of agricultural fields and an agrivoltaics system by bats, birds, and dragonflies in southern New Mexico"_($24,838; PI: TM Laverty, Co-PIs: CS Bundy, K Bowers, AC Young; 2026-2027)
 
 1. National Science Foundation. _"LTER: Advancing ecological understanding of drylands through integrated research at the Jornada Basin (JRN-8)"_ ($7,649,997 [3% credit]; PI: NP Hanan, Co-PIs: BT Bestelmeyer, S Bestelmeyer, DM Browning, F Garcia-Pichel, TM Laverty, GE Maurer, ME Mauritz-Tozer, GS Okin, N Pietrasiak, SC Reed, AL Romero-Olivares, OE Sala, RL Schooley, ER Vivoni; 2025-2031).
 
@@ -307,18 +276,18 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 <!-- ## PUBLICATIONS & SCHOLARLY COMMUNICATION -->
 <!-- \vspace{-0.4cm} -->
 
-**_Lab personnel: ^GS^Graduate Student, ^UG^Undergraduate Student; ^*^Co-First Author_** 
+**_^*^Co-first Author, $^{\dagger}$Co-senior Author; Lab personnel: ^GS^Graduate Student, ^UG^Undergraduate Student_** 
 <!-- ^PD^Postdoctoral Researcher, ^VS^Visiting Student -->
 
 \vspace{-0.4cm}
-### PREPRINTS AND MANUSCRIPTS IN REVIEW or IN REVISION 
+### Preprints \& Manuscripts in Review or in Revision 
 
 <!-- \begin{enumerate}[{start=7,label=[\arabic*]\addtocounter{enumi}{-2}}] -->
 
 <!-- \item  -->
 1. Cooper MC, LaRue ZBT, Boeing WJ, Laverty TM, Fernald AG, Geli HME, Jones KW. Water conservation attitudes and behaviors in the arid southwestern United States.\textit{In review}, \textit{\textbf{Sustainable Water Resources Management}}.
 
-1. ^GS^Rohan IM, Laverty TM, Frey JK. Terrestrial mammals alter habitat selection in response to turbine visibility at a central New Mexico wind energy facility. \textit{In revision}, \textit{\textbf{Conservation Science and Practice}}.
+1. ^GS^Rohan IM, Laverty TM, Frey JK. Terrestrial mammals alter habitat use in response to turbine visibility at a central New Mexico wind energy facility. \textit{In revision}, \textit{\textbf{Conservation Science and Practice}}.
 
 \vspace{-0.2cm}
 <!-- \end{enumerate}   -->
@@ -344,7 +313,7 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 <!-- --- -->
 
  
-### PEER-REVIEWED PUBLICATIONS \& BOOK CHAPTERS
+### Peer-reviewed Publications \& Book Chapters
 
 1. Montauban C, Budinski I, Webala PW, Laverty TM, Tanshi I, Torrent L, Bakwo-Fils E, Taylor PJ, Kane A, Monadjem A. 2026. Underrepresentation of bats in Africa’s protected areas. \textit{\textbf{Conservation Biology}} 40(1):e70108. https://doi.org/10.1111/cobi.70108
 
@@ -527,6 +496,41 @@ National Science Foundation Graduate Research Fellowship \hfill 2013-2018
 
 <!-- 4. -Jean Theodore Descourtilz (1796-1855) and the Ornithologie Bresilienne.- A website created by TCD graduate students in my Tropical Ecology class to provide background information and an analysis of artwork acquired by the Harn Museum of Art on their behalf. https://descourtilz.wordpress.com/ -->
 
+<!-- text size: https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles -->
+<!-- xrfill adjusts line position and width -->
+\vspace{0.2cm}
+
+\textbf{\textcolor{darkmidnightblue}{\large{AWARDS \& FELLOWSHIPS }}}\xrfill[0.5ex]{1pt}
+\vspace{-0.4cm}
+
+### Awards  
+\vspace{-0.2cm}  
+\begingroup 
+\setlength{\leftskip}{.3cm} 
+\setlength{\rightskip}{.2cm} 
+Outstanding Departmental Publication Award, Colorado State University \hfill 2021 \newline
+for the 2021 _Ecological Applications_ article   
+
+\endgroup
+
+<!-- &nbsp;\quad\quad\quad\quad _for the year's outstanding contribution to the field, published in any journal_   -->
+<!-- &nbsp;\quad\quad\quad\quad _for the outstanding paper published in the journal Biotropica_   -->
+<!-- &nbsp;\quad\quad\quad\quad _for the outstanding paper by a young investigator in the Journal of Ecology_ -->
+
+<!-- \endgroup -->
+\vspace{-0.2cm}
+<!-- \begingroup  -->
+<!-- \setlength{\leftskip}{.2cm}   -->
+### Fellowships
+\vspace{-0.2cm}
+\begingroup 
+\setlength{\leftskip}{.3cm} 
+\setlength{\rightskip}{.2cm} 
+National Science Foundation Graduate Research Fellowship \hfill 2013-2018  
+
+\endgroup
+
+
 
 <!-- text size: https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles -->
 <!-- xrfill adjusts line position and width -->
@@ -599,7 +603,7 @@ Intro to GitHub Workshop (2023)
 
 <!-- ## STUDENT & POSTDOCTORAL MENTORSHIP -->
 
-### GRADUATE STUDENTS ADVISED
+### Graduate Students Advised
 ```{r GradStudentsA, echo=FALSE,message = FALSE,warning=FALSE}
 # library(flextable)
 # https://cran.r-project.org/web/packages/flextable/vignettes/format.html#borders
@@ -687,7 +691,7 @@ _Students under my supervision have been awarded over $12,000 in grants and awar
 <!-- *	Matthew Trager: Outstanding Research Award - MS Category, Wildlife Graduate Student Association (2005) -->
 
 \vspace{-0.2cm}
-### DOCTORAL COMMITTEE SERVICE
+### Doctoral Committee Service
 \vspace{-0.2cm}
 ```{r DocCmte, echo=FALSE,message = FALSE,warning=FALSE}
 grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="doc_cmte") %>% select(-role, -coadvisor)
@@ -734,7 +738,7 @@ kbl(
 \vspace{-0.6cm}
 <!-- **Wildlife Ecology & Conservation**: David Mason (in progress), Flavia Montaño Centellas (2018), Margo Stoddard (2017), Rajeev Pillay (2016), Rosalyn Johnson (2016), Gonzalo Rivas (2015), Oscar Gonzalez (2015), Dan Thornton (2010), Ivan Diaz (2008), Christa Zweig (2008), Traci Darnell (2006)  **Forest Resources & Conservation**: Andrea Irons (in progress), Demian Gomez Damiano (2020), Jacy Hyde (2019), Christie Klimas (2010)  **Biology (*formerly Depts. of Botany & Zoology*)**: Maria Beatriz Cortez (in progress), Johanna R. Jantzen (2020), Trevor Caughlin (2013), Kristine Callis (2013), Mollie Brooks (2012), Silvia Alvarez-Clare (2012), C. Seabird McKeon (2010), Joseph Veldman (2010), Jennifer Schafer (2010), Alex Jahn (2009), Silvia Lomáscolo (2008), Bonifacio Mostacedo (2007)  **Interdisciplinary Ecology**: Joanna Tucker (2010), Matt Trager	(2009)  **Entomology**: Jade Badon (2018), Pablo Allen (2017), David Serrano (2006)  **Anthropology**: Scott Macrae (2017)  **Columbia University**: Marina Cortes (Ecology, Evolution, Behavior (2012) -->
 \vspace{-0.2cm}
-### MASTERS COMMITTEE SERVICE
+### Masters Committee Service
 \vspace{-0.2cm}
 ```{r MastersCmte, echo=FALSE,message = FALSE,warning=FALSE}
 grad_advised<-read_csv("./cv_files/grad_advised.csv") %>% filter(role=="masters_cmte") %>% select(-role, -coadvisor)
@@ -781,7 +785,7 @@ kbl(
 \vspace{-0.6cm}
 <!-- **Wildlife Ecology & Conservation**: Lauren Trotta (2016), Brittany Bankovich (2014), Nathan Marcy (2010), Kristen Aaltonen (2009), Mariano Rodriguez Cabal (2007)  **Forest Resources & Conservation**: Jennifer Holm (2007), Christie Klimas (2006)  **Biology (*formerly Depts. of Botany & Zoology*)**: Tania Kim (2006), Silvia Alvarez Clare (2004)  **Interdisciplinary Ecology**: Jamie Cotta (2006)  **Entomology**: Teresa Cooper (2006)  **Latin American Studies**: Crisne Lebron (2015), Carly Voight (2010), Laura Fonseca (2009), Jennifer Davies (2003), **Anthropology**: Autumn Rose (in progress). -->
 \vspace{-0.2cm}
-### EXTERNAL THESIS EXAMINER
+### External Thesis Examiner
 <!-- ### PROPOSAL REVIEW, THESIS REVIEW, OR THESIS DEFENSE COMMITTEE -->
 \vspace{-0.2cm}
 ```{r external, echo=FALSE,message = FALSE,warning=FALSE}
@@ -894,7 +898,7 @@ kbl(other,digits = 1,
 
 <!-- ## INSTITUIONAL AND PROFESSIONAL SERVICE -->
 \vspace{-0.4cm}
-### NEW MEXICO STATE UNIVERSITY  
+### New Mexico State University  
 \vspace{-0.2cm}
 ```{r uni, echo=FALSE,message = FALSE,warning=FALSE}
 service<-read_csv("./cv_files/service.csv") %>% filter(level=="uni") %>% select(-level)
@@ -928,7 +932,7 @@ kbl(
 <!-- \endgroup  -->
 
 \vspace{-0.2cm}
-### NMSU COLLEGE OF AGRICULTURAL, CONSUMER AND ENVIRONMENTAL SCIENCES
+### NMSU College of Agricultural, Consumer and Environmental Sciences
 \vspace{-0.2cm}
 ```{r col, echo=FALSE,message = FALSE,warning=FALSE}
 service<-read_csv("./cv_files/service.csv") %>% filter(level=="col") %>% select(-level)
@@ -984,7 +988,7 @@ kbl(
 <!-- \endgroup  -->
 
 \vspace{-0.2cm}
-### NMSU DEPARTMENT OF FISH, WILDLIFE AND CONSERVATION ECOLOGY
+### NMSU Department of Fish, Wildlife and Conservation Ecology
 \vspace{-0.2cm}
 ```{r dept, echo=FALSE,message = FALSE,warning=FALSE}
 service<-read_csv("./cv_files/service.csv") %>% filter(level=="dept") %>% select(-level)
@@ -1096,7 +1100,7 @@ kbl(
 
 <!-- \endgroup  -->
 \vspace{-0.2cm}
-### JORNADA BASIN LTER 
+### Jornada Basin LTER 
 \vspace{-0.2cm}
 ```{r jrn, echo=FALSE,message = FALSE,warning=FALSE}
 service<-read_csv("./cv_files/service.csv") %>% filter(level=="jrn") %>% select(-level)
@@ -1131,7 +1135,7 @@ kbl(
 
 
 \vspace{-0.2cm}
-### OTHER UNIVERSITIES & PROFESSIONAL ORGANIZATIONS   
+### Other Universities & Professional Organizations   
 \vspace{-0.2cm}
 ```{r other, echo=FALSE,message = FALSE,warning=FALSE}
 service<-read_csv("./cv_files/service.csv") %>% filter(level=="other") %>% select(-level)
@@ -1208,7 +1212,7 @@ __Other reviewer service__: Bat Conservation International (8), National Geograp
 \vspace{-0.4cm}
 <!-- ## SEMINARS & OUTREACH ACTIVITIES -->
 
-### INVITED SEMINARS
+### Invited Seminars
 \vspace{-0.2cm}
 ```{r talks, echo=FALSE,message = FALSE,warning=FALSE}
 talks<-read_csv("./cv_files/talks.csv", col_types = cols(.default = "c")) %>% 
@@ -1232,7 +1236,7 @@ kbl(talks,
 ```
 \vspace{-0.6cm}
 \vspace{-0.2cm}
-### INTERVIEWS & MEDIA APPEARANCES
+### Interviews & Media Appearances
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
@@ -1277,7 +1281,7 @@ kbl(talks,
 
 <!-- ## PROFESSIONAL DEVELOPMENT ACTIVITIES   -->
 \vspace{-0.2cm}
-### TRAINING PROGRAMS
+### Training Programs
 \vspace{-0.2cm}
 ```{r trainings, echo=FALSE,message = FALSE,warning=FALSE}
 trainings<-read_csv("./cv_files/trainings.csv", col_types = cols(.default = "c")) %>% 
@@ -1349,7 +1353,7 @@ kbl(
 
 \vspace{-0.2cm}
 
-### MEMBERSHIPS IN PROFESSIONAL SOCIETIES  
+### Memberships in Professional Societies  
 
 \begingroup 
 \setlength{\leftskip}{.2cm}  
