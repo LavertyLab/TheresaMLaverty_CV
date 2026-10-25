@@ -276,7 +276,7 @@ Department of Fish, Wildlife and Conservation Ecology
 <!-- ## PUBLICATIONS & SCHOLARLY COMMUNICATION -->
 <!-- \vspace{-0.4cm} -->
 
-**_^*^Co-first Author, $^{\dagger}$Co-senior Author; Lab personnel: ^GS^Graduate Student, ^UG^Undergraduate Student_** 
+**_^*^Co-first author, $^{\dagger}$Co-senior author; Lab personnel: ^GS^Graduate student, ^UG^Undergraduate student_** 
 <!-- ^PD^Postdoctoral Researcher, ^VS^Visiting Student -->
 
 \vspace{-0.4cm}
@@ -1274,13 +1274,180 @@ kbl(talks,
 
 \endgroup   
 
+
+\vspace{0.2cm}
+\textbf{\textcolor{darkmidnightblue}{\large{CONFERENCE PRESENTATIONS  }}}\xrfill[0.5ex]{1pt}
+<!-- ## PUBLICATIONS & SCHOLARLY COMMUNICATION -->
+<!-- \vspace{-0.4cm} -->
+
+**_^*^Presenter; Lab personnel: ^GS^Graduate student, ^UG^Undergraduate student_** 
+<!-- ^PD^Postdoctoral Researcher, ^VS^Visiting Student -->
+
+\vspace{-0.4cm}
+### Oral Presentations
+
+<!-- \begin{enumerate}[{start=7,label=[\arabic*]\addtocounter{enumi}{-2}}] -->
+
+<!-- \item  -->
+1. ^GS^Whited HA, **^*^Laverty TM**. 2026. Nightly movements of lesser long-nosed bats at a northern maternity roost using the Motus tracking system. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*GS^Pichler TR, Bowers KE, Foster JT, \textbf{Laverty TM}. 2026. Effects of shrub encroachment on bat and arthropod dynamics in the Chihuahuan Desert. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*^Von Rotz MT, Davies ML, \textbf{Laverty TM}, Stoner KE. 2026. Color by echoes: heat map analysis of long-nosed bat acoustic activity at blooming Palmer's agave. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*GS^Pichler TR, Bowers KE, \textbf{Laverty TM}. 2026. Does shrub encroachment change insectivorous bat activity in the Chihuahuan Desert? Ecological Society of America Annual Meeting 2026, Salt Lake City, UT, USA.
+
+1. **^*^Laverty TM**, Gual-Suárez F, Medellín RA, Ordóñez-García MC, Pérez-Harp S, ^GS^Stevenson BD, ^GS^Whited HA. 2026. Nightly activity patterns of lesser long-nosed bats during the maternity season in the Sonoran Desert. 9th Tri-National Sonoran Desert Symposium, Ajo, AZ, USA.
+
+2. ^*GS^Whited HA, \textbf{Laverty TM}. 2026. Foraging movements of the lesser long-nosed bat using the Motus Wildlife Tracking System. 9th Tri-National Sonoran Desert Symposium, Ajo, AZ, USA.
+
+2. ^*GS^Becker MP, Frey JK, \textbf{Laverty TM}. 2026. Scat-based indices of mammal space use near wind turbines in central New Mexico rangelands. The 59th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Sedona, AZ, USA. 
+
+2. **^*^Laverty TM**, Buecher DC, Dalton DC, Davies ML, Gual-Suárez F, Heady III PA, Medellín RA, Ordóñez-García MC, Pérez-Harp S, Rivera-Villanueva AN, ^GS^Stevenson BD, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2026. Long-haul flights and migratory routes of a nectar-feeding bat. The 59th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Sedona, AZ, USA. 
+
+2. ^*GS^Pichler TR, ^UG^Vasquez SR, ^UG^Diaz JK, ^UG^Silva FP, ^GS^Becker MP, \textbf{Laverty TM}. 2026. Guild-specific responses of bats to shrub encroachment in the Chihuahuan Desert. The 59th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Sedona, AZ, USA. 
+
+2. ^*^Von Rotz MT, Davies ML, \textbf{Laverty TM}, Stoner KE. 2026. Sonic bloom: acoustic monitoring and heat map analysis of lesser long-nosed bat visitation to Palmer’s agave. The 59th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Sedona, AZ, USA. 
+
+2. **^*^Laverty TM**. 2026. Lesser long-nosed bat tracking with Motus 
+(plus other LEYE updates). Arizona Bat Working Group meeting, Sedona, AZ, USA.
+
+3. ^*^Davies ML, \textbf{Laverty TM}, Stoner KE. 2025. Adaptation in motion: diet and movement plasticity of lesser long-nosed bats in response to climate variability. 53rd North American Society for Bat Research Annual Symposium, Edmonton, Alberta, Canada.
+
+3. ^*^Davies ML, \textbf{Laverty TM}, Stoner KE. 2025. Adaptation in motion: diet and movement plasticity of lesser long-nosed bats in response to climate variability. The Wildlife Society’s 32nd Annual Conference, Edmonton, Alberta, Canada.
+
+3. **^*^Laverty TM**, Buecher DC, Dalton DC, Davies ML, Gual-Suárez F, Heady III PA, Medellín RA, Ordóñez-García MC, Pérez-Harp S, Rivera-Villanueva AN, ^GS^Stevenson BD, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2025. Using passive integrated transponders to track long-distance movements of a nectar-feeding bat. Ecological Society of America Annual Meeting 2025, Baltimore, MD, USA.
+
+3. **^*^Laverty TM**, Buecher DC, Dalton DC, Davies ML, Gual-Suárez F, Heady III PA, Medellín RA, Ordóñez-García MC, Pérez-Harp S, Rivera-Villanueva AN, ^GS^Stevenson BD, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2025. Long-haul flights and migratory routes of a nectar-feeding bat. Western Bat Working Group Biennial Meeting 2025, San Diego, CA, USA.
+
+3. ^*GS^Rohan IM, \textbf{Laverty TM}, Frey JK. 2025. Evaluating the effects of wind energy developments on mule deer and pronghorn occupancy in central New Mexico rangelands. The 58th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Albuquerque, NM, USA.
+
+4. ^*UG^Becker MP, \textbf{Laverty TM}. 2024. Thermal tolerance of a big brown bat maternity colony. New Mexico Bat Working Group meeting, virtual.
+
+4. ^*^Davies ML, \textbf{Laverty TM}, Stoner KE. 2024. Navigating change: movement dynamics of lesser long-nosed bats in their northern range. 52nd North American Society for Bat Research Annual Symposium, Guadalajara, Jalisco, Mexico.
+
+4. **^*^Laverty TM**, Buecher DC, Dalton DC, Davies ML, Gual-Suárez F, Heady III PA, Medellín RA, Ordóñez-García MC, Pérez-Harp S, Rivera-Villanueva AN, Stevenson BD, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2024. Long-haul flights and migratory routes of a nectar-feeding bat. 52nd North American Society for Bat Research Annual Symposium, Guadalajara, Jalisco, Mexico.
+
+4. ^*^Davies ML, \textbf{Laverty TM}, Stoner KE. 2024. Navigating change: movement dynamics of lesser long-nosed bats in their northern range. The Wildlife Society’s 31st Annual Conference, Baltimore, MD, USA.
+
+4. ^*^Zamora-Gutierrez V, \textbf{Laverty TM}, Buecher DC, Cheng TL, Davies ML, Gual-Suárez F, Heady III PA, Medellín RA, Pérez-Harp S, Rivera-Villanueva AN, Stevenson BD, Stoner KE, Wolf SA, Zavala-Norzagaray AA, Frick WF. 2024. Tracking the migratory movements of the pollinating bat \textit{Leptonycteris yerbabuenae} across North America. 16th European Bat Research Symposium, Tarragona, Catalonia, Spain.
+
+4. **Laverty TM**, Buecher DC, Dalton DC, Davies ML, Gual-Suárez F, Heady III PA, ^*^Medellín RA, Pérez-Harp S, Rivera-Villanueva AN, Stevenson BD, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2024. Rutas migratorias y conectividad en el murciélago tequilero, \textit{Leptonycteris yerbabuenae}. IV Congreso Latinoamericano y del Caribe de Murciélagos, Cusco, Perú.
+
+4. **^*^Laverty TM**, Buecher DC, Cheng TL, Davies ML, Gual-Suárez F, Medellín RA, Pérez-Harp S, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2024. Long-distance movements of a migratory nectar-feeding bat. 8th Tri-National Sonoran Desert Symposium, Ajo, AZ, USA.
+
+5. **^*^Laverty TM**, Buecher DC, Cheng TL, Davies ML, Gual-Suárez F, Medellín RA, Pérez-Harp S, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2023. Where are my bats? Long-distance movements of a migratory nectar-feeding bat using passive integrated transponders. 3rd Chihuahuan Desert Conference, El Paso, TX, USA.
+
+5. ^*^Davies ML, \textbf{Laverty TM}, Stoner KE. 2023. Effects of drought on lesser long-nosed bat diet at the northern extent of its range. The Wildlife Society’s 30th Annual Conference, Lexington, KY, USA. 
+
+5. **^*^Laverty TM**, Andrianiaina A, Andry A, Ranaivoson HC, Brook CE. 2023. Where are my bats? Determining roost occupancy of the Malagasy rousette using passive integrated transponders. 14th African Small Mammal Symposium, Swakopmund, Namibia.
+
+5. **^*^Laverty TM**, Buecher DC, Cheng TL, Davies ML, Gual-Suárez F, Medellín RA, Pérez-Harp S, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2023. Where are my bats? Long-distance movements of a migratory nectar-feeding bat using passive integrated transponders. New Mexico Bat Working Group meeting, virtual.
+
+5. **^*^Laverty TM**, Buecher DC, Cheng TL, Davies ML, Gual-Suárez F, Medellín RA, Pérez-Harp S, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2023. Where are my bats? Long-distance movements of a migratory nectar-feeding bat using passive integrated transponders. 13th International Mammalogical Congress, Anchorage, AK, USA.
+
+5. **^*^Laverty TM**, Buecher DC, Cheng TL, Davies ML, Gual-Suárez F, Medellín RA, Pérez-Harp S, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2023. Where are my bats? Long-distance movements of a migratory nectar-feeding bat using passive integrated transponders. Arizona Bat Working Group meeting, virtual.
+
+5. **^*^Laverty TM**, Buecher DC, Cheng TL, Davies ML, Gual-Suárez F, Medellín RA, Pérez-Harp S, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2023. Detecting long-distance movements of a migratory nectar-feeding bat using passive integrated transponders. New Mexico State University’s Research and Creativity Week, Las Cruces, NM, USA.
+
+5. **^*^Laverty TM**, Buecher DC, Cheng TL, Davies ML, Gual-Suárez F, Medellín RA, Pérez-Harp S, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2023. Detecting long-distance movements of a migratory nectar-feeding bat using passive integrated transponders. The 56th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Farmington, NM, USA.
+
+6. ^*^Davies ML, \textbf{Laverty TM}, Wells CP, Stoner KE. 2022. Plasticity of the lesser long-nosed bat diet at the northern extent of its range. The Wildlife Society’s 29th Annual Conference, Spokane, WA, USA.
+
+6. ^*^Wilkins K, Carroll SL, Davis KP, Hauptfeld R, Jones MS, Larson CL, \textbf{Laverty, TM}, Pejchar L. 2022. Sexual harassment disproportionately affects historically excluded graduate students in ecology and evolutionary biology. 2022 Joint Meeting of the Ecological Society of America and the Canadian Society for Ecology and Evolution, Montréal, Québec, Canada.
+
+6. ^*^Davies ML, \textbf{Laverty TM}, Wells CP, Stoner KE. 2022. Plasticity of the lesser long-nosed bat diet at the northern extent of its range. 2022 Joint Meeting of the 19th International Bat Research Conference and 50th North American Society for Bat Research, Austin, TX, USA.
+
+6. ^*^Cornelius Ruhs E, Sterling SL, Ranaivoson HC, Tso M, Kettenburg G, Andrianiaina A, Andry S, Ravelomanantsoa NAF, \textbf{Laverty TM}, Héraud JM, Laing ED, Brook CE. 2022. Seasonal patterns in the serology and reproductive cycle of Madagascar fruit bats. 3rd International Symposium on Infectious Diseases of Bats, Fort Collins, CO, USA.
+
+6. Wilkins K, Carroll SL, Davis KP, Hauptfeld R, ^*^Jones MS, Larson CL, \textbf{Laverty TM}, Pejchar L. 2022. Sexual harassment disproportionately affects historically excluded graduate students. 6th North American Congress for Conservation Biology, Reno, NV, USA.
+
+6. Wilkins K, Carroll SL, Davis KP, Hauptfeld R, Jones MS, Larson CL, \textbf{Laverty TM}, ^*^Pejchar L. 2022. Sexual harassment disproportionately affects historically excluded graduate students. Joint Meeting of the 140th American Ornithological Society and 24th BirdsCaribbean, San Juan, Puerto Rico. 
+
+7. **^*^Laverty TM**, Berger J. 2021. Conservation of megaherbivores modulates bat diversity in the world's oldest desert. 30th International Congress for Conservation Biology, virtual.
+
+7. **^*^Laverty TM**, Stoner KE. 2021. In search of bachelorettes: Dorsal patches in male \textit{Leptonycteris yerbabuenae} in the southwestern United States. Western Bat Working Group meeting, virtual.
+
+8. ^*^Davies ML, \textbf{Laverty TM}. 2020. Updates on \textit{Leptonycteris} activity and nectar availability in southern New Mexico. New Mexico Bat Working Group meeting, virtual.
+
+8. **^*^Laverty TM**, Berger J. 2020. Does conserving desert elephants conserve bats? 5th North American Congress for Conservation Biology, virtual.
+
+9. **^*^Laverty TM**. 2019. Updates on \textit{Leptonycteris} in southern New Mexico. New Mexico Bat Working Group meeting, Sevilleta National Wildlife Refuge, NM, USA.
+
+9. **^*^Laverty TM**, Berger J. 2019. Are bats seeking out clean water? A perspective from the Namib Desert. North American Society for Bat Research 49th Annual Symposium, Kalamazoo, MI, USA.
+
+10. **^*^Laverty TM**, Berger J. 2018. Bat diversity and water quality in the world’s oldest desert. 4th North American Congress for Conservation Biology, Toronto, Canada.
+
+10. **^*^Laverty TM**, Berger J. 2018. Bat diversity and water quality in the world’s oldest desert. 24th Front Range Student Ecology Symposium, Fort Collins, CO, USA.
+
+11. **^*^Laverty TM**, Berger J. 2017. Bat diversity, water quality, and pastoralists in the northern Namib Desert. 28th International Congress for Conservation Biology, Cartagena, Colombia.
+
+12. **^*^Laverty TM**, Berger J. 2016. Desert water and large herbivores: What drives bat community structure? 17th International Bat Research Conference, Durban, South Africa.
+
+13. **^*^Laverty TM**, Berger J. 2015. Bats, elephants, and their food: A trophic approach to understanding bat communities. North American Society for Bat Research 45th Annual Symposium, Monterey, CA, USA. (Session organizer)
+
+\vspace{-0.2cm}
+
+### Posters
+
+1. ^*GS^Calderón FA, \textbf{Laverty TM}. 2026. Establishing baseline activity using bioacoustics and bluetooth tracking technology before solar development in the Chihuahua Desert. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*GS^Moore RM, \textbf{Laverty TM}. 2026. Do ephemeral water sources influence bat communities and activity in the Sonoran Desert? 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*UG^Vargas NA, \textbf{Laverty TM}. 2026. Mapping lesser long-nosed bat movements via Internet of Things (IoT) detections in Tucson, Arizona, USA. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*UG^Whetten HN, ^GS^Stevenson BD, Ortiz AT, Orr TJ, \textbf{Laverty TM}. 2026. Taking a leuk at leukocytes: demographic variation in white blood cell profiles in the lesser long-nosed bat. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*UG^Diaz JK, ^GS^Pichler TR, \textbf{Laverty TM}. 2026. Working the night shift: investigating the top-down effects of aerial insectivores on shrub encroachment dynamics. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*UG^Vazquez SR, ^UG^Diaz JK, ^UG^Silva FP, ^UG^Tobey KA, ^GS^Pichler TR, \textbf{Laverty TM}. 2026. Listening for hungry echoes: effects of shrub encroachment on bat foraging activity in the Chihuahuan Desert. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+2. ^*UG^Diaz JK, ^UG^Vasquez SR, ^UG^Silva FP, ^GS^Pichler TR, \textbf{Laverty TM}. 2026. Listening to the desert: ecological factors affecting annual bat activity in the Chihuahuan Desert. The 59th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Sedona, AZ, USA. 
+
+3. ^*^Von Rotz MT, Davies ML, \textbf{Laverty TM}, Stoner KE. 2025. Sonic bloom: acoustic monitoring and heat map analysis of lesser long-nosed bat visitation to Palmer’s agave. 53rd North American Society for Bat Research Annual Symposium, Edmonton, Alberta, Canada.
+
+3. ^*^Von Rotz MT, Davies ML, \textbf{Laverty TM}, Stoner KE. 2025. Sonic bloom: acoustic monitoring and heat map analysis of lesser long-nosed bat visitation to Palmer’s agave. The Wildlife Society’s 32nd Annual Conference, Edmonton, Alberta, Canada.
+
+3. ^*GS^Pichler TR, ^GS^Becker MP, \textbf{Laverty TM}. 2025. Guild-specific responses of bats to shrub encroachment in the Chihuahuan Desert. 2025 Jornada Basin LTER Desert Ecology Short-Course, Las Cruces, NM, USA.
+
+3. ^*UG^Becker MP, Chavez LN, Stevenson JS, \textbf{Laverty TM}. 2025. Do bats like it hot? Pup mortality and emergence counts for a big brown bat maternity colony in the Chihuahuan Desert. Western Bat Working Group Biennial Meeting 2025, San Diego, CA, USA.
+
+3. ^*GS^Pichler TR, ^GS^Becker MP, \textbf{Laverty TM}. 2025. Guild-specific responses of bats to shrub encroachment in the Chihuahuan Desert. Western Bat Working Group Biennial Meeting 2025, San Diego, CA, USA.
+
+3. ^*^Von Rotz MT, Davies ML, \textbf{Laverty TM}, Stoner KE. 2025. Mapping bat activity through sound: acoustic monitoring and heat map analysis of lesser long-nosed bat visitation to Agave palmeri. Western Bat Working Group Biennial Meeting 2025, San Diego, CA, USA.
+
+3. ^*GS^Whited HA, \textbf{Laverty TM}. 2025. Diet phenology of the lesser long-nosed bat at the northern extent of its range. Western Bat Working Group Biennial Meeting 2025, San Diego, CA, USA.
+
+3. ^*^Von Rotz MT, Davies ML, \textbf{Laverty TM}, Stoner KE. 2025. Mapping bat activity through sound: acoustic monitoring and heat map analysis of lesser long-nosed bat visitation to Agave palmeri. The 58th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Albuquerque, NM, USA.
+
+4. ^*GS^Stevenson BD, \textbf{Laverty TM}. 2024. Thirst Strategies: The water-seeking behaviors of lesser long-nosed bats in arid ecosystems. 52nd North American Society for Bat Research Annual Symposium, Guadalajara, Jalisco, Mexico.
+
+4. ^*GS^Whited HA, ^GS^Stevenson BD, \textbf{Laverty TM}. 2024. Diet phenology of the lesser long-nosed bat at the northern extent of its range. 52nd North American Society for Bat Research Annual Symposium, Guadalajara, Jalisco, Mexico.
+
+4. ^*GS^Rohan I, \textbf{Laverty TM}, Frey JK. 2024. Evaluating the detection probabilities of terrestrial mammals using remotely activated cameras in central New Mexico rangelands. The 57th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Flagstaff, AZ, USA.
+
+5. ^*GS^Rohan I, \textbf{Laverty TM}, Frey JK. 2023. Evaluating the effects of wind energy development on the habitat selection of a terrestrial mammal community in central New Mexico. Annual Corona Range and Livestock Research Center Field Day, Corona, NM, USA.
+
+6. ^*^Davies ML, \textbf{Laverty TM}, Stoner KE. 2022. Assessing long-nosed bat food availability by using remote sensing imagery to build an Agave classifier. 101st Annual Meeting of the American Society of Mammalogists, Tucson, AZ, USA.
+
+6. ^*^Cornelius Ruhs E, \textbf{Laverty TM}, Brook, CE. 2022. Seasonal drivers of viral shedding in bat reservoir hosts. Ecology and Evolution of Infectious Diseases 2022, Atlanta, GA, USA. 
+
+7. ^*^Davies ML, \textbf{Laverty TM}, Stoner KE. 2020. Bats and hummingbird feeders: Simulating different monitoring techniques to examine utilization of introduced alternative food sources by long-nosed bats. The Wildlife Society’s 27th Annual Conference, virtual.
+
+8. Bombaci SP, ^*^Jimenez MF, \textbf{Laverty TM}, Wilkins K, Bennett DE, Pejchar L. 2019. Underrepresented faculty play a disproportionate role in advancing diversity, equity, and inclusion. 2019 Ecological Society of America & United States Society for Ecological Economics Joint Meeting, Louisville, KY, USA.
+
+9. ^*^Mushabati LM, Eiseb SJ, Benda P, \textbf{Laverty TM}. 2017. Changes in bat activity over an altitudinal gradient in the Kunene Region, Namibia. 2017 Combined Congress of the Entomological and Zoological Societies of Southern Africa, Pretoria, South Africa. 
+
+10. **^*^Laverty TM**. 2010. Niche overlap in the diets of three sympatric caiman species. Cannon Memorial Senior Poster Presentation and Princeton Undergraduate Research Symposium, Princeton, NJ, USA.
+
+
 <!-- text size: https://www.overleaf.com/learn/latex/Font_sizes%2C_families%2C_and_styles -->
 <!-- xrfill adjusts line position and width -->
 \vspace{0.2cm}
 \textbf{\textcolor{darkmidnightblue}{\large{PROFESSIONAL DEVELOPMENT }}}\xrfill[0.5ex]{1pt}
 
 <!-- ## PROFESSIONAL DEVELOPMENT ACTIVITIES   -->
-\vspace{-0.2cm}
+\vspace{-0.4cm}
 ### Training Programs
 \vspace{-0.2cm}
 ```{r trainings, echo=FALSE,message = FALSE,warning=FALSE}
