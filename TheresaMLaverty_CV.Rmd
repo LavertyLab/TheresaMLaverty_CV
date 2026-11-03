@@ -286,7 +286,7 @@ Department of Fish, Wildlife and Conservation Ecology
 <!-- \begin{enumerate}[{start=7,label=[\arabic*]\addtocounter{enumi}{-2}}] -->
 
 <!-- \item  -->
-1. Cooper MC, LaRue ZBT, Boeing WJ, **Laverty TM**, Fernald AG, Geli HME, Jones KW. Water conservation attitudes and behaviors in the arid southwestern United States.\textit{In review}, \textit{Sustainable Water Resources Management}.
+1. Cooper MC, LaRue ZBT, Boeing WJ, **Laverty TM**, Fernald AG, Geli HME, Jones KW. Water conservation attitudes and behaviors in the arid southwestern United States. \textit{In revision}, \textit{Sustainable Water Resources Management}.
 
 1. ^GS^Rohan IM, **Laverty TM**, Frey JK. Terrestrial mammals alter habitat use in response to turbine visibility at a central New Mexico wind energy facility. \textit{In revision}, \textit{Conservation Science and Practice}.
 
@@ -1241,12 +1241,13 @@ kbl(talks,
 \vspace{-0.2cm}
 \begingroup 
 \setlength{\leftskip}{.2cm}
+2026\hspace{4mm}  [Public News Service](https://www.publicnewsservice.org/story/hangin-with-bats-on-all-hollows-eve-in-new-mexico/7b8109a4-6aab-4a50-a318-a9fe7b9f1334)  
 2025\hspace{4mm}  [KRQE News 13-Albuquerque](https://www.youtube.com/watch?v=tSvK9wcM-D4), [Bat Conservation International](https://www.batcon.org/press/lesser-long-nosed-bats-are-long-distance-flight-phenoms/)  
 2023\hspace{4mm}  [Nature Research Ecology & Evolution Community](https://communities.springernature.com/posts/it-s-not-just-noise-studying-how-inequitable-noise-impacts-urban-wildlife-and-people), [Grist](https://grist.org/health/where-is-noise-pollution-worst-redlined-neighborhoods/), [The Wildlife Society](https://wildlife.org/inequity-in-neighborhoods-transfers-to-wildlife/), [CSU Source](https://warnercnr.source.colostate.edu/redlining-inequitable-urban-noise/)  
 2021\hspace{4mm}  Roan NEWS Magazine-Namibian Environment & Wildlife Society, [CSU Source](https://warnercnr.source.colostate.edu/bats-and-behemoths-how-large-mammals-may-help-bat-diversity-in-the-worlds-oldest-desert/)   
-2020\hspace{4mm}  [Nature Research Ecology & Evolution Community](https://natureecoevocommunity.nature.com/posts/catalyzing-dialogue-about-who-should-be-advancing-equity-diversity-and-inclusion-on-college-campuses-and-beyond), [CSU Source](https://warnercnr.source.colostate.edu/women-parents-and-early-career-faculty-in-ecology-most-impacted-by-covid%E2%80%9019/), [PU Agriculture News](https://warnercnr.source.colostate.edu/women-parents-and-early-career-faculty-in-ecology-most-impacted-by-covid%E2%80%9019/),  
+2020\hspace{4mm}  [Nature Research Ecology & Evolution Community](https://communities.springernature.com/posts/after-the-paper-catalyzing-dialogue-about-who-should-be-advancing-equity-diversity-and-inclusion-on-college-campuses-and-beyond), [CSU Source](https://warnercnr.source.colostate.edu/women-parents-and-early-career-faculty-in-ecology-most-impacted-by-covid%E2%80%9019/), [PU Agriculture News](https://www.purdue.edu/newsroom/archive/releases/2020/Q4/non-tenured-and-female-faculty-feeling-covid-burdens,-study-says.html),  
 &nbsp;\hspace{10mm} [Diverse: Issues in Higher Education](https://www.theeduledger.com/covid-19/article/15108372/study-female-faculty-and-caretakers-disproportionately-impacted-by-covid-19)    
-2019\hspace{4mm}  [Nature Research Ecology & Evolution Community](https://natureecoevocommunity.nature.com/channels/521-behind-the-paper/posts/49514-how-can-we-achieve-diversity-and-inclusion-in-ecology), [CSU Source](https://warnercnr.source.colostate.edu/underrepresented-faculty-play-an-uneven-role-in-advancing-diversity-and-inclusion-study-finds/), [Inside Higher Ed](https://www.insidehighered.com/news/2019/06/04/whos-doing-heavy-lifting-terms-diversity-and-inclusion-work), [Phys.org](https://phys.org/news/2019-05-namibia-pastoralists-wildlife.html)    
+2019\hspace{4mm}  [Nature Research Ecology & Evolution Community](https://communities.springernature.com/posts/how-can-we-achieve-diversity-and-inclusion-in-ecology), [CSU Source](https://warnercnr.source.colostate.edu/underrepresented-faculty-play-an-uneven-role-in-advancing-diversity-and-inclusion-study-finds/), [Inside Higher Ed](https://www.insidehighered.com/news/2019/06/04/whos-doing-heavy-lifting-terms-diversity-and-inclusion-work), [Phys.org](https://phys.org/news/2019-05-namibia-pastoralists-wildlife.html)    
 2018\hspace{4mm}  [Rocky Mountain Public Broadcasting Station](https://www.youtube.com/watch?v=wg_Weynsgf0), [The Conservation](https://theconversation.com/could-bats-guide-humans-to-clean-drinking-water-in-places-where-its-scarce-90311)   
 2016\hspace{4mm}  National Geographic Society  
 2013\hspace{4mm}  [Mongabay](https://news.mongabay.com/2013/03/crocodilian-competition-may-hinder-conservation-efforts-in-amazon/)  
