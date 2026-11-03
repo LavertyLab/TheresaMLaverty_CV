@@ -234,7 +234,7 @@ Department of Fish, Wildlife and Conservation Ecology
 
 1. New Mexico State University. _"Tracking tiny flying creatures: quantifying the use of agricultural fields and an agrivoltaics system by bats, birds, and dragonflies in southern New Mexico"_($24,838; PI: TM Laverty, Co-PIs: CS Bundy, K Bowers, AC Young; 2026-2027).
 
-1. National Science Foundation. _"LTER: Advancing ecological understanding of drylands through integrated research at the Jornada Basin (JRN-8)"_ ($7,649,997 [3% credit]; PI: NP Hanan, Co-PIs: BT Bestelmeyer, S Bestelmeyer, DM Browning, F Garcia-Pichel, TM Laverty, GE Maurer, ME Mauritz-Tozer, GS Okin, N Pietrasiak, SC Reed, AL Romero-Olivares, OE Sala, RL Schooley, ER Vivoni; 2025-2031).
+1. National Science Foundation. _"LTER: Advancing ecological understanding of drylands through integrated research at the Jornada Basin (JRN-8)"_ ($7,649,997 [3% credit]; PI: NP Hanan, Co-PIs: BT Bestelmeyer, S Bestelmeyer, SC Reed, OE Sala, DM Browning, F Garcia-Pichel, TM Laverty, GE Maurer, ME Mauritz-Tozer, GS Okin, N Pietrasiak,  AL Romero-Olivares,  RL Schooley, ER Vivoni; 2025-2031).
 
 1. Arizona Game and Fish Department. _"Movement ecology of bats with Motus"_ ($100,000; PI: TM Laverty; 2025).
 
@@ -260,7 +260,7 @@ Department of Fish, Wildlife and Conservation Ecology
 
 <!-- ### GRANT PROPOSALS UNDER REVIEW or IN PREPARATION -->
 
-<!-- 1. UF 10x10x10 Initiative: The "interconnected future of Florida & Latin America: Entrepreneurship, the Environment, & Transnational Migration" (EM Bruna and R. Stepp, UF Center for Latin American Studies). -->
+<!-- 1. National Science Foundation. _"AIDatasets:Impact: Environmental data integration across southwestern U.S. drylands for scientific discovery and management decision support (EphemerAI)"_ ($1,959,487; PI: GE Maurer,  Co-PIs: TM Laverty, ME Mauritz-Tozer, JA Rudgers, OE Sala, DM Browning, NP Hanan, EA Lehnhoff, ME Litvak, N Pietrasiak,  RL Scott, ER Vivoni). -->
 
 <!-- 1. National Science Foundation. "The genomic basis and demographic consequences of male-biased local adaptation in a moss" ($2,267,331; PI: S. McDaniel, Co-PIs: K. Krippen, EM Bruna, G. John, B. P. Durham).  -->
 
@@ -1293,11 +1293,21 @@ kbl(talks,
 <!-- \begin{enumerate}[{start=7,label=[\arabic*]\addtocounter{enumi}{-2}}] -->
 
 <!-- \item  -->
+1. ^*GS^Calderón FA, \textbf{Laverty TM}. 2026. Assessing bat activity and movement before and after small-scale solar development in the Chihuahuan Desert. Annual Chihuahuan Desert Rangeland Research Center Field Day, Las Cruces, NM, USA.
+
+1. ^*GS^Pichler TR, \textbf{Laverty TM}. 2026. The effects of shrub encroachment on bats in the Chihuahuan Desert. Annual Chihuahuan Desert Rangeland Research Center Field Day, Las Cruces, NM, USA.
+
 1. ^GS^Whited HA, **^*^Laverty TM**. 2026. Nightly movements of lesser long-nosed bats at a northern maternity roost using the Motus tracking system. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
 
 1. ^*GS^Pichler TR, Bowers KE, Foster JT, \textbf{Laverty TM}. 2026. Effects of shrub encroachment on bat and arthropod dynamics in the Chihuahuan Desert. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
 
 1. ^*^Von Rotz MT, Davies ML, \textbf{Laverty TM}, Stoner KE. 2026. Color by echoes: heat map analysis of long-nosed bat acoustic activity at blooming Palmer's agave. 54th North American Society for Bat Research Annual Symposium, Fort Collins, CO, USA.
+
+1. ^*GS^Calderón FA, \textbf{Laverty TM}. 2026. Effects of small-scale solar development on bat activity in the Chihuahuan Desert. 2026 Jornada Basin LTER Desert Ecology Short-Course, Las Cruces, NM, USA.
+
+1. ^*GS^Moore RM, \textbf{Laverty TM}. 2026. Do landscape-scale and insular playa wetland features influence desert bat community composition, foraging, and activity? 2026 Jornada Basin LTER Desert Ecology Short-Course, Las Cruces, NM, USA.
+
+1. ^*GS^Pichler TR, \textbf{Laverty TM}. 2026. Guild-specific responses of bats to shrub encroachment in the Chihuahuan Desert. 2026 Jornada Basin LTER Desert Ecology Short-Course, Las Cruces, NM, USA.
 
 1. ^*GS^Pichler TR, Bowers KE, \textbf{Laverty TM}. 2026. Does shrub encroachment change insectivorous bat activity in the Chihuahuan Desert? Ecological Society of America Annual Meeting 2026, Salt Lake City, UT, USA.
 
@@ -1305,7 +1315,7 @@ kbl(talks,
 
 2. ^*GS^Whited HA, \textbf{Laverty TM}. 2026. Foraging movements of the lesser long-nosed bat using the Motus Wildlife Tracking System. 9th Tri-National Sonoran Desert Symposium, Ajo, AZ, USA.
 
-2. ^*GS^Becker MP, Frey JK, \textbf{Laverty TM}. 2026. Scat-based indices of mammal space use near wind turbines in central New Mexico rangelands. The 59th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Sedona, AZ, USA. 
+2. ^*GS^Becker MP, Frey JK, \textbf{Laverty TM}. 2026. Scat-based indices of mammal space use near wind turbines in central New Mexico rangelands. The 59th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Sedona, AZ, USA.
 
 2. **^*^Laverty TM**, Buecher DC, Dalton DC, Davies ML, Gual-Suárez F, Heady III PA, Medellín RA, Ordóñez-García MC, Pérez-Harp S, Rivera-Villanueva AN, ^GS^Stevenson BD, Stoner KE, Wolf SA, Zamora-Gutierrez V, Zavala-Norzagaray AA, Frick WF. 2026. Long-haul flights and migratory routes of a nectar-feeding bat. The 59th Joint Annual Meeting of the Arizona-New Mexico American Fisheries Society and The Wildlife Society, Sedona, AZ, USA. 
 
