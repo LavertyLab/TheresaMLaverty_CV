@@ -234,7 +234,7 @@ Department of Fish, Wildlife and Conservation Ecology
 
 1. New Mexico State University. _"Tracking tiny flying creatures: quantifying the use of agricultural fields and an agrivoltaics system by bats, birds, and dragonflies in southern New Mexico"_($24,838; PI: TM Laverty, Co-PIs: CS Bundy, K Bowers, AC Young; 2026-2027).
 
-1. National Science Foundation. _"LTER: Advancing ecological understanding of drylands through integrated research at the Jornada Basin (JRN-8)"_ ($7,649,997 [3% credit]; PI: NP Hanan, Co-PIs: BT Bestelmeyer, S Bestelmeyer, SC Reed, OE Sala, DM Browning, F Garcia-Pichel, TM Laverty, GE Maurer, ME Mauritz-Tozer, GS Okin, N Pietrasiak,  AL Romero-Olivares,  RL Schooley, ER Vivoni; 2025-2031).
+1. National Science Foundation. _"LTER: Advancing ecological understanding of drylands through integrated research at the Jornada Basin (JRN-8)"_ ($7,649,997 [3% credit]; PI: NP Hanan, Co-PIs: BT Bestelmeyer, S Bestelmeyer, SC Reed, OE Sala, DM Browning, F Garcia-Pichel, TM Laverty, GE Maurer, ME Mauritz, GS Okin, N Pietrasiak,  AL Romero-Olivares,  RL Schooley, ER Vivoni; 2025-2031).
 
 1. Arizona Game and Fish Department. _"Movement ecology of bats with Motus"_ ($100,000; PI: TM Laverty; 2025).
 
@@ -260,7 +260,7 @@ Department of Fish, Wildlife and Conservation Ecology
 
 <!-- ### GRANT PROPOSALS UNDER REVIEW or IN PREPARATION -->
 
-<!-- 1. National Science Foundation. _"AIDatasets:Impact: Environmental data integration across southwestern U.S. drylands for scientific discovery and management decision support (EphemerAI)"_ ($1,959,487; PI: GE Maurer,  Co-PIs: TM Laverty, ME Mauritz-Tozer, JA Rudgers, OE Sala, DM Browning, NP Hanan, EA Lehnhoff, ME Litvak, N Pietrasiak,  RL Scott, ER Vivoni). -->
+<!-- 1. National Science Foundation. _"AIDatasets:Impact: Environmental data integration across southwestern U.S. drylands for scientific discovery and management decision support (EphemerAI)"_ ($1,959,584; PI: GE Maurer,  Co-PIs: TM Laverty, ME Mauritz, JA Rudgers, OE Sala, DM Browning, NP Hanan, EA Lehnhoff, ME Litvak, N Pietrasiak,  RL Scott, ER Vivoni). -->
 
 <!-- 1. National Science Foundation. "The genomic basis and demographic consequences of male-biased local adaptation in a moss" ($2,267,331; PI: S. McDaniel, Co-PIs: K. Krippen, EM Bruna, G. John, B. P. Durham).  -->
 
