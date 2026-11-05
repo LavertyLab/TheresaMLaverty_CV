@@ -260,7 +260,7 @@ Department of Fish, Wildlife and Conservation Ecology
 
 <!-- ### GRANT PROPOSALS UNDER REVIEW or IN PREPARATION -->
 
-<!-- 1. National Science Foundation. _"AIDatasets:Impact: Environmental data integration across southwestern U.S. drylands for scientific discovery and management decision support (EphemerAI)"_ ($1,959,584; PI: GE Maurer,  Co-PIs: TM Laverty, ME Mauritz, JA Rudgers, OE Sala, DM Browning, NP Hanan, EA Lehnhoff, ME Litvak, N Pietrasiak,  RL Scott, ER Vivoni). -->
+<!-- 1. National Science Foundation. _"AIDatasets:Impact: Environmental data integration across southwestern U.S. drylands for scientific discovery and management decision support (EphemerAI)"_ ($1,959,584; PI: GE Maurer,  Co-PIs: TM Laverty, ME Mauritz, JA Rudgers, OE Sala, DM Browning, NP Hanan, EA Lehnhoff, ME Litvak, N Pietrasiak, SC Reed, RL Scott, ER Vivoni). -->
 
 <!-- 1. National Science Foundation. "The genomic basis and demographic consequences of male-biased local adaptation in a moss" ($2,267,331; PI: S. McDaniel, Co-PIs: K. Krippen, EM Bruna, G. John, B. P. Durham).  -->
 
